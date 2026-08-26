@@ -1,0 +1,19 @@
+{
+  "name": "crm-login-automation",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript automation framework for CRM login testing",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "install:browsers": "playwright install"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^20.14.0",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.5.0"
+  }
+}
