@@ -1,0 +1,155 @@
+- generic [active] [ref=f27e1]:
+  - generic [ref=f27e2]:
+    - generic [ref=f27e3] [cursor=pointer]: 
+    - navigation [ref=f27e5]:
+      - generic [ref=f27e6]:
+        - generic [ref=f27e7]:
+          - generic [ref=f27e8]:
+            - searchbox "Search..." [ref=f27e9]
+            - button "" [ref=f27e11] [cursor=pointer]
+            - text:     
+          - list [ref=f27e13]:
+            - listitem "Quick Create" [ref=f27e14]:
+              - link "+" [ref=f27e15] [cursor=pointer]:
+                - /url: "#"
+              - text:             
+        - text: 
+        - list [ref=f27e18]:
+          - listitem [ref=f27e19]:
+            - link "Share documents, ideas.." [ref=f27e20] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f27e23]:
+            - link "2" [ref=f27e24] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/todo
+          - listitem "Admin Example" [ref=f27e28]:
+            - link [ref=f27e29] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f27e31]:
+            - link "1" [ref=f27e32] [cursor=pointer]:
+              - /url: "#"
+            - text:  
+          - listitem "Notifications" [ref=f27e37]:
+            - link [ref=f27e38] [cursor=pointer]:
+              - /url: "#"
+  - text: 
+  - complementary [ref=f27e42]:
+    - list [ref=f27e43]:
+      - listitem [ref=f27e44]:
+        - link [ref=f27e46] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/
+          - img "Perfex CRM | Anh Tester Demo" [ref=f27e47]
+      - listitem [ref=f27e48]:
+        - link " Dashboard" [ref=f27e49] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/
+          - generic [ref=f27e50]: 
+          - text: Dashboard
+      - listitem [ref=f27e51]:
+        - link " Customers" [ref=f27e52] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/clients
+          - generic [ref=f27e53]: 
+          - text: Customers
+      - listitem [ref=f27e54]:
+        - link " Projects" [ref=f27e55] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/projects
+          - generic [ref=f27e56]: 
+          - text: Projects
+      - listitem [ref=f27e57]:
+        - link " Tasks" [ref=f27e58] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/tasks
+          - generic [ref=f27e59]: 
+          - text: Tasks
+      - listitem [ref=f27e60]:
+        - link " Contracts" [ref=f27e61] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/contracts
+          - generic [ref=f27e62]: 
+          - text: Contracts
+      - listitem [ref=f27e63]:
+        - link " Sales " [ref=f27e64] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f27e65]: 
+          - text: Sales
+          - generic [ref=f27e66]: 
+      - listitem [ref=f27e67]:
+        - link " Subscriptions" [ref=f27e68] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/subscriptions
+          - generic [ref=f27e69]: 
+          - text: Subscriptions
+      - listitem [ref=f27e70]:
+        - link " Expenses" [ref=f27e71] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/expenses
+          - generic [ref=f27e72]: 
+          - text: Expenses
+      - listitem [ref=f27e73]:
+        - link " Support" [ref=f27e74] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/tickets
+          - generic [ref=f27e75]: 
+          - text: Support
+      - listitem [ref=f27e76]:
+        - link " Leads" [ref=f27e77] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/leads
+          - generic [ref=f27e78]: 
+          - text: Leads
+      - listitem [ref=f27e79]:
+        - link " Estimate Request" [ref=f27e80] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/estimate_request
+          - generic [ref=f27e81]: 
+          - text: Estimate Request
+      - listitem [ref=f27e82]:
+        - link " Knowledge Base" [ref=f27e83] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/knowledge_base
+          - generic [ref=f27e84]: 
+          - text: Knowledge Base
+      - listitem [ref=f27e85]:
+        - link " Utilities " [ref=f27e86] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f27e87]: 
+          - text: Utilities
+          - generic [ref=f27e88]: 
+      - listitem [ref=f27e89]:
+        - link " Reports " [ref=f27e90] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f27e91]: 
+          - text: Reports
+          - generic [ref=f27e92]: 
+  - generic [ref=f27e96]:
+    - generic [ref=f27e97]:
+      - link "+ New Article" [ref=f27e98] [cursor=pointer]:
+        - /url: https://crm.anhtester.com/admin/knowledge_base/article
+        - generic [ref=f27e99]: +
+        - text: New Article
+      - link " Groups" [ref=f27e100] [cursor=pointer]:
+        - /url: https://crm.anhtester.com/admin/knowledge_base/manage_groups
+        - generic [ref=f27e101]: 
+        - text: Groups
+      - link "" [ref=f27e102] [cursor=pointer]:
+        - /url: "#"
+      - button [ref=f27e105] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f27e106]: 
+    - generic [ref=f27e108]:
+      - generic:
+        - text:    
+        - tabpanel:
+          - generic [ref=f27e113]:
+            - generic [ref=f27e114]:
+              - generic [ref=f27e115]:
+                - combobox [ref=f27e118]:
+                  - option "10"
+                  - option "25" [selected]
+                  - option "50"
+                  - option "100"
+                  - option "All"
+                - generic [ref=f27e119]:
+                  - button "Export" [ref=f27e120] [cursor=pointer]
+                  - button "" [ref=f27e121] [cursor=pointer]
+              - generic [ref=f27e127]:
+                - generic [ref=f27e128]: 
+                - searchbox "" [ref=f27e130]
+            - generic [ref=f27e131]: x200B x200B
+            - grid [ref=f27e133]:
+              - rowgroup [ref=f27e134]:
+                - row [ref=f27e135]:
+                  - columnheader "Article Name" [ref=f27e136] [cursor=pointer]
+                  - columnheader "Group" [ref=f27e137] [cursor=pointer]
+                  - columnheader "Date Published" [ref=f27e138] [cursor=pointer]
+              - rowgroup
+            - status [ref=f27e141]

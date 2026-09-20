@@ -1,0 +1,833 @@
+- generic [active] [ref=f11e1]:
+  - generic [ref=f11e2]:
+    - generic [ref=f11e3] [cursor=pointer]: 
+    - navigation [ref=f11e5]:
+      - generic [ref=f11e6]:
+        - generic [ref=f11e7]:
+          - generic [ref=f11e8]:
+            - searchbox "Search..." [ref=f11e9]
+            - button "" [ref=f11e11] [cursor=pointer]
+            - text:     
+          - list [ref=f11e13]:
+            - listitem "Quick Create" [ref=f11e14]:
+              - link "+" [ref=f11e15] [cursor=pointer]:
+                - /url: "#"
+              - text:             
+        - text: 
+        - list [ref=f11e18]:
+          - listitem [ref=f11e19]:
+            - link "Share documents, ideas.." [ref=f11e20] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f11e23]:
+            - link "2" [ref=f11e24] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/todo
+          - listitem "Admin Example" [ref=f11e28]:
+            - link [ref=f11e29] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f11e31]:
+            - link "1" [ref=f11e32] [cursor=pointer]:
+              - /url: "#"
+            - text:  
+          - listitem "Notifications" [ref=f11e37]:
+            - link [ref=f11e38] [cursor=pointer]:
+              - /url: "#"
+  - text: 
+  - complementary [ref=f11e42]:
+    - list [ref=f11e43]:
+      - listitem [ref=f11e44]:
+        - link [ref=f11e46] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/
+          - img "Perfex CRM | Anh Tester Demo" [ref=f11e47]
+      - listitem [ref=f11e48]:
+        - link " Dashboard" [ref=f11e49] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/
+          - generic [ref=f11e50]: 
+          - text: Dashboard
+      - listitem [ref=f11e51]:
+        - link " Customers" [ref=f11e52] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/clients
+          - generic [ref=f11e53]: 
+          - text: Customers
+      - listitem [ref=f11e54]:
+        - link " Projects" [ref=f11e55] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/projects
+          - generic [ref=f11e56]: 
+          - text: Projects
+      - listitem [ref=f11e57]:
+        - link " Tasks" [ref=f11e58] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/tasks
+          - generic [ref=f11e59]: 
+          - text: Tasks
+      - listitem [ref=f11e60]:
+        - link " Contracts" [ref=f11e61] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/contracts
+          - generic [ref=f11e62]: 
+          - text: Contracts
+      - listitem [ref=f11e63]:
+        - link " Sales " [ref=f11e64] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f11e65]: 
+          - text: Sales
+          - generic [ref=f11e66]: 
+      - listitem [ref=f11e67]:
+        - link " Subscriptions" [ref=f11e68] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/subscriptions
+          - generic [ref=f11e69]: 
+          - text: Subscriptions
+      - listitem [ref=f11e70]:
+        - link " Expenses" [ref=f11e71] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/expenses
+          - generic [ref=f11e72]: 
+          - text: Expenses
+      - listitem [ref=f11e73]:
+        - link " Support" [ref=f11e74] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/tickets
+          - generic [ref=f11e75]: 
+          - text: Support
+      - listitem [ref=f11e76]:
+        - link " Leads" [ref=f11e77] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/leads
+          - generic [ref=f11e78]: 
+          - text: Leads
+      - listitem [ref=f11e79]:
+        - link " Estimate Request" [ref=f11e80] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/estimate_request
+          - generic [ref=f11e81]: 
+          - text: Estimate Request
+      - listitem [ref=f11e82]:
+        - link " Knowledge Base" [ref=f11e83] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/knowledge_base
+          - generic [ref=f11e84]: 
+          - text: Knowledge Base
+      - listitem [ref=f11e85]:
+        - link " Utilities " [ref=f11e86] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f11e87]: 
+          - text: Utilities
+          - generic [ref=f11e88]: 
+      - listitem [ref=f11e89]:
+        - link " Reports " [ref=f11e90] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f11e91]: 
+          - text: Reports
+          - generic [ref=f11e92]: 
+  - generic [ref=f11e96]:
+    - generic [ref=f11e97]:
+      - link "+ New Contract" [ref=f11e98] [cursor=pointer]:
+        - /url: https://crm.anhtester.com/admin/contracts/contract
+        - generic [ref=f11e99]: +
+        - text: New Contract
+      - button [ref=f11e102] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f11e103]: 
+      - generic [ref=f11e105]:
+        - heading "Contract Summary" [level=4] [ref=f11e106]
+        - generic [ref=f11e110]:
+          - generic [ref=f11e111]:
+            - generic [ref=f11e112]: "102"
+            - generic [ref=f11e113]: Active
+          - generic [ref=f11e114]:
+            - generic [ref=f11e115]: "11"
+            - generic [ref=f11e116]: Expired
+          - generic [ref=f11e117]:
+            - generic [ref=f11e118]: "0"
+            - generic [ref=f11e119]: About to Expire
+          - generic [ref=f11e120]:
+            - generic [ref=f11e121]: "6"
+            - generic [ref=f11e122]: Recently Added
+          - generic [ref=f11e123]:
+            - generic [ref=f11e124]: "5"
+            - generic [ref=f11e125]: Trash
+    - generic [ref=f11e127]:
+      - generic [ref=f11e128]:
+        - generic [ref=f11e129]:
+          - heading "Contracts by Type" [level=4] [ref=f11e130]
+          - iframe [ref=f11e132]
+        - generic [ref=f11e134]:
+          - heading "Contracts Value by Type ( USD)" [level=4] [ref=f11e135]
+          - iframe [ref=f11e137]
+      - generic [ref=f11e141]:
+        - generic [ref=f11e142]:
+          - generic [ref=f11e143]:
+            - combobox [ref=f11e146]:
+              - option "10"
+              - option "25" [selected]
+              - option "50"
+              - option "100"
+              - option "All"
+            - generic [ref=f11e147]:
+              - button "Export" [ref=f11e148] [cursor=pointer]
+              - button "" [ref=f11e149] [cursor=pointer]
+          - generic [ref=f11e155]:
+            - generic [ref=f11e156]: 
+            - searchbox "" [ref=f11e158]
+        - text: x200B x200B
+        - grid [ref=f11e160]:
+          - rowgroup [ref=f11e161]:
+            - row [ref=f11e162]:
+              - columnheader "# activate to sort column ascending" [ref=f11e163] [cursor=pointer]: "#"
+              - columnheader "Subject activate to sort column ascending" [ref=f11e164] [cursor=pointer]: Subject
+              - columnheader "Customer activate to sort column ascending" [ref=f11e165] [cursor=pointer]: Customer
+              - columnheader "Contract Type activate to sort column ascending" [ref=f11e166] [cursor=pointer]: Contract Type
+              - columnheader "Contract Value activate to sort column ascending" [ref=f11e167] [cursor=pointer]: Contract Value
+              - columnheader "Start Date activate to sort column ascending" [ref=f11e168] [cursor=pointer]: Start Date
+              - columnheader "End Date activate to sort column descending" [ref=f11e169] [cursor=pointer]: End Date
+              - columnheader "Project activate to sort column ascending" [ref=f11e170] [cursor=pointer]: Project
+              - columnheader "Signature activate to sort column ascending" [ref=f11e171] [cursor=pointer]: Signature
+          - rowgroup [ref=f11e172]:
+            - row [ref=f11e173]:
+              - gridcell "402" [ref=f11e174]
+              - gridcell [ref=f11e175]:
+                - link "TC022 Contract 1779369431" [ref=f11e176] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/contracts/contract/402
+                - generic [ref=f11e177]:
+                  - link "View" [ref=f11e178] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/contract/402/2f24f51ba07e3723598222b52ac1f457
+                  - text: "|"
+                  - link "Edit" [ref=f11e179] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/contract/402
+                  - text: "|"
+                  - link "Delete" [ref=f11e180] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/delete/402
+              - gridcell [ref=f11e181]:
+                - link "Anh test" [ref=f11e182] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/clients/client/8961
+              - gridcell [ref=f11e183]
+              - gridcell "$0.00" [ref=f11e184]
+              - gridcell "21-05-2026" [ref=f11e185]
+              - gridcell "20-05-2026" [ref=f11e186]
+              - gridcell [ref=f11e187]:
+                - link:
+                  - /url: https://crm.anhtester.com/admin/projects/view/0
+              - gridcell "Not Signed" [ref=f11e188]
+            - row [ref=f11e189]:
+              - gridcell "412" [ref=f11e190]
+              - gridcell [ref=f11e191]:
+                - link "TC022 Contract 1779369541" [ref=f11e192] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/contracts/contract/412
+                - generic [ref=f11e193]:
+                  - link "View" [ref=f11e194] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/contract/412/4b8d2d2a13e968325029c89ed0a10f8e
+                  - text: "|"
+                  - link "Edit" [ref=f11e195] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/contract/412
+                  - text: "|"
+                  - link "Delete" [ref=f11e196] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/delete/412
+              - gridcell [ref=f11e197]:
+                - link "Anh test" [ref=f11e198] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/clients/client/8961
+              - gridcell [ref=f11e199]
+              - gridcell "$0.00" [ref=f11e200]
+              - gridcell "21-05-2026" [ref=f11e201]
+              - gridcell "20-05-2026" [ref=f11e202]
+              - gridcell [ref=f11e203]:
+                - link:
+                  - /url: https://crm.anhtester.com/admin/projects/view/0
+              - gridcell "Not Signed" [ref=f11e204]
+            - row [ref=f11e205]:
+              - gridcell "422" [ref=f11e206]
+              - gridcell [ref=f11e207]:
+                - link "TC022 Contract 1779369616" [ref=f11e208] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/contracts/contract/422
+                - generic [ref=f11e209]:
+                  - link "View" [ref=f11e210] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/contract/422/657d37bbe52c3a6d32db8f01b5e89783
+                  - text: "|"
+                  - link "Edit" [ref=f11e211] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/contract/422
+                  - text: "|"
+                  - link "Delete" [ref=f11e212] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/delete/422
+              - gridcell [ref=f11e213]:
+                - link "Anh test" [ref=f11e214] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/clients/client/8961
+              - gridcell [ref=f11e215]
+              - gridcell "$0.00" [ref=f11e216]
+              - gridcell "21-05-2026" [ref=f11e217]
+              - gridcell "20-05-2026" [ref=f11e218]
+              - gridcell [ref=f11e219]:
+                - link:
+                  - /url: https://crm.anhtester.com/admin/projects/view/0
+              - gridcell "Not Signed" [ref=f11e220]
+            - row [ref=f11e221]:
+              - gridcell "436" [ref=f11e222]
+              - gridcell [ref=f11e223]:
+                - link "TC022 Contract 1779370866" [ref=f11e224] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/contracts/contract/436
+                - generic [ref=f11e225]:
+                  - link "View" [ref=f11e226] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/contract/436/f2d55220af7d9177b602803fbcbb94f7
+                  - text: "|"
+                  - link "Edit" [ref=f11e227] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/contract/436
+                  - text: "|"
+                  - link "Delete" [ref=f11e228] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/delete/436
+              - gridcell [ref=f11e229]:
+                - link "Anh test" [ref=f11e230] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/clients/client/8961
+              - gridcell [ref=f11e231]
+              - gridcell "$0.00" [ref=f11e232]
+              - gridcell "21-05-2026" [ref=f11e233]
+              - gridcell "20-05-2026" [ref=f11e234]
+              - gridcell [ref=f11e235]:
+                - link:
+                  - /url: https://crm.anhtester.com/admin/projects/view/0
+              - gridcell "Not Signed" [ref=f11e236]
+            - row [ref=f11e237]:
+              - gridcell "403" [ref=f11e238]
+              - gridcell [ref=f11e239]:
+                - link "TC023 Contract 1779369433" [ref=f11e240] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/contracts/contract/403
+                - generic [ref=f11e241]:
+                  - link "View" [ref=f11e242] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/contract/403/0342847a1e08cd2a45a1e4f50b8f842a
+                  - text: "|"
+                  - link "Edit" [ref=f11e243] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/contract/403
+                  - text: "|"
+                  - link "Delete" [ref=f11e244] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/delete/403
+              - gridcell [ref=f11e245]:
+                - link "Anh test" [ref=f11e246] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/clients/client/8961
+              - gridcell [ref=f11e247]
+              - gridcell "$0.00" [ref=f11e248]
+              - gridcell "21-05-2026" [ref=f11e249]
+              - gridcell "21-05-2026" [ref=f11e250]
+              - gridcell [ref=f11e251]:
+                - link:
+                  - /url: https://crm.anhtester.com/admin/projects/view/0
+              - gridcell "Not Signed" [ref=f11e252]
+            - row [ref=f11e253]:
+              - gridcell "413" [ref=f11e254]
+              - gridcell [ref=f11e255]:
+                - link "TC023 Contract 1779369542" [ref=f11e256] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/contracts/contract/413
+                - generic [ref=f11e257]:
+                  - link "View" [ref=f11e258] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/contract/413/890d684cccbc5a450f59fc31081d0b99
+                  - text: "|"
+                  - link "Edit" [ref=f11e259] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/contract/413
+                  - text: "|"
+                  - link "Delete" [ref=f11e260] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/delete/413
+              - gridcell [ref=f11e261]:
+                - link "Anh test" [ref=f11e262] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/clients/client/8961
+              - gridcell [ref=f11e263]
+              - gridcell "$0.00" [ref=f11e264]
+              - gridcell "21-05-2026" [ref=f11e265]
+              - gridcell "21-05-2026" [ref=f11e266]
+              - gridcell [ref=f11e267]:
+                - link:
+                  - /url: https://crm.anhtester.com/admin/projects/view/0
+              - gridcell "Not Signed" [ref=f11e268]
+            - row [ref=f11e269]:
+              - gridcell "423" [ref=f11e270]
+              - gridcell [ref=f11e271]:
+                - link "TC023 Contract 1779369617" [ref=f11e272] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/contracts/contract/423
+                - generic [ref=f11e273]:
+                  - link "View" [ref=f11e274] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/contract/423/07462ae42e462101dafb5e7396d2184f
+                  - text: "|"
+                  - link "Edit" [ref=f11e275] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/contract/423
+                  - text: "|"
+                  - link "Delete" [ref=f11e276] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/delete/423
+              - gridcell [ref=f11e277]:
+                - link "Anh test" [ref=f11e278] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/clients/client/8961
+              - gridcell [ref=f11e279]
+              - gridcell "$0.00" [ref=f11e280]
+              - gridcell "21-05-2026" [ref=f11e281]
+              - gridcell "21-05-2026" [ref=f11e282]
+              - gridcell [ref=f11e283]:
+                - link:
+                  - /url: https://crm.anhtester.com/admin/projects/view/0
+              - gridcell "Not Signed" [ref=f11e284]
+            - row [ref=f11e285]:
+              - gridcell "437" [ref=f11e286]
+              - gridcell [ref=f11e287]:
+                - link "TC023 Contract 1779370867" [ref=f11e288] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/contracts/contract/437
+                - generic [ref=f11e289]:
+                  - link "View" [ref=f11e290] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/contract/437/0f62d026c37bcfcfe759b98412a75d15
+                  - text: "|"
+                  - link "Edit" [ref=f11e291] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/contract/437
+                  - text: "|"
+                  - link "Delete" [ref=f11e292] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/delete/437
+              - gridcell [ref=f11e293]:
+                - link "Anh test" [ref=f11e294] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/clients/client/8961
+              - gridcell [ref=f11e295]
+              - gridcell "$0.00" [ref=f11e296]
+              - gridcell "21-05-2026" [ref=f11e297]
+              - gridcell "21-05-2026" [ref=f11e298]
+              - gridcell [ref=f11e299]:
+                - link:
+                  - /url: https://crm.anhtester.com/admin/projects/view/0
+              - gridcell "Not Signed" [ref=f11e300]
+            - row [ref=f11e301]:
+              - gridcell "645" [ref=f11e302]
+              - gridcell [ref=f11e303]:
+                - link "TC023 Contract 1779369542" [ref=f11e304] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/contracts/contract/645
+                - generic [ref=f11e305]:
+                  - link "View" [ref=f11e306] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/contract/645/0c9765dd488b9aa9e4e3b6c3777ffdfb
+                  - text: "|"
+                  - link "Edit" [ref=f11e307] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/contract/645
+                  - text: "|"
+                  - link "Delete" [ref=f11e308] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/delete/645
+              - gridcell [ref=f11e309]:
+                - link "Anh test" [ref=f11e310] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/clients/client/8961
+              - gridcell [ref=f11e311]
+              - gridcell "$0.00" [ref=f11e312]
+              - gridcell "21-05-2026" [ref=f11e313]
+              - gridcell "31-07-2026" [ref=f11e314]
+              - gridcell [ref=f11e315]:
+                - link:
+                  - /url: https://crm.anhtester.com/admin/projects/view/0
+              - gridcell "Marked as signed" [ref=f11e316]
+            - row [ref=f11e317]:
+              - gridcell "646" [ref=f11e318]
+              - gridcell [ref=f11e319]:
+                - link "Giao hàng tiết kiệm" [ref=f11e320] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/contracts/contract/646
+                - generic [ref=f11e321]:
+                  - link "View" [ref=f11e322] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/contract/646/c5eaec7054e98dbbd1de7db7f002b6c5
+                  - text: "|"
+                  - link "Edit" [ref=f11e323] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/contract/646
+                  - text: "|"
+                  - link "Delete" [ref=f11e324] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/delete/646
+              - gridcell [ref=f11e325]:
+                - link "Anh test" [ref=f11e326] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/clients/client/8932
+              - gridcell "Ohh YEAH Type" [ref=f11e327]
+              - gridcell "$200.00" [ref=f11e328]
+              - gridcell "31-07-2026" [ref=f11e329]
+              - gridcell "03-08-2026" [ref=f11e330]
+              - gridcell [ref=f11e331]:
+                - link:
+                  - /url: https://crm.anhtester.com/admin/projects/view/0
+              - gridcell "Not Signed" [ref=f11e332]
+            - row [ref=f11e333]:
+              - gridcell "619" [ref=f11e334]
+              - gridcell [ref=f11e335]:
+                - link "Contract_Auto_1785237725" [ref=f11e336] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/contracts/contract/619
+                - generic [ref=f11e337]:
+                  - link "View" [ref=f11e338] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/contract/619/1c0a82fdd7f53b34f98db8b9a3f6f95d
+                  - text: "|"
+                  - link "Edit" [ref=f11e339] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/contract/619
+                  - text: "|"
+                  - link "Delete" [ref=f11e340] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/delete/619
+              - gridcell [ref=f11e341]:
+                - link "Anh Tester" [ref=f11e342] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/clients/client/8924
+              - gridcell "Type A" [ref=f11e343]
+              - gridcell "$5,000.00" [ref=f11e344]
+              - gridcell "28-07-2026" [ref=f11e345]
+              - gridcell "30-08-2026" [ref=f11e346]
+              - gridcell [ref=f11e347]:
+                - link:
+                  - /url: https://crm.anhtester.com/admin/projects/view/0
+              - gridcell "Not Signed" [ref=f11e348]
+            - row [ref=f11e349]:
+              - gridcell "394" [ref=f11e350]
+              - gridcell [ref=f11e351]:
+                - link "TC008 Contract 1779369366" [ref=f11e352] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/contracts/contract/394
+                - generic [ref=f11e353]:
+                  - link "View" [ref=f11e354] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/contract/394/6ea961a64f5b0375581663759400e6ae
+                  - text: "|"
+                  - link "Edit" [ref=f11e355] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/contract/394
+                  - text: "|"
+                  - link "Delete" [ref=f11e356] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/delete/394
+              - gridcell [ref=f11e357]:
+                - link "Anh test" [ref=f11e358] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/clients/client/8961
+              - gridcell [ref=f11e359]
+              - gridcell "$15,000.00" [ref=f11e360]
+              - gridcell "21-05-2026" [ref=f11e361]
+              - gridcell "21-05-2027" [ref=f11e362]
+              - gridcell [ref=f11e363]:
+                - link:
+                  - /url: https://crm.anhtester.com/admin/projects/view/0
+              - gridcell "Not Signed" [ref=f11e364]
+            - row [ref=f11e365]:
+              - gridcell "395" [ref=f11e366]
+              - gridcell [ref=f11e367]:
+                - link "TC008 Contract 1779369380" [ref=f11e368] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/contracts/contract/395
+                - generic [ref=f11e369]:
+                  - link "View" [ref=f11e370] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/contract/395/6f6a7ece252e8b9fbeb15d9077b4e023
+                  - text: "|"
+                  - link "Edit" [ref=f11e371] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/contract/395
+                  - text: "|"
+                  - link "Delete" [ref=f11e372] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/delete/395
+              - gridcell [ref=f11e373]:
+                - link "Anh test" [ref=f11e374] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/clients/client/8961
+              - gridcell [ref=f11e375]
+              - gridcell "$15,000.00" [ref=f11e376]
+              - gridcell "21-05-2026" [ref=f11e377]
+              - gridcell "21-05-2027" [ref=f11e378]
+              - gridcell [ref=f11e379]:
+                - link:
+                  - /url: https://crm.anhtester.com/admin/projects/view/0
+              - gridcell "Not Signed" [ref=f11e380]
+            - row [ref=f11e381]:
+              - gridcell "405" [ref=f11e382]
+              - gridcell [ref=f11e383]:
+                - link "TC008 Contract 1779369486" [ref=f11e384] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/contracts/contract/405
+                - generic [ref=f11e385]:
+                  - link "View" [ref=f11e386] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/contract/405/13de5027b7931fd2a2c6242331119505
+                  - text: "|"
+                  - link "Edit" [ref=f11e387] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/contract/405
+                  - text: "|"
+                  - link "Delete" [ref=f11e388] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/delete/405
+              - gridcell [ref=f11e389]:
+                - link "Anh test" [ref=f11e390] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/clients/client/8961
+              - gridcell [ref=f11e391]
+              - gridcell "$15,000.00" [ref=f11e392]
+              - gridcell "21-05-2026" [ref=f11e393]
+              - gridcell "21-05-2027" [ref=f11e394]
+              - gridcell [ref=f11e395]:
+                - link:
+                  - /url: https://crm.anhtester.com/admin/projects/view/0
+              - gridcell "Not Signed" [ref=f11e396]
+            - row [ref=f11e397]:
+              - gridcell "415" [ref=f11e398]
+              - gridcell [ref=f11e399]:
+                - link "TC008 Contract 1779369560" [ref=f11e400] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/contracts/contract/415
+                - generic [ref=f11e401]:
+                  - link "View" [ref=f11e402] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/contract/415/3a07637ac5097f4f2a3a5295103d4325
+                  - text: "|"
+                  - link "Edit" [ref=f11e403] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/contract/415
+                  - text: "|"
+                  - link "Delete" [ref=f11e404] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/delete/415
+              - gridcell [ref=f11e405]:
+                - link "Anh test" [ref=f11e406] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/clients/client/8961
+              - gridcell [ref=f11e407]
+              - gridcell "$15,000.00" [ref=f11e408]
+              - gridcell "21-05-2026" [ref=f11e409]
+              - gridcell "21-05-2027" [ref=f11e410]
+              - gridcell [ref=f11e411]:
+                - link:
+                  - /url: https://crm.anhtester.com/admin/projects/view/0
+              - gridcell "Not Signed" [ref=f11e412]
+            - row [ref=f11e413]:
+              - gridcell "429" [ref=f11e414]
+              - gridcell [ref=f11e415]:
+                - link "TC008 Contract 1779370810" [ref=f11e416] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/contracts/contract/429
+                - generic [ref=f11e417]:
+                  - link "View" [ref=f11e418] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/contract/429/7e867e1518c8e576567f3e674f302f13
+                  - text: "|"
+                  - link "Edit" [ref=f11e419] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/contract/429
+                  - text: "|"
+                  - link "Delete" [ref=f11e420] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/delete/429
+              - gridcell [ref=f11e421]:
+                - link "Anh test" [ref=f11e422] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/clients/client/8961
+              - gridcell [ref=f11e423]
+              - gridcell "$15,000.00" [ref=f11e424]
+              - gridcell "21-05-2026" [ref=f11e425]
+              - gridcell "21-05-2027" [ref=f11e426]
+              - gridcell [ref=f11e427]:
+                - link:
+                  - /url: https://crm.anhtester.com/admin/projects/view/0
+              - gridcell "Not Signed" [ref=f11e428]
+            - row [ref=f11e429]:
+              - gridcell "390" [ref=f11e430]
+              - gridcell [ref=f11e431]:
+                - link "TC028_Updated Contract 1779370758" [ref=f11e432] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/contracts/contract/390
+                - generic [ref=f11e433]:
+                  - link "View" [ref=f11e434] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/contract/390/110110743222a85e7a129749f68f1c67
+                  - text: "|"
+                  - link "Edit" [ref=f11e435] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/contract/390
+                  - text: "|"
+                  - link "Delete" [ref=f11e436] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/delete/390
+              - gridcell [ref=f11e437]:
+                - link "Anh test" [ref=f11e438] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/clients/client/8926
+              - gridcell [ref=f11e439]
+              - gridcell "$80,766.00" [ref=f11e440]
+              - gridcell "21-05-2026" [ref=f11e441]
+              - gridcell "21-05-2028" [ref=f11e442]
+              - gridcell [ref=f11e443]:
+                - link:
+                  - /url: https://crm.anhtester.com/admin/projects/view/0
+              - gridcell "Not Signed" [ref=f11e444]
+            - row [ref=f11e445]:
+              - gridcell "427" [ref=f11e446]
+              - gridcell [ref=f11e447]:
+                - link "TC028_Updated Contract 1779370574" [ref=f11e448] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/contracts/contract/427
+                - generic [ref=f11e449]:
+                  - link "View" [ref=f11e450] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/contract/427/a2c6653cbc5f14114b1a24f78739b556
+                  - text: "|"
+                  - link "Edit" [ref=f11e451] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/contract/427
+                  - text: "|"
+                  - link "Delete" [ref=f11e452] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/delete/427
+              - gridcell [ref=f11e453]:
+                - link "Anh test" [ref=f11e454] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/clients/client/8926
+              - gridcell [ref=f11e455]
+              - gridcell "$18,000.00" [ref=f11e456]
+              - gridcell "21-05-2026" [ref=f11e457]
+              - gridcell "21-05-2028" [ref=f11e458]
+              - gridcell [ref=f11e459]:
+                - link:
+                  - /url: https://crm.anhtester.com/admin/projects/view/0
+              - gridcell "Not Signed" [ref=f11e460]
+            - row [ref=f11e461]:
+              - gridcell "428" [ref=f11e462]
+              - gridcell [ref=f11e463]:
+                - link "TC028_Updated Contract 1779370758" [ref=f11e464] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/contracts/contract/428
+                - generic [ref=f11e465]:
+                  - link "View" [ref=f11e466] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/contract/428/df05ed72b64e4d8451d0d4300ff1d0c1
+                  - text: "|"
+                  - link "Edit" [ref=f11e467] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/contract/428
+                  - text: "|"
+                  - link "Delete" [ref=f11e468] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/delete/428
+              - gridcell [ref=f11e469]:
+                - link "Anh test" [ref=f11e470] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/clients/client/8926
+              - gridcell [ref=f11e471]
+              - gridcell "$18,000.00" [ref=f11e472]
+              - gridcell "21-05-2026" [ref=f11e473]
+              - gridcell "21-05-2028" [ref=f11e474]
+              - gridcell [ref=f11e475]:
+                - link:
+                  - /url: https://crm.anhtester.com/admin/projects/view/0
+              - gridcell "Not Signed" [ref=f11e476]
+            - row [ref=f11e477]:
+              - gridcell "768" [ref=f11e478]
+              - gridcell [ref=f11e479]:
+                - link "Edited Contract 20260908014600" [ref=f11e480] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/contracts/contract/768
+                - generic [ref=f11e481]:
+                  - link "View" [ref=f11e482] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/contract/768/b0355dc45d760e63cc989fbe68f3c3d1
+                  - text: "|"
+                  - link "Edit" [ref=f11e483] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/contract/768
+                  - text: "|"
+                  - link "Delete" [ref=f11e484] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/delete/768
+              - gridcell [ref=f11e485]:
+                - link "HKD Anh Tester" [ref=f11e486] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/clients/client/13409
+              - gridcell [ref=f11e487]
+              - gridcell "$0.00" [ref=f11e488]
+              - gridcell "15-09-2026" [ref=f11e489]
+              - gridcell [ref=f11e490]
+              - gridcell [ref=f11e491]:
+                - link:
+                  - /url: https://crm.anhtester.com/admin/projects/view/0
+              - gridcell "Not Signed" [ref=f11e492]
+            - row [ref=f11e493]:
+              - gridcell "769" [ref=f11e494]
+              - gridcell [ref=f11e495]:
+                - link "Automation Contract 20260910014757" [ref=f11e496] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/contracts/contract/769
+                - generic [ref=f11e497]:
+                  - link "View" [ref=f11e498] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/contract/769/f839ba1f1cc94c46c66e353d44c0180c
+                  - text: "|"
+                  - link "Edit" [ref=f11e499] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/contract/769
+                  - text: "|"
+                  - link "Delete" [ref=f11e500] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/delete/769
+              - gridcell [ref=f11e501]:
+                - link "Anh Tester 0109" [ref=f11e502] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/clients/client/13815
+              - gridcell "Thử việc" [ref=f11e503]
+              - gridcell "$0.00" [ref=f11e504]
+              - gridcell "10-09-2026" [ref=f11e505]
+              - gridcell [ref=f11e506]
+              - gridcell [ref=f11e507]:
+                - link:
+                  - /url: https://crm.anhtester.com/admin/projects/view/0
+              - gridcell "Not Signed" [ref=f11e508]
+            - row [ref=f11e509]:
+              - gridcell "771" [ref=f11e510]
+              - gridcell [ref=f11e511]:
+                - link "Edited Contract 20260910014836" [ref=f11e512] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/contracts/contract/771
+                - generic [ref=f11e513]:
+                  - link "View" [ref=f11e514] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/contract/771/e25098de12b2b1b58e98f5f14c54651a
+                  - text: "|"
+                  - link "Edit" [ref=f11e515] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/contract/771
+                  - text: "|"
+                  - link "Delete" [ref=f11e516] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/delete/771
+              - gridcell [ref=f11e517]:
+                - link "HKD Anh Tester" [ref=f11e518] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/clients/client/13409
+              - gridcell [ref=f11e519]
+              - gridcell "$0.00" [ref=f11e520]
+              - gridcell "15-09-2026" [ref=f11e521]
+              - gridcell [ref=f11e522]
+              - gridcell [ref=f11e523]:
+                - link:
+                  - /url: https://crm.anhtester.com/admin/projects/view/0
+              - gridcell "Not Signed" [ref=f11e524]
+            - row [ref=f11e525]:
+              - gridcell "772" [ref=f11e526]
+              - gridcell [ref=f11e527]:
+                - link "Automation Contract 20260912015227" [ref=f11e528] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/contracts/contract/772
+                - generic [ref=f11e529]:
+                  - link "View" [ref=f11e530] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/contract/772/45106b91cc156d7d53cb3889cbe5886b
+                  - text: "|"
+                  - link "Edit" [ref=f11e531] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/contract/772
+                  - text: "|"
+                  - link "Delete" [ref=f11e532] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/delete/772
+              - gridcell [ref=f11e533]:
+                - link "Anh Tester 0109" [ref=f11e534] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/clients/client/13815
+              - gridcell "Thử việc" [ref=f11e535]
+              - gridcell "$0.00" [ref=f11e536]
+              - gridcell "12-09-2026" [ref=f11e537]
+              - gridcell [ref=f11e538]
+              - gridcell [ref=f11e539]:
+                - link:
+                  - /url: https://crm.anhtester.com/admin/projects/view/0
+              - gridcell "Not Signed" [ref=f11e540]
+            - row [ref=f11e541]:
+              - gridcell "774" [ref=f11e542]
+              - gridcell [ref=f11e543]:
+                - link "Edited Contract 20260912015307" [ref=f11e544] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/contracts/contract/774
+                - generic [ref=f11e545]:
+                  - link "View" [ref=f11e546] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/contract/774/bfa945ab6af10bc445ce0cd9d1c626f2
+                  - text: "|"
+                  - link "Edit" [ref=f11e547] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/contract/774
+                  - text: "|"
+                  - link "Delete" [ref=f11e548] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/delete/774
+              - gridcell [ref=f11e549]:
+                - link "HKD Anh Tester" [ref=f11e550] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/clients/client/13409
+              - gridcell [ref=f11e551]
+              - gridcell "$0.00" [ref=f11e552]
+              - gridcell "15-09-2026" [ref=f11e553]
+              - gridcell [ref=f11e554]
+              - gridcell [ref=f11e555]:
+                - link:
+                  - /url: https://crm.anhtester.com/admin/projects/view/0
+              - gridcell "Not Signed" [ref=f11e556]
+            - row [ref=f11e557]:
+              - gridcell "620" [ref=f11e558]
+              - gridcell "TC026_Trash Contract 1779372200 Trash View | Edit | Delete" [ref=f11e559]:
+                - link "TC026_Trash Contract 1779372200" [ref=f11e560] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/contracts/contract/620
+                - generic [ref=f11e561]: Trash
+                - generic [ref=f11e562]:
+                  - link "View" [ref=f11e563] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/contract/620/938ab83ec1becaf5c7e4bdf27c2817ef
+                  - text: "|"
+                  - link "Edit" [ref=f11e564] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/contract/620
+                  - text: "|"
+                  - link "Delete" [ref=f11e565] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/contracts/delete/620
+              - gridcell [ref=f11e566]:
+                - link "Anh test" [ref=f11e567] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/clients/client/8961
+              - gridcell [ref=f11e568]
+              - gridcell "$0.00" [ref=f11e569]
+              - gridcell "28-07-2026" [ref=f11e570]
+              - gridcell [ref=f11e571]
+              - gridcell [ref=f11e572]:
+                - link:
+                  - /url: https://crm.anhtester.com/admin/projects/view/0
+              - gridcell "Not Signed" [ref=f11e573]
+        - generic [ref=f11e574]:
+          - status [ref=f11e576]: Showing 1 to 25 of 118 entries
+          - generic [ref=f11e577]:
+            - combobox [ref=f11e578]:
+              - option "1" [selected]
+              - option "2"
+              - option "3"
+              - option "4"
+              - option "5"
+            - list [ref=f11e580]:
+              - listitem:
+                - link "Previous" [ref=f11e581]:
+                  - /url: "#"
+              - listitem:
+                - link "1" [ref=f11e582]:
+                  - /url: "#"
+              - listitem:
+                - link "2" [ref=f11e583] [cursor=pointer]:
+                  - /url: "#"
+              - listitem:
+                - link "3" [ref=f11e584] [cursor=pointer]:
+                  - /url: "#"
+              - listitem:
+                - link "4" [ref=f11e585] [cursor=pointer]:
+                  - /url: "#"
+              - listitem:
+                - link "5" [ref=f11e586] [cursor=pointer]:
+                  - /url: "#"
+              - listitem:
+                - link "Next" [ref=f11e587] [cursor=pointer]:
+                  - /url: "#"

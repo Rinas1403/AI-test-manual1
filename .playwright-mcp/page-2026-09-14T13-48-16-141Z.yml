@@ -1,0 +1,146 @@
+- generic [active] [ref=f24e1]:
+  - generic [ref=f24e2]:
+    - generic [ref=f24e3] [cursor=pointer]: 
+    - navigation [ref=f24e5]:
+      - generic [ref=f24e6]:
+        - generic [ref=f24e7]:
+          - generic [ref=f24e8]:
+            - searchbox "Search..." [ref=f24e9]
+            - button "" [ref=f24e11] [cursor=pointer]
+            - text:     
+          - list [ref=f24e13]:
+            - listitem "Quick Create" [ref=f24e14]:
+              - link "+" [ref=f24e15] [cursor=pointer]:
+                - /url: "#"
+              - text:             
+        - text: 
+        - list [ref=f24e18]:
+          - listitem [ref=f24e19]:
+            - link "Share documents, ideas.." [ref=f24e20] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f24e23]:
+            - link "2" [ref=f24e24] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/todo
+          - listitem "Admin Example" [ref=f24e28]:
+            - link [ref=f24e29] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f24e31]:
+            - link "1" [ref=f24e32] [cursor=pointer]:
+              - /url: "#"
+            - text:  
+          - listitem "Notifications" [ref=f24e37]:
+            - link [ref=f24e38] [cursor=pointer]:
+              - /url: "#"
+  - text: 
+  - complementary [ref=f24e42]:
+    - list [ref=f24e43]:
+      - listitem [ref=f24e44]:
+        - link [ref=f24e46] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/
+          - img "Perfex CRM | Anh Tester Demo" [ref=f24e47]
+      - listitem [ref=f24e48]:
+        - link " Dashboard" [ref=f24e49] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/
+          - generic [ref=f24e50]: 
+          - text: Dashboard
+      - listitem [ref=f24e51]:
+        - link " Customers" [ref=f24e52] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/clients
+          - generic [ref=f24e53]: 
+          - text: Customers
+      - listitem [ref=f24e54]:
+        - link " Projects" [ref=f24e55] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/projects
+          - generic [ref=f24e56]: 
+          - text: Projects
+      - listitem [ref=f24e57]:
+        - link " Tasks" [ref=f24e58] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/tasks
+          - generic [ref=f24e59]: 
+          - text: Tasks
+      - listitem [ref=f24e60]:
+        - link " Contracts" [ref=f24e61] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/contracts
+          - generic [ref=f24e62]: 
+          - text: Contracts
+      - listitem [ref=f24e63]:
+        - link " Sales " [ref=f24e64] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f24e65]: 
+          - text: Sales
+          - generic [ref=f24e66]: 
+      - listitem [ref=f24e67]:
+        - link " Subscriptions" [ref=f24e68] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/subscriptions
+          - generic [ref=f24e69]: 
+          - text: Subscriptions
+      - listitem [ref=f24e70]:
+        - link " Expenses" [ref=f24e71] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/expenses
+          - generic [ref=f24e72]: 
+          - text: Expenses
+      - listitem [ref=f24e73]:
+        - link " Support" [ref=f24e74] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/tickets
+          - generic [ref=f24e75]: 
+          - text: Support
+      - listitem [ref=f24e76]:
+        - link " Leads" [ref=f24e77] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/leads
+          - generic [ref=f24e78]: 
+          - text: Leads
+      - listitem [ref=f24e79]:
+        - link " Estimate Request" [ref=f24e80] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/estimate_request
+          - generic [ref=f24e81]: 
+          - text: Estimate Request
+      - listitem [ref=f24e82]:
+        - link " Knowledge Base" [ref=f24e83] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/knowledge_base
+          - generic [ref=f24e84]: 
+          - text: Knowledge Base
+      - listitem [ref=f24e85]:
+        - link " Utilities " [ref=f24e86] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f24e87]: 
+          - text: Utilities
+          - generic [ref=f24e88]: 
+      - listitem [ref=f24e89]:
+        - link " Reports " [ref=f24e90] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f24e91]: 
+          - text: Reports
+          - generic [ref=f24e92]: 
+  - generic [ref=f24e96]:
+    - link "+ New Form" [ref=f24e98] [cursor=pointer]:
+      - /url: https://crm.anhtester.com/admin/estimate_request/form
+      - generic [ref=f24e99]: +
+      - text: New Form
+    - generic [ref=f24e105]:
+      - generic [ref=f24e106]:
+        - generic [ref=f24e107]:
+          - combobox [ref=f24e110]:
+            - option "10"
+            - option "25" [selected]
+            - option "50"
+            - option "100"
+            - option "All"
+          - generic [ref=f24e111]:
+            - button "Export" [ref=f24e112] [cursor=pointer]
+            - button "" [ref=f24e113] [cursor=pointer]
+        - generic [ref=f24e119]:
+          - generic [ref=f24e120]: 
+          - searchbox "" [ref=f24e122]
+      - text: x200B x200B
+      - grid [ref=f24e124]:
+        - rowgroup [ref=f24e125]:
+          - row [ref=f24e126]:
+            - columnheader "# activate to sort column ascending" [ref=f24e127] [cursor=pointer]: "#"
+            - columnheader "Email activate to sort column ascending" [ref=f24e128] [cursor=pointer]: Email
+            - columnheader "Tags activate to sort column ascending" [ref=f24e129] [cursor=pointer]: Tags
+            - columnheader "Assigned activate to sort column ascending" [ref=f24e130] [cursor=pointer]: Assigned
+            - columnheader "Status activate to sort column ascending" [ref=f24e131] [cursor=pointer]: Status
+            - columnheader "Created activate to sort column ascending" [ref=f24e132] [cursor=pointer]: Created
+        - rowgroup [ref=f24e133]:
+          - row [ref=f24e134]:
+            - gridcell "No entries found" [ref=f24e135]

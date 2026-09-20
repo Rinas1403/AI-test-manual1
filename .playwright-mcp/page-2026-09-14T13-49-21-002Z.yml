@@ -1,0 +1,123 @@
+- generic [active] [ref=f31e1]:
+  - generic [ref=f31e2]:
+    - generic [ref=f31e3] [cursor=pointer]: 
+    - navigation [ref=f31e5]:
+      - generic [ref=f31e6]:
+        - generic [ref=f31e7]:
+          - generic [ref=f31e8]:
+            - searchbox "Search..." [ref=f31e9]
+            - button "" [ref=f31e11] [cursor=pointer]
+            - text:     
+          - list [ref=f31e13]:
+            - listitem "Quick Create" [ref=f31e14]:
+              - link "+" [ref=f31e15] [cursor=pointer]:
+                - /url: "#"
+              - text:             
+        - text: 
+        - list [ref=f31e18]:
+          - listitem [ref=f31e19]:
+            - link "Share documents, ideas.." [ref=f31e20] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f31e23]:
+            - link "2" [ref=f31e24] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/todo
+          - listitem "Admin Example" [ref=f31e28]:
+            - link [ref=f31e29] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f31e31]:
+            - link "1" [ref=f31e32] [cursor=pointer]:
+              - /url: "#"
+            - text:  
+          - listitem "Notifications" [ref=f31e37]:
+            - link [ref=f31e38] [cursor=pointer]:
+              - /url: "#"
+  - text: 
+  - complementary [ref=f31e42]:
+    - list [ref=f31e43]:
+      - listitem [ref=f31e44]:
+        - link [ref=f31e46] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/
+          - img "Perfex CRM | Anh Tester Demo" [ref=f31e47]
+      - listitem [ref=f31e48]:
+        - link " Dashboard" [ref=f31e49] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/
+          - generic [ref=f31e50]: 
+          - text: Dashboard
+      - listitem [ref=f31e51]:
+        - link " Customers" [ref=f31e52] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/clients
+          - generic [ref=f31e53]: 
+          - text: Customers
+      - listitem [ref=f31e54]:
+        - link " Projects" [ref=f31e55] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/projects
+          - generic [ref=f31e56]: 
+          - text: Projects
+      - listitem [ref=f31e57]:
+        - link " Tasks" [ref=f31e58] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/tasks
+          - generic [ref=f31e59]: 
+          - text: Tasks
+      - listitem [ref=f31e60]:
+        - link " Contracts" [ref=f31e61] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/contracts
+          - generic [ref=f31e62]: 
+          - text: Contracts
+      - listitem [ref=f31e63]:
+        - link " Sales " [ref=f31e64] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f31e65]: 
+          - text: Sales
+          - generic [ref=f31e66]: 
+      - listitem [ref=f31e67]:
+        - link " Subscriptions" [ref=f31e68] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/subscriptions
+          - generic [ref=f31e69]: 
+          - text: Subscriptions
+      - listitem [ref=f31e70]:
+        - link " Expenses" [ref=f31e71] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/expenses
+          - generic [ref=f31e72]: 
+          - text: Expenses
+      - listitem [ref=f31e73]:
+        - link " Support" [ref=f31e74] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/tickets
+          - generic [ref=f31e75]: 
+          - text: Support
+      - listitem [ref=f31e76]:
+        - link " Leads" [ref=f31e77] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/leads
+          - generic [ref=f31e78]: 
+          - text: Leads
+      - listitem [ref=f31e79]:
+        - link " Estimate Request" [ref=f31e80] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/estimate_request
+          - generic [ref=f31e81]: 
+          - text: Estimate Request
+      - listitem [ref=f31e82]:
+        - link " Knowledge Base" [ref=f31e83] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/knowledge_base
+          - generic [ref=f31e84]: 
+          - text: Knowledge Base
+      - listitem [ref=f31e85]:
+        - link " Utilities " [ref=f31e86] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f31e87]: 
+          - text: Utilities
+          - generic [ref=f31e88]: 
+        - list [ref=f31e89]:
+          - listitem [ref=f31e90]:
+            - link "Media" [ref=f31e91] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/utilities/media
+          - listitem [ref=f31e92]:
+            - link "Bulk PDF Export" [ref=f31e93] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/utilities/bulk_pdf_exporter
+          - listitem [ref=f31e94]:
+            - link "Calendar" [ref=f31e95] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/utilities/calendar
+      - listitem [ref=f31e96]:
+        - link " Reports " [ref=f31e97] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f31e98]: 
+          - text: Reports
+          - generic [ref=f31e99]: 

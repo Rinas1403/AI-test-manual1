@@ -1,0 +1,435 @@
+- generic [active] [ref=f39e1]:
+  - generic [ref=f39e2]:
+    - generic [ref=f39e3] [cursor=pointer]: 
+    - navigation [ref=f39e5]:
+      - generic [ref=f39e6]:
+        - generic [ref=f39e7]:
+          - generic [ref=f39e8]:
+            - searchbox "Search..." [ref=f39e9]
+            - button "" [ref=f39e11] [cursor=pointer]
+            - text:     
+          - list [ref=f39e13]:
+            - listitem "Quick Create" [ref=f39e14]:
+              - link "+" [ref=f39e15] [cursor=pointer]:
+                - /url: "#"
+              - text:             
+        - text: 
+        - list [ref=f39e18]:
+          - listitem [ref=f39e19]:
+            - link "Share documents, ideas.." [ref=f39e20] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f39e23]:
+            - link "2" [ref=f39e24] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/todo
+          - listitem "Admin Example" [ref=f39e28]:
+            - link [ref=f39e29] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f39e31]:
+            - link "1" [ref=f39e32] [cursor=pointer]:
+              - /url: "#"
+            - text:  
+          - listitem "Notifications" [ref=f39e37]:
+            - link [ref=f39e38] [cursor=pointer]:
+              - /url: "#"
+  - text: 
+  - complementary [ref=f39e42]:
+    - list [ref=f39e43]:
+      - listitem [ref=f39e44]:
+        - link [ref=f39e46] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/
+          - img "Perfex CRM | Anh Tester Demo" [ref=f39e47]
+      - listitem [ref=f39e48]:
+        - link " Dashboard" [ref=f39e49] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/
+          - generic [ref=f39e50]: 
+          - text: Dashboard
+      - listitem [ref=f39e51]:
+        - link " Customers" [ref=f39e52] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/clients
+          - generic [ref=f39e53]: 
+          - text: Customers
+      - listitem [ref=f39e54]:
+        - link " Projects" [ref=f39e55] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/projects
+          - generic [ref=f39e56]: 
+          - text: Projects
+      - listitem [ref=f39e57]:
+        - link " Tasks" [ref=f39e58] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/tasks
+          - generic [ref=f39e59]: 
+          - text: Tasks
+      - listitem [ref=f39e60]:
+        - link " Contracts" [ref=f39e61] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/contracts
+          - generic [ref=f39e62]: 
+          - text: Contracts
+      - listitem [ref=f39e63]:
+        - link " Sales " [ref=f39e64] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f39e65]: 
+          - text: Sales
+          - generic [ref=f39e66]: 
+      - listitem [ref=f39e67]:
+        - link " Subscriptions" [ref=f39e68] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/subscriptions
+          - generic [ref=f39e69]: 
+          - text: Subscriptions
+      - listitem [ref=f39e70]:
+        - link " Expenses" [ref=f39e71] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/expenses
+          - generic [ref=f39e72]: 
+          - text: Expenses
+      - listitem [ref=f39e73]:
+        - link " Support" [ref=f39e74] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/tickets
+          - generic [ref=f39e75]: 
+          - text: Support
+      - listitem [ref=f39e76]:
+        - link " Leads" [ref=f39e77] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/leads
+          - generic [ref=f39e78]: 
+          - text: Leads
+      - listitem [ref=f39e79]:
+        - link " Estimate Request" [ref=f39e80] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/estimate_request
+          - generic [ref=f39e81]: 
+          - text: Estimate Request
+      - listitem [ref=f39e82]:
+        - link " Knowledge Base" [ref=f39e83] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/knowledge_base
+          - generic [ref=f39e84]: 
+          - text: Knowledge Base
+      - listitem [ref=f39e85]:
+        - link " Utilities " [ref=f39e86] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f39e87]: 
+          - text: Utilities
+          - generic [ref=f39e88]: 
+      - listitem [ref=f39e89]:
+        - link " Reports " [ref=f39e90] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f39e91]: 
+          - text: Reports
+          - generic [ref=f39e92]: 
+  - generic [ref=f39e96]:
+    - generic [ref=f39e98]:
+      - generic [ref=f39e100]:
+        - generic [ref=f39e103]:
+          - combobox [ref=f39e104]:
+            - option "Công ty Hải Lê Mua hàng qua app" [selected]
+            - option "#2785 - 1231322323"
+            - option "#2783 - AUTO_POM_ADD_PROJECT_1789296855328"
+            - option "#2782 - AUTO_POM_ADD_PROJECT_1789292314550"
+            - option "#2780 - Project - 2026-09-13T01:06:15.664327"
+            - option "#2779 - Project - 2026-09-13T00:36:51.956096"
+            - option "#2778 - Project - 2026-09-12T22:54:22.925462"
+            - option "#2746 - New Project 3008"
+            - option "#2745 - New Project 3008"
+            - option "#2744 - Test company"
+            - option "#2743 - New Project 3008"
+            - option "#2742 - New Project 3008"
+            - option "#2741 - New Project 3008"
+            - option "#2740 - Test company"
+            - option "#2739 - New Project 3008"
+            - option "#2738 - New Project 3008"
+            - option "#2737 - New Project 3008"
+            - option "#2736 - New Project 3008"
+            - option "#2735 - New Project 3008"
+            - option "#2734 - New Project 3008"
+            - option "#2733 - Test company"
+            - option "#2727 - AUTO_POM_ADD_PROJECT_1787476852453"
+            - option "#2725 - AUTO_POM_ADD_PROJECT_1787475447114"
+            - option "#2715 - AUTO_POM_ADD_PROJECT_1787132756829"
+            - option "#2714 - AUTO_POM_DELETE_PROJECT_1787132692023"
+            - option "#2713 - AUTO_POM_ADD_PROJECT_1787132683801"
+            - option "#2711 - AUTO_POM_ADD_PROJECT_1787126799722"
+            - option "#2709 - AUTO_POM_ADD_PROJECT_1787126715737"
+            - option "#2707 - AUTO_POM_ADD_PROJECT_1787126677902"
+            - option "#2705 - AUTO_POM_ADD_PROJECT_1787126175299"
+            - option "#2704 - AUTO_POM_ADD_PROJECT_1787125225227"
+            - option "#2703 - AUTO_POM_ADD_PROJECT_1787066756346"
+            - option "#2702 - AUTO_POM_ADD_PROJECT_1787066625700"
+            - option "#2701 - AUTO_POM_ADD_PROJECT_1787066604884"
+            - option "#2700 - AUTO_POM_ADD_PROJECT_1787066565148"
+            - option "#2699 - AUTO_POM_ADD_PROJECT_1787065710914"
+            - option "#2698 - AUTO_POM_ADD_PROJECT_1787065135358"
+            - option "#2697 - AUTO_POM_ADD_PROJECT_1787065114991"
+            - option "#2696 - AUTO_POM_ADD_PROJECT_1787064837550"
+            - option "#2694 - Megadeth"
+            - option "#2691 - AUTO_POM_ADD_PROJECT_1786268030415"
+            - option "#2690 - AUTO_POM_ADD_PROJECT_1786268025196"
+            - option "#2687 - AUTO_POM_ADD_PROJECT_1786265519073"
+            - option "#2686 - AUTO_POM_ADD_PROJECT_1786265531534"
+            - option "#2683 - AUTO_POM_ADD_PROJECT_1786265267446"
+            - option "#2682 - AUTO_POM_ADD_PROJECT_1786265261239"
+            - option "#2681 - AUTO_POM_ADD_PROJECT_1786264958699"
+            - option "#2679 - AUTO_POM_ADD_PROJECT_1786264849380"
+            - option "#2676 - AUTO_POM_ADD_PROJECT_1786264760531"
+            - option "#2674 - AUTO_POM_ADD_PROJECT_1786264341260"
+            - option "#2672 - AUTO_POM_ADD_PROJECT_1786264294905"
+            - option "#2670 - AUTO_POM_ADD_PROJECT_1786264191396"
+            - option "#2668 - AUTO_POM_ADD_PROJECT_1786264144463"
+            - option "#2666 - AUTO_POM_ADD_PROJECT_1786264092423"
+            - option "#2664 - AUTO_POM_ADD_PROJECT_1786263942477"
+            - option "#2662 - AUTO_POM_ADD_PROJECT_1786263756235"
+            - option "#2661 - AUTO_POM_ADD_PROJECT_1786263289075"
+            - option "#2660 - AUTO_POM_ADD_PROJECT_1786263237804"
+            - option "#2659 - AUTO_POM_ADD_PROJECT_1786263186963"
+            - option "#2658 - AUTO_POM_ADD_PROJECT_1786263051600"
+            - option "#2657 - AUTO_POM_ADD_PROJECT_1786262990104"
+            - option "#2656 - AUTO_POM_ADD_PROJECT_1786262915509"
+            - option "#2655 - AUTO_POM_ADD_PROJECT_1786262640439"
+            - option "#2649 - AUTO_POM_ADD_PROJECT_1785661789456"
+            - option "#2647 - AUTO_POM_ADD_PROJECT_1785661551151"
+            - option "#2635 - AUTO_POM_ADD_PROJECT_1785403908390"
+            - option "#2633 - AUTO_POM_ADD_PROJECT_1785397460399"
+            - option "#2622 - AUTO_POM_ADD_PROJECT_1785061195721"
+            - option "#2620 - AUTO_POM_ADD_PROJECT_1785061073839"
+            - option "#2618 - AUTO_POM_ADD_PROJECT_1785060974780"
+            - option "#2617 - AUTO_POM_DELETE_PROJECT_1785060694174"
+            - option "#2616 - AUTO_POM_ADD_PROJECT_1785060684796"
+            - option "#2613 - AUTO_POM_ADD_PROJECT_1785059606525"
+            - option "#2611 - AUTO_POM_ADD_PROJECT_1785059505110"
+            - option "#2609 - AUTO_POM_ADD_PROJECT_1785057388987"
+            - option "#2607 - AUTO_POM_ADD_PROJECT_1785057291876"
+            - option "#2605 - AUTO_POM_ADD_PROJECT_1785056676781"
+            - option "#2604 - AUTO_POM_ADD_PROJECT_1785056440639"
+            - option "#2603 - AUTO_POM_ADD_PROJECT_1784975290409"
+            - option "#2601 - AUTO_POM_ADD_PROJECT_1784973469844"
+            - option "#2599 - AUTO_POM_ADD_PROJECT_1784972872225"
+            - option "#2597 - AUTO_POM_ADD_PROJECT_1784972840236"
+            - option "#2596 - AUTO_POM_DELETE_PROJECT_1784972776735"
+            - option "#2595 - AUTO_POM_ADD_PROJECT_1784972766042"
+            - option "#2594 - AUTO_POM_ADD_PROJECT_1784971918062"
+            - option "#2591 - AUTO_POM_ADD_PROJECT_1784970812524"
+            - option "#2590 - AUTO_POM_ADD_PROJECT_1784970360489"
+            - option "#2589 - AUTO_POM_ADD_PROJECT_1784970054104"
+            - option "#2588 - AUTO_POM_ADD_PROJECT_1784969356496"
+            - option "#2587 - AUTO_POM_ADD_PROJECT_1784969338238"
+            - option "#2586 - AUTO_POM_ADD_PROJECT_1784969265338"
+            - option "#2585 - AUTO_POM_ADD_PROJECT_1784969246851"
+            - option "#2584 - AUTO_POM_ADD_PROJECT_1784969181204"
+            - option "#2552 - a"
+            - option "#2489 - Project Automation 95489729"
+            - option "#2488 - Project Automation 95225795"
+            - option "#2487 - Project Automation 95127205"
+            - option "#2486 - Project Automation 95012948"
+            - option "#2485 - DgreyProject2026-06-23"
+            - option "#2484 - abc"
+            - option "#2482 - TC018_UncheckCreateTask_test"
+            - option "#2481 - TC017_VisibleTabs_test"
+            - option "#2480 - TC016_SendNotif_test"
+            - option "#2479 - Test Date Validation"
+            - 'option "#2478 - Project @2026 #$%! auto_20260525171110587Z"'
+            - option "#2477 - AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            - option "#2476 - auto_project_20260525171101817Z"
+            - option "#2474 - TC018_UncheckCreateTask_test"
+            - option "#2473 - TC017_VisibleTabs_test"
+            - option "#2472 - TC016_SendNotif_test"
+            - option "#2471 - Test Date Validation"
+            - 'option "#2470 - Project @2026 #$%! auto_20260525165231390Z"'
+            - option "#2469 - AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            - option "#2468 - auto_project_20260525165230266Z"
+            - option "#2467 - VikLik"
+            - option "#2465 - Nhà tình thương"
+            - option "#2464 - Nhà là nơi để về"
+            - option "#2456 - Xây nhà cho bé"
+            - option "#2453 - AAA"
+            - option "#2451 - Tổ ấm nhỏ"
+            - option "#2445 - Project0504"
+            - option "#2395 - Dgrey Project"
+            - option "#2394 - Dgrey Project"
+            - option "#2388 - Dgrey Project"
+            - option "#2387 - Dgrey Project"
+            - option "#2386 - Dgrey Project"
+            - option "#2385 - Dgrey Project"
+            - option "#2383 - Mua hàng online"
+            - option "#2382 - Mua hàng online"
+            - option "#2381 - Mua hàng online"
+            - option "#2380 - Mua hàng qua app"
+            - option "#2379 - Mua hàng qua app"
+            - option "#2378 - Mua hàng qua app"
+            - option "#2377 - Mua hàng qua app"
+            - option "#2376 - Mua hàng qua app"
+            - option "#2375 - Mua hàng qua app"
+            - option "#2374 - Mua hàng qua app"
+            - option "#2373 - Mua hàng qua app"
+            - option "#2372 - Mua hàng qua app"
+            - option "#2371 - Mua hàng qua app"
+            - option "#2370 - Mua hàng qua app"
+            - option "#2369 - Mua hàng qua app"
+            - option "#2368 - Mua hàng qua app"
+            - option "#2367 - Mua hàng qua app"
+            - option "#2366 - Mua hàng qua app"
+            - option "#2365 - Mua hàng qua app"
+            - option "#2363 - Mua hàng qua app"
+            - option "#2362 - hahamove"
+            - option "#2361 - hahamove"
+            - option "#2359 - ahsalkf"
+            - option "#2357 - Alarm"
+            - option "#2356 - vat lieu xay dung 1"
+            - option "#2352 - [AUTO_HT] project add_14042026_155352_hPRNAI"
+          - combobox "Mua hàng qua app - Công ty Hải Lê" [ref=f39e105] [cursor=pointer]
+        - link [ref=f39e118] [cursor=pointer]:
+          - /url: "#"
+        - generic [ref=f39e121]: In Progress
+      - generic [ref=f39e122]:
+        - link "+ New Task" [ref=f39e123] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f39e124]: +
+          - text: New Task
+        - link " Invoice Project" [ref=f39e125] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f39e126]: 
+          - text: Invoice Project
+        - button "More" [ref=f39e128] [cursor=pointer]
+    - generic [ref=f39e131]:
+      - text:  
+      - tablist [ref=f39e133]:
+        - listitem [ref=f39e134]:
+          - tab "Overview" [ref=f39e135]:
+            - generic [aria-hidden] [ref=f39e136]: 
+            - text: Overview
+        - listitem [ref=f39e137]:
+          - tab "Tasks" [ref=f39e138] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f39e139]: 
+            - text: Tasks
+        - listitem [ref=f39e140]:
+          - tab "Timesheets" [ref=f39e141] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f39e142]: 
+            - text: Timesheets
+        - listitem [ref=f39e143]:
+          - tab "Milestones" [ref=f39e144] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f39e145]: 
+            - text: Milestones
+        - listitem [ref=f39e146]:
+          - tab "Files" [ref=f39e147] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f39e148]: 
+            - text: Files
+        - listitem [ref=f39e149]:
+          - tab "Discussions" [ref=f39e150] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f39e151]: 
+            - text: Discussions
+        - listitem [ref=f39e152]:
+          - tab "Gantt" [ref=f39e153] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f39e154]: 
+            - text: Gantt
+        - listitem [ref=f39e155]:
+          - tab "Tickets" [ref=f39e156] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f39e157]: 
+            - text: Tickets
+        - listitem [ref=f39e158]:
+          - tab "Contracts" [ref=f39e159] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f39e160]: 
+            - text: Contracts
+        - listitem [ref=f39e161]:
+          - tab "Sales" [expanded] [ref=f39e162] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f39e163]: 
+            - text: Sales
+        - listitem [ref=f39e165]:
+          - tab "Notes" [ref=f39e166] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f39e167]: 
+            - text: Notes
+        - listitem [ref=f39e168]:
+          - tab "Activity" [ref=f39e169] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f39e170]: 
+            - text: Activity
+    - generic [ref=f39e171]: This project is overdue by 123 days
+    - generic [ref=f39e172]:
+      - generic [ref=f39e176]:
+        - generic [ref=f39e177]:
+          - paragraph [ref=f39e178]: Project Progress 0.00%
+          - generic [ref=f39e179]:
+            - progressbar
+          - separator [ref=f39e180]
+        - generic [ref=f39e181]:
+          - heading "Overview" [level=4] [ref=f39e182]
+          - generic [ref=f39e183]:
+            - generic [ref=f39e184]:
+              - term [ref=f39e185]: "Project #"
+              - definition [ref=f39e186]: "2364"
+            - generic [ref=f39e187]:
+              - term [ref=f39e188]: Customer
+              - definition [ref=f39e189]:
+                - link "Công ty Hải Lê" [ref=f39e190] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/clients/client/9034
+            - generic [ref=f39e191]:
+              - term [ref=f39e192]: Billing Type
+              - definition [ref=f39e193]: Task Hours
+            - generic [ref=f39e194]:
+              - term [ref=f39e195]: Status
+              - definition [ref=f39e196]: In Progress
+            - generic [ref=f39e197]:
+              - term [ref=f39e198]: Date Created
+              - definition [ref=f39e199]: 29-04-2026
+            - generic [ref=f39e200]:
+              - term [ref=f39e201]: Start Date
+              - definition [ref=f39e202]: 14-04-2026
+            - generic [ref=f39e203]:
+              - term [ref=f39e204]: Deadline
+              - definition [ref=f39e205]: 14-05-2026
+            - generic [ref=f39e206]:
+              - term [ref=f39e207]: Estimated Hours
+              - definition [ref=f39e208]: 2:00
+            - generic [ref=f39e209]:
+              - term [ref=f39e210]: Total Logged Hours
+              - definition [ref=f39e211]: 00:00
+            - generic [ref=f39e212]:
+              - term [ref=f39e213]: Tags
+              - definition [ref=f39e214]:
+                - list [ref=f39e215]:
+                  - listitem [ref=f39e216]: Thạch cao
+                  - listitem [ref=f39e217]: Khung
+                  - listitem [ref=f39e218]
+            - generic [ref=f39e219]:
+              - term [ref=f39e220]: Description
+              - definition [ref=f39e221]:
+                - paragraph [ref=f39e222]: Giá cả hợp lý, chất liệu hợp thời
+      - generic [ref=f39e223]:
+        - generic [ref=f39e224]:
+          - generic [ref=f39e229]:
+            - generic [ref=f39e230]:
+              - paragraph [ref=f39e231]: 4 / 4 Open Tasks
+              - paragraph [ref=f39e232]: 0%
+            - generic [aria-hidden] [ref=f39e234]: 
+            - generic [ref=f39e236]:
+              - progressbar
+          - generic [ref=f39e240]:
+            - generic [ref=f39e241]:
+              - paragraph [ref=f39e242]: 0 / 30 Days Left
+              - paragraph [ref=f39e243]: 0%
+            - generic [aria-hidden] [ref=f39e245]: 
+            - generic [ref=f39e247]:
+              - progressbar
+        - generic [ref=f39e252]:
+          - generic [ref=f39e253]:
+            - paragraph [ref=f39e254]: "Logged Hours: 00:00"
+            - paragraph [ref=f39e255]: $0.02
+          - generic [ref=f39e256]:
+            - paragraph [ref=f39e257]: "Billable Hours: 00:00"
+            - paragraph [ref=f39e258]: $0.02
+          - generic [ref=f39e259]:
+            - paragraph [ref=f39e260]: "Billed Hours: 00:00"
+            - paragraph [ref=f39e261]: $0.00
+          - generic [ref=f39e262]:
+            - paragraph [ref=f39e263]: "Unbilled Hours: 00:00"
+            - paragraph [ref=f39e264]: $0.02
+        - generic [ref=f39e269]:
+          - generic [ref=f39e270]:
+            - paragraph [ref=f39e271]: Total Expenses
+            - paragraph [ref=f39e272]: $0.00
+          - generic [ref=f39e273]:
+            - paragraph [ref=f39e274]: Billable Expenses
+            - paragraph [ref=f39e275]: $0.00
+          - generic [ref=f39e276]:
+            - paragraph [ref=f39e277]: Billed Expenses
+            - paragraph [ref=f39e278]: $0.00
+          - generic [ref=f39e279]:
+            - paragraph [ref=f39e280]: Unbilled Expenses
+            - paragraph [ref=f39e281]: $0.00
+        - generic [ref=f39e282]:
+          - link "This Week" [expanded] [ref=f39e284] [cursor=pointer]:
+            - /url: "#"
+          - iframe [ref=f39e289]
+  - text:           
+  - status [ref=f39e291]

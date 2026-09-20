@@ -1,0 +1,314 @@
+- generic [active] [ref=f14e1]:
+  - generic [ref=f14e2]:
+    - generic [ref=f14e3] [cursor=pointer]: 
+    - navigation [ref=f14e5]:
+      - generic [ref=f14e6]:
+        - generic [ref=f14e7]:
+          - generic [ref=f14e8]:
+            - searchbox "Search..." [ref=f14e9]
+            - button "" [ref=f14e11] [cursor=pointer]
+            - text:     
+          - list [ref=f14e13]:
+            - listitem "Quick Create" [ref=f14e14]:
+              - link "+" [ref=f14e15] [cursor=pointer]:
+                - /url: "#"
+              - text:             
+        - text: 
+        - list [ref=f14e18]:
+          - listitem [ref=f14e19]:
+            - link "Share documents, ideas.." [ref=f14e20] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f14e23]:
+            - link "2" [ref=f14e24] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/todo
+          - listitem "Admin Example" [ref=f14e28]:
+            - link [ref=f14e29] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f14e31]:
+            - link "1" [ref=f14e32] [cursor=pointer]:
+              - /url: "#"
+            - text:  
+          - listitem "Notifications" [ref=f14e37]:
+            - link [ref=f14e38] [cursor=pointer]:
+              - /url: "#"
+  - text: 
+  - complementary [ref=f14e42]:
+    - list [ref=f14e43]:
+      - listitem [ref=f14e44]:
+        - link [ref=f14e46] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/
+          - img "Perfex CRM | Anh Tester Demo" [ref=f14e47]
+      - listitem [ref=f14e48]:
+        - link " Dashboard" [ref=f14e49] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/
+          - generic [ref=f14e50]: 
+          - text: Dashboard
+      - listitem [ref=f14e51]:
+        - link " Customers" [ref=f14e52] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/clients
+          - generic [ref=f14e53]: 
+          - text: Customers
+      - listitem [ref=f14e54]:
+        - link " Projects" [ref=f14e55] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/projects
+          - generic [ref=f14e56]: 
+          - text: Projects
+      - listitem [ref=f14e57]:
+        - link " Tasks" [ref=f14e58] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/tasks
+          - generic [ref=f14e59]: 
+          - text: Tasks
+      - listitem [ref=f14e60]:
+        - link " Contracts" [ref=f14e61] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/contracts
+          - generic [ref=f14e62]: 
+          - text: Contracts
+      - listitem [ref=f14e63]:
+        - link " Sales " [ref=f14e64] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f14e65]: 
+          - text: Sales
+          - generic [ref=f14e66]: 
+        - list [ref=f14e67]:
+          - listitem [ref=f14e68]:
+            - link "Proposals" [ref=f14e69] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/proposals
+          - listitem [ref=f14e70]:
+            - link "Estimates" [ref=f14e71] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/estimates
+          - listitem [ref=f14e72]:
+            - link "Invoices" [ref=f14e73] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/invoices
+          - listitem [ref=f14e74]:
+            - link "Payments" [ref=f14e75] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/payments
+          - listitem [ref=f14e76]:
+            - link "Credit Notes" [ref=f14e77] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/credit_notes
+          - listitem [ref=f14e78]:
+            - link "Items" [ref=f14e79] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/invoice_items
+      - listitem [ref=f14e80]:
+        - link " Subscriptions" [ref=f14e81] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/subscriptions
+          - generic [ref=f14e82]: 
+          - text: Subscriptions
+      - listitem [ref=f14e83]:
+        - link " Expenses" [ref=f14e84] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/expenses
+          - generic [ref=f14e85]: 
+          - text: Expenses
+      - listitem [ref=f14e86]:
+        - link " Support" [ref=f14e87] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/tickets
+          - generic [ref=f14e88]: 
+          - text: Support
+      - listitem [ref=f14e89]:
+        - link " Leads" [ref=f14e90] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/leads
+          - generic [ref=f14e91]: 
+          - text: Leads
+      - listitem [ref=f14e92]:
+        - link " Estimate Request" [ref=f14e93] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/estimate_request
+          - generic [ref=f14e94]: 
+          - text: Estimate Request
+      - listitem [ref=f14e95]:
+        - link " Knowledge Base" [ref=f14e96] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/knowledge_base
+          - generic [ref=f14e97]: 
+          - text: Knowledge Base
+      - listitem [ref=f14e98]:
+        - link " Utilities " [ref=f14e99] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f14e100]: 
+          - text: Utilities
+          - generic [ref=f14e101]: 
+      - listitem [ref=f14e102]:
+        - link " Reports " [ref=f14e103] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f14e104]: 
+          - text: Reports
+          - generic [ref=f14e105]: 
+  - generic [ref=f14e109]:
+    - generic [ref=f14e110]:
+      - generic:
+        - link "+ New Proposal" [ref=f14e111] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/proposals/proposal
+          - generic [ref=f14e112]: +
+          - text: New Proposal
+        - link "" [ref=f14e113] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/proposals/pipeline/1
+        - generic [ref=f14e116]:
+          - link "" [ref=f14e117] [cursor=pointer]:
+            - /url: "#"
+          - button [ref=f14e120] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f14e121]: 
+    - generic [ref=f14e128]:
+      - generic [ref=f14e129]:
+        - generic [ref=f14e130]:
+          - combobox [ref=f14e133]:
+            - option "10"
+            - option "25" [selected]
+            - option "50"
+            - option "100"
+            - option "All"
+          - generic [ref=f14e134]:
+            - button "Export" [ref=f14e135] [cursor=pointer]
+            - button "" [ref=f14e136] [cursor=pointer]
+        - generic [ref=f14e142]:
+          - generic [ref=f14e143]: 
+          - searchbox "" [ref=f14e145]
+      - text: x200B x200B
+      - grid [ref=f14e147]:
+        - rowgroup [ref=f14e148]:
+          - row [ref=f14e149]:
+            - 'columnheader "Proposal # activate to sort column ascending" [ref=f14e150] [cursor=pointer]': "Proposal #"
+            - columnheader "Subject activate to sort column ascending" [ref=f14e151] [cursor=pointer]: Subject
+            - columnheader "To activate to sort column ascending" [ref=f14e152] [cursor=pointer]: To
+            - columnheader "Total activate to sort column ascending" [ref=f14e153] [cursor=pointer]: Total
+            - columnheader "Date activate to sort column ascending" [ref=f14e154] [cursor=pointer]: Date
+            - columnheader "Open Till activate to sort column ascending" [ref=f14e155] [cursor=pointer]: Open Till
+            - columnheader "Project activate to sort column ascending" [ref=f14e156] [cursor=pointer]: Project
+            - columnheader "Tags activate to sort column ascending" [ref=f14e157] [cursor=pointer]: Tags
+            - columnheader "Date Created activate to sort column ascending" [ref=f14e158] [cursor=pointer]: Date Created
+            - columnheader "Status activate to sort column ascending" [ref=f14e159] [cursor=pointer]: Status
+        - rowgroup [ref=f14e160]:
+          - row [ref=f14e161]:
+            - gridcell [ref=f14e162]:
+              - link "PRO-000011" [ref=f14e163] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/proposals/list_proposals/11
+              - generic [ref=f14e164]:
+                - link "View" [ref=f14e165] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/proposal/11/004576998c36e6b9a6c09c8bc307a7a1
+                - text: "|"
+                - link "Edit" [ref=f14e166] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/proposals/proposal/11
+            - gridcell [ref=f14e167]:
+              - link "Subject_Title_nice" [ref=f14e168] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/proposals/list_proposals/11
+            - gridcell [ref=f14e169]:
+              - link "256 Haney Dam Apt. 858 Rachelville, VI 65966" [ref=f14e170] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/clients/client/64
+            - gridcell "$200,000.00" [ref=f14e171]
+            - gridcell "25-06-2035" [ref=f14e172]
+            - gridcell "02-07-2035" [ref=f14e173]
+            - gridcell [ref=f14e174]:
+              - link:
+                - /url: https://crm.anhtester.com/admin/projects/view/0
+            - gridcell "Selenium" [ref=f14e175]
+            - gridcell "01-11-2025 16:22:54" [ref=f14e178]
+            - gridcell "Sent" [ref=f14e179]
+          - row [ref=f14e181]:
+            - gridcell [ref=f14e182]:
+              - link "PRO-000002" [ref=f14e183] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/proposals/list_proposals/2
+              - generic [ref=f14e184]:
+                - link "View" [ref=f14e185] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/proposal/2/ac29fc37bf89ff0d0f4f90e071e603ef
+                - text: "|"
+                - link "Edit" [ref=f14e186] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/proposals/proposal/2
+            - gridcell [ref=f14e187]:
+              - link "hmmamjcj1" [ref=f14e188] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/proposals/list_proposals/2
+            - gridcell [ref=f14e189]:
+              - link "hoangtri123123@gmail.com" [ref=f14e190] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/clients/client/44
+            - gridcell "$2.00" [ref=f14e191]
+            - gridcell "12-12-2024" [ref=f14e192]
+            - gridcell "18-12-2024" [ref=f14e193]
+            - gridcell [ref=f14e194]:
+              - link:
+                - /url: https://crm.anhtester.com/admin/projects/view/0
+            - gridcell [ref=f14e195]
+            - gridcell "12-12-2024 20:50:53" [ref=f14e196]
+            - gridcell "Open" [ref=f14e197]
+          - row [ref=f14e199]:
+            - gridcell [ref=f14e200]:
+              - link "PRO-000003" [ref=f14e201] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/proposals/list_proposals/3
+              - generic [ref=f14e202]:
+                - link "View" [ref=f14e203] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/proposal/3/9fed5b37acbe6552de3e22a685a7024a
+                - text: "|"
+                - link "Edit" [ref=f14e204] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/proposals/proposal/3
+            - gridcell [ref=f14e205]:
+              - link "hmmamjcj1" [ref=f14e206] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/proposals/list_proposals/3
+            - gridcell [ref=f14e207]:
+              - link "hoangtri123123@gmail.com" [ref=f14e208] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/clients/client/44
+            - gridcell "$2.00" [ref=f14e209]
+            - gridcell "12-12-2024" [ref=f14e210]
+            - gridcell "18-12-2024" [ref=f14e211]
+            - gridcell [ref=f14e212]:
+              - link:
+                - /url: https://crm.anhtester.com/admin/projects/view/0
+            - gridcell [ref=f14e213]
+            - gridcell "12-12-2024 20:54:23" [ref=f14e214]
+            - gridcell "Open" [ref=f14e215]
+          - row [ref=f14e217]:
+            - gridcell [ref=f14e218]:
+              - link "PRO-000004" [ref=f14e219] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/proposals/list_proposals/4
+              - generic [ref=f14e220]:
+                - link "View" [ref=f14e221] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/proposal/4/6be468fa4867e06189ba68ab84eba342
+                - text: "|"
+                - link "Edit" [ref=f14e222] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/proposals/proposal/4
+            - gridcell [ref=f14e223]:
+              - link "hmmamjcj1" [ref=f14e224] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/proposals/list_proposals/4
+            - gridcell [ref=f14e225]:
+              - link "hoangtri123123@gmail.com" [ref=f14e226] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/clients/client/44
+            - gridcell "$2.00" [ref=f14e227]
+            - gridcell "12-12-2024" [ref=f14e228]
+            - gridcell "18-12-2024" [ref=f14e229]
+            - gridcell [ref=f14e230]:
+              - link:
+                - /url: https://crm.anhtester.com/admin/projects/view/0
+            - gridcell [ref=f14e231]
+            - gridcell "12-12-2024 22:15:53" [ref=f14e232]
+            - gridcell "Open" [ref=f14e233]
+          - row [ref=f14e235]:
+            - gridcell [ref=f14e236]:
+              - link "PRO-000005" [ref=f14e237] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/proposals/list_proposals/5
+              - generic [ref=f14e238]:
+                - link "View" [ref=f14e239] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/proposal/5/83c64fdfd62db7dc4d0b3c08f588e744
+                - text: "|"
+                - link "Edit" [ref=f14e240] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/proposals/proposal/5
+            - gridcell [ref=f14e241]:
+              - link "hmmamjcj1" [ref=f14e242] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/proposals/list_proposals/5
+            - gridcell [ref=f14e243]:
+              - link "hoangtri123123@gmail.com" [ref=f14e244] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/clients/client/44
+            - gridcell "$2.00" [ref=f14e245]
+            - gridcell "12-12-2024" [ref=f14e246]
+            - gridcell "18-12-2024" [ref=f14e247]
+            - gridcell [ref=f14e248]:
+              - link:
+                - /url: https://crm.anhtester.com/admin/projects/view/0
+            - gridcell [ref=f14e249]
+            - gridcell "13-12-2024 22:23:00" [ref=f14e250]
+            - gridcell "Open" [ref=f14e251]
+      - generic [ref=f14e253]:
+        - status [ref=f14e255]: Showing 1 to 5 of 5 entries
+        - list [ref=f14e258]:
+          - listitem:
+            - link "Previous" [ref=f14e259]:
+              - /url: "#"
+          - listitem:
+            - link "1" [ref=f14e260]:
+              - /url: "#"
+          - listitem:
+            - link "Next" [ref=f14e261]:
+              - /url: "#"
+  - text: 

@@ -1,0 +1,258 @@
+- generic [active] [ref=f15e1]:
+  - generic [ref=f15e2]:
+    - generic [ref=f15e3] [cursor=pointer]: 
+    - navigation [ref=f15e5]:
+      - generic [ref=f15e6]:
+        - generic [ref=f15e7]:
+          - generic [ref=f15e8]:
+            - searchbox "Search..." [ref=f15e9]
+            - button "" [ref=f15e11] [cursor=pointer]
+            - text:     
+          - list [ref=f15e13]:
+            - listitem "Quick Create" [ref=f15e14]:
+              - link "+" [ref=f15e15] [cursor=pointer]:
+                - /url: "#"
+              - text:             
+        - text: 
+        - list [ref=f15e18]:
+          - listitem [ref=f15e19]:
+            - link "Share documents, ideas.." [ref=f15e20] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f15e23]:
+            - link "2" [ref=f15e24] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/todo
+          - listitem "Admin Example" [ref=f15e28]:
+            - link [ref=f15e29] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f15e31]:
+            - link "1" [ref=f15e32] [cursor=pointer]:
+              - /url: "#"
+            - text:  
+          - listitem "Notifications" [ref=f15e37]:
+            - link [ref=f15e38] [cursor=pointer]:
+              - /url: "#"
+  - text: 
+  - complementary [ref=f15e42]:
+    - list [ref=f15e43]:
+      - listitem [ref=f15e44]:
+        - link [ref=f15e46] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/
+          - img "Perfex CRM | Anh Tester Demo" [ref=f15e47]
+      - listitem [ref=f15e48]:
+        - link " Dashboard" [ref=f15e49] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/
+          - generic [ref=f15e50]: 
+          - text: Dashboard
+      - listitem [ref=f15e51]:
+        - link " Customers" [ref=f15e52] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/clients
+          - generic [ref=f15e53]: 
+          - text: Customers
+      - listitem [ref=f15e54]:
+        - link " Projects" [ref=f15e55] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/projects
+          - generic [ref=f15e56]: 
+          - text: Projects
+      - listitem [ref=f15e57]:
+        - link " Tasks" [ref=f15e58] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/tasks
+          - generic [ref=f15e59]: 
+          - text: Tasks
+      - listitem [ref=f15e60]:
+        - link " Contracts" [ref=f15e61] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/contracts
+          - generic [ref=f15e62]: 
+          - text: Contracts
+      - listitem [ref=f15e63]:
+        - link " Sales " [ref=f15e64] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f15e65]: 
+          - text: Sales
+          - generic [ref=f15e66]: 
+        - list [ref=f15e67]:
+          - listitem [ref=f15e68]:
+            - link "Proposals" [ref=f15e69] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/proposals
+          - listitem [ref=f15e70]:
+            - link "Estimates" [ref=f15e71] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/estimates
+          - listitem [ref=f15e72]:
+            - link "Invoices" [ref=f15e73] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/invoices
+          - listitem [ref=f15e74]:
+            - link "Payments" [ref=f15e75] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/payments
+          - listitem [ref=f15e76]:
+            - link "Credit Notes" [ref=f15e77] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/credit_notes
+          - listitem [ref=f15e78]:
+            - link "Items" [ref=f15e79] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/invoice_items
+      - listitem [ref=f15e80]:
+        - link " Subscriptions" [ref=f15e81] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/subscriptions
+          - generic [ref=f15e82]: 
+          - text: Subscriptions
+      - listitem [ref=f15e83]:
+        - link " Expenses" [ref=f15e84] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/expenses
+          - generic [ref=f15e85]: 
+          - text: Expenses
+      - listitem [ref=f15e86]:
+        - link " Support" [ref=f15e87] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/tickets
+          - generic [ref=f15e88]: 
+          - text: Support
+      - listitem [ref=f15e89]:
+        - link " Leads" [ref=f15e90] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/leads
+          - generic [ref=f15e91]: 
+          - text: Leads
+      - listitem [ref=f15e92]:
+        - link " Estimate Request" [ref=f15e93] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/estimate_request
+          - generic [ref=f15e94]: 
+          - text: Estimate Request
+      - listitem [ref=f15e95]:
+        - link " Knowledge Base" [ref=f15e96] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/knowledge_base
+          - generic [ref=f15e97]: 
+          - text: Knowledge Base
+      - listitem [ref=f15e98]:
+        - link " Utilities " [ref=f15e99] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f15e100]: 
+          - text: Utilities
+          - generic [ref=f15e101]: 
+      - listitem [ref=f15e102]:
+        - link " Reports " [ref=f15e103] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f15e104]: 
+          - text: Reports
+          - generic [ref=f15e105]: 
+  - generic [ref=f15e109]:
+    - link "+ Create New Estimate" [ref=f15e110] [cursor=pointer]:
+      - /url: https://crm.anhtester.com/admin/estimates/estimate
+      - generic [ref=f15e111]: +
+      - text: Create New Estimate
+    - link "" [ref=f15e112] [cursor=pointer]:
+      - /url: https://crm.anhtester.com/admin/estimates/pipeline/1
+    - generic [ref=f15e114]:
+      - link "" [ref=f15e115] [cursor=pointer]:
+        - /url: "#"
+      - link "" [ref=f15e117] [cursor=pointer]:
+        - /url: "#"
+      - button [ref=f15e120] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f15e121]: 
+    - generic [ref=f15e128]:
+      - generic [ref=f15e129]:
+        - generic [ref=f15e130]:
+          - combobox [ref=f15e133]:
+            - option "10"
+            - option "25" [selected]
+            - option "50"
+            - option "100"
+            - option "All"
+          - generic [ref=f15e134]:
+            - button "Export" [ref=f15e135] [cursor=pointer]
+            - button "" [ref=f15e136] [cursor=pointer]
+        - generic [ref=f15e142]:
+          - generic [ref=f15e143]: 
+          - searchbox "" [ref=f15e145]
+      - text: x200B x200B
+      - grid [ref=f15e147]:
+        - rowgroup [ref=f15e148]:
+          - row [ref=f15e149]:
+            - 'columnheader "Estimate # activate to sort column ascending" [ref=f15e150] [cursor=pointer]': "Estimate #"
+            - columnheader "Amount activate to sort column ascending" [ref=f15e151] [cursor=pointer]: Amount
+            - columnheader "Total Tax activate to sort column ascending" [ref=f15e152] [cursor=pointer]: Total Tax
+            - columnheader "Customer activate to sort column ascending" [ref=f15e153] [cursor=pointer]: Customer
+            - columnheader "Project activate to sort column ascending" [ref=f15e154] [cursor=pointer]: Project
+            - columnheader "Tags activate to sort column ascending" [ref=f15e155] [cursor=pointer]: Tags
+            - columnheader "Date activate to sort column ascending" [ref=f15e156] [cursor=pointer]: Date
+            - columnheader "Expiry Date activate to sort column ascending" [ref=f15e157] [cursor=pointer]: Expiry Date
+            - 'columnheader "Reference # activate to sort column ascending" [ref=f15e158] [cursor=pointer]': "Reference #"
+            - columnheader "Status activate to sort column ascending" [ref=f15e159] [cursor=pointer]: Status
+        - rowgroup [ref=f15e160]:
+          - row [ref=f15e161]:
+            - gridcell [ref=f15e162]:
+              - link "EST-002024" [ref=f15e163] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/estimates/list_estimates/3
+              - generic [ref=f15e164]:
+                - link "View" [ref=f15e165] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/estimate/3/25f7b8a0c70a9eb4e64df7bf11436f0c
+                - text: "|"
+                - link "Edit" [ref=f15e166] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/estimates/estimate/3
+            - gridcell "$31.60" [ref=f15e167]
+            - gridcell "$0.00" [ref=f15e168]
+            - gridcell [ref=f15e169]:
+              - link "z4" [ref=f15e170] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/clients/client/44
+            - gridcell [ref=f15e171]:
+              - link:
+                - /url: https://crm.anhtester.com/admin/projects/view/0
+            - gridcell [ref=f15e172]
+            - gridcell "13-12-2024" [ref=f15e173]
+            - gridcell "18-12-2024" [ref=f15e174]
+            - gridcell "ạhcy18huijnca" [ref=f15e175]
+            - gridcell "Expired" [ref=f15e176]
+          - row [ref=f15e178]:
+            - gridcell [ref=f15e179]:
+              - link "EST-001123" [ref=f15e180] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/estimates/list_estimates/1
+              - generic [ref=f15e181]:
+                - link "View" [ref=f15e182] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/estimate/1/186edfb633d4d95a760abe74c5159699
+                - text: "|"
+                - link "Edit" [ref=f15e183] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/estimates/estimate/1
+            - gridcell "$122.76" [ref=f15e184]
+            - gridcell "$0.00" [ref=f15e185]
+            - gridcell [ref=f15e186]:
+              - link "z4" [ref=f15e187] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/clients/client/44
+            - gridcell [ref=f15e188]:
+              - link:
+                - /url: https://crm.anhtester.com/admin/projects/view/0
+            - gridcell [ref=f15e189]
+            - gridcell "13-12-2024" [ref=f15e190]
+            - gridcell "20-12-2024" [ref=f15e191]
+            - gridcell "1233333" [ref=f15e192]
+            - gridcell "Expired" [ref=f15e193]
+          - row [ref=f15e195]:
+            - gridcell [ref=f15e196]:
+              - link "EST-000002" [ref=f15e197] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/estimates/list_estimates/2
+              - generic [ref=f15e198]:
+                - link "View" [ref=f15e199] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/estimate/2/9055ea906f9c0921341f5c8e1e6fba45
+                - text: "|"
+                - link "Edit" [ref=f15e200] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/estimates/estimate/2
+            - gridcell "$31.60" [ref=f15e201]
+            - gridcell "$0.00" [ref=f15e202]
+            - gridcell [ref=f15e203]:
+              - link "z4" [ref=f15e204] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/clients/client/44
+            - gridcell [ref=f15e205]:
+              - link:
+                - /url: https://crm.anhtester.com/admin/projects/view/0
+            - gridcell [ref=f15e206]
+            - gridcell "13-12-2024" [ref=f15e207]
+            - gridcell "18-12-2024" [ref=f15e208]
+            - gridcell "ạhcy18huijnca" [ref=f15e209]
+            - gridcell "Expired" [ref=f15e210]
+      - generic [ref=f15e212]:
+        - status [ref=f15e214]: Showing 1 to 3 of 3 entries
+        - list [ref=f15e217]:
+          - listitem:
+            - link "Previous" [ref=f15e218]:
+              - /url: "#"
+          - listitem:
+            - link "1" [ref=f15e219]:
+              - /url: "#"
+          - listitem:
+            - link "Next" [ref=f15e220]:
+              - /url: "#"
+  - text: 

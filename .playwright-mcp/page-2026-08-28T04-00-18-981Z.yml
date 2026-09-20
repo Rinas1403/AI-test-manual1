@@ -1,0 +1,1149 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e5]:
+      - generic [ref=e7]:
+        - paragraph [ref=e8]:
+          - generic [ref=e9]: Ҽ
+          - text: Vietnam
+        - paragraph [ref=e10]:
+          - generic [ref=e11]: Ϳ
+          - text: "0939206009"
+        - paragraph [ref=e12]:
+          - generic [ref=e13]: ף
+          - text: thaian.it15@gmail.com
+      - generic [ref=e15]:
+        - link [ref=e17]:
+          - /url: javascript:void(0);
+          - img "flag" [ref=e18]
+          - text: VIE 
+        - list [ref=e19]:
+          - listitem [ref=e20]:
+            - link [ref=e21]:
+              - /url: https://facebook.com/anhtester
+          - listitem [ref=e23]:
+            - link [ref=e24]:
+              - /url: https://youtube.com/@anhtester
+          - listitem [ref=e26]:
+            - link [ref=e27]:
+              - /url: https://www.linkedin.com/in/anhtester
+          - listitem [ref=e29]:
+            - link [ref=e30]:
+              - /url: https://github.com/anhtester
+          - listitem [ref=e32]:
+            - link [ref=e33]:
+              - /url: https://zalo.me/0939206009
+              - img "Zalo" [ref=e34]
+    - banner [ref=e35]:
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - text: 
+          - link [ref=e40]:
+            - /url: https://anhtester.com
+            - img "Logo" [ref=e41]
+        - generic [ref=e42]:
+          - list [ref=e43]:
+            - listitem [ref=e44]:
+              - link "Khoá học" [ref=e45]:
+                - /url: https://anhtester.com/courses
+            - listitem [ref=e47]:
+              - link "Khai giảng" [ref=e48]:
+                - /url: https://anhtester.com/lich-khai-giang
+            - listitem [ref=e49]:
+              - link "Blog" [ref=e50]:
+                - /url: https://anhtester.com/blog
+            - listitem [ref=e52]:
+              - link "Tools" [ref=e53]:
+                - /url: https://anhtester.com/tools
+            - listitem [ref=e54]:
+              - link "Chứng chỉ" [ref=e55]:
+                - /url: https://anhtester.com/certificate-check
+            - listitem [ref=e56]:
+              - link "Liên hệ" [ref=e57]:
+                - /url: https://anhtester.com/contact
+          - text:    
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - link "Chuyển sang chế độ tối" [ref=e60]:
+              - /url: javascript:void(0);
+              - generic [ref=e61]: 
+            - text: 
+          - link "Đăng nhập" [ref=e62]:
+            - /url: https://anhtester.com/login
+            - text:  Đăng nhập
+          - link "Đăng ký" [ref=e63]:
+            - /url: https://anhtester.com/register
+            - text:  Đăng ký
+    - generic [ref=e66]:
+      - generic [ref=e68]:
+        - generic [ref=e69]: Nền tảng học Test Automation & AI chuyên nghiệp
+        - heading "Anh Tester Automation Testing" [level=1] [ref=e70]: Anh TesterAutomation Testing
+        - paragraph [ref=e71]: Học Test Automation chuyên nghiệp, khóa học online chất lượng, chứng chỉ uy tín, ứng dụng AI trong kiểm thử phần mềm. Anh Tester chia sẻ kiến thức Tester, khóa học Testing miễn phí về Automation Testing, Playwright, Selenium, Appium, Jenkins, Katalon Studio, API Testing, Performance Testing và kiến thức tài liệu về Manual Testing.
+        - generic [ref=e72]:
+          - link "Tất cả danh mục ̑" [ref=e74]:
+            - /url: javascript:void(0);
+            - generic [ref=e75]: Tất cả danh mục
+            - generic [ref=e76]: ̑
+          - textbox "Tìm khoá học, giảng viên..." [ref=e77]
+          - button "" [ref=e78]
+        - generic [ref=e80]:
+          - generic [ref=e81]:
+            - img "img" [ref=e83]
+            - generic [ref=e84]:
+              - heading "24+" [level=5] [ref=e85]
+              - paragraph [ref=e86]: Khoá học
+          - generic [ref=e87]:
+            - img "img" [ref=e89]
+            - generic [ref=e90]:
+              - heading "8+" [level=5] [ref=e91]
+              - paragraph [ref=e92]: Danh mục
+          - generic [ref=e93]:
+            - img "img" [ref=e95]
+            - generic [ref=e96]:
+              - heading "5+" [level=5] [ref=e97]
+              - paragraph [ref=e98]: Giảng viên
+      - generic [ref=e102]:
+        - group "1 / 6" [ref=e103]:
+          - generic [ref=e104]:
+            - link [ref=e106]:
+              - /url: https://anhtester.com/course/khoa-hoc-su-dung-ai-trong-test-manual
+              - img "Khoá học sử dụng AI trong Test Manual" [ref=e107]
+            - generic [ref=e108]:
+              - generic [ref=e109]:
+                - link "img Anh Tester" [ref=e110]:
+                  - /url: https://anhtester.com/teacher/351
+                  - img "img" [ref=e112]
+                  - generic [ref=e113]: Anh Tester
+                - generic [ref=e114]: AI in Software Testing
+              - heading [level=6] [ref=e115]:
+                - link "Khoá học sử dụng AI trong Test Manual" [ref=e116]:
+                  - /url: https://anhtester.com/course/khoa-hoc-su-dung-ai-trong-test-manual
+              - paragraph [ref=e117]:
+                - generic [ref=e118]: 
+                - text: 14 bài học
+                - generic [ref=e119]: ·
+                - generic [ref=e120]: 
+                - text: Cơ bản đến Nâng cao
+              - generic [ref=e121]:
+                - heading "3,000,000đ" [level=5] [ref=e122]
+                - link "Xem khoá học " [ref=e123]:
+                  - /url: https://anhtester.com/course/khoa-hoc-su-dung-ai-trong-test-manual
+                  - text: Xem khoá học
+                  - generic [ref=e124]: 
+        - group "2 / 6" [ref=e125]:
+          - generic [ref=e126]:
+            - link [ref=e128]:
+              - /url: https://anhtester.com/course/khoa-hoc-su-dung-ai-trong-test-automation
+              - img "Khoá học sử dụng AI trong Test Automation" [ref=e129]
+            - generic [ref=e130]:
+              - generic [ref=e131]:
+                - link "img Anh Tester" [ref=e132]:
+                  - /url: https://anhtester.com/teacher/351
+                  - img "img" [ref=e134]
+                  - generic [ref=e135]: Anh Tester
+                - generic [ref=e136]: AI in Software Testing
+              - heading [level=6] [ref=e137]:
+                - link "Khoá học sử dụng AI trong Test Automation" [ref=e138]:
+                  - /url: https://anhtester.com/course/khoa-hoc-su-dung-ai-trong-test-automation
+              - paragraph [ref=e139]:
+                - generic [ref=e140]: 
+                - text: 17 bài học
+                - generic [ref=e141]: ·
+                - generic [ref=e142]: 
+                - text: Cơ bản đến Nâng cao
+              - generic [ref=e143]:
+                - heading "3,000,000đ" [level=5] [ref=e144]
+                - link "Xem khoá học " [ref=e145]:
+                  - /url: https://anhtester.com/course/khoa-hoc-su-dung-ai-trong-test-automation
+                  - text: Xem khoá học
+                  - generic [ref=e146]: 
+        - group "3 / 6" [ref=e147]:
+          - generic [ref=e148]:
+            - link [ref=e150]:
+              - /url: https://anhtester.com/course/khoa-hoc-su-dung-ai-trong-testing-voi-google-antigravity
+              - img "Khoá học sử dụng AI trong Testing với Google Antigravity" [ref=e151]
+            - generic [ref=e152]:
+              - generic [ref=e153]:
+                - link "img Anh Tester" [ref=e154]:
+                  - /url: https://anhtester.com/teacher/351
+                  - img "img" [ref=e156]
+                  - generic [ref=e157]: Anh Tester
+                - generic [ref=e158]: AI in Software Testing
+              - heading [level=6] [ref=e159]:
+                - link "Khoá học sử dụng AI trong Testing với Google Antigravity" [ref=e160]:
+                  - /url: https://anhtester.com/course/khoa-hoc-su-dung-ai-trong-testing-voi-google-antigravity
+              - paragraph [ref=e161]:
+                - generic [ref=e162]: 
+                - text: 8 bài học
+                - generic [ref=e163]: ·
+                - generic [ref=e164]: 
+                - text: Trung cấp
+              - generic [ref=e165]:
+                - heading "Free" [level=5] [ref=e166]
+                - link "Xem khoá học " [ref=e167]:
+                  - /url: https://anhtester.com/course/khoa-hoc-su-dung-ai-trong-testing-voi-google-antigravity
+                  - text: Xem khoá học
+                  - generic [ref=e168]: 
+        - group "4 / 6" [ref=e169]:
+          - generic [ref=e170]:
+            - link [ref=e172]:
+              - /url: https://anhtester.com/course/website-and-api-testing-automation-with-playwright-javascript-typescript-khong-day-code-js-ts
+              - img "Website and API Testing Automation with Playwright Javascript Typescript (KHÔNG DẠY CODE JS TS) + Ứng dụng AI" [ref=e173]
+            - generic [ref=e174]:
+              - generic [ref=e175]:
+                - link "img Nguyên Hoàng" [ref=e176]:
+                  - /url: https://anhtester.com/teacher/4182
+                  - img "img" [ref=e178]
+                  - generic [ref=e179]: Nguyên Hoàng
+                - generic [ref=e180]: Website Testing
+              - heading [level=6] [ref=e181]:
+                - link "Website and API Testing Automation with Playwright Javascript Typescript (KHÔNG DẠY CODE JS TS) + Ứng dụng AI" [ref=e182]:
+                  - /url: https://anhtester.com/course/website-and-api-testing-automation-with-playwright-javascript-typescript-khong-day-code-js-ts
+              - paragraph [ref=e183]:
+                - generic [ref=e184]: 
+                - text: 28 bài học
+                - generic [ref=e185]: ·
+                - generic [ref=e186]: 
+                - text: Cơ bản đến Nâng cao
+              - generic [ref=e187]:
+                - heading "3,500,000đ" [level=5] [ref=e188]
+                - link "Xem khoá học " [ref=e189]:
+                  - /url: https://anhtester.com/course/website-and-api-testing-automation-with-playwright-javascript-typescript-khong-day-code-js-ts
+                  - text: Xem khoá học
+                  - generic [ref=e190]: 
+        - group "5 / 6" [ref=e191]:
+          - generic [ref=e192]:
+            - link [ref=e194]:
+              - /url: https://anhtester.com/course/khoa-hoc-javascript-typescript-danh-cho-tester
+              - img "Khoá học Javascript Typescript dành cho Tester" [ref=e195]
+            - generic [ref=e196]:
+              - generic [ref=e197]:
+                - link "img Anh Tester" [ref=e198]:
+                  - /url: https://anhtester.com/teacher/351
+                  - img "img" [ref=e200]
+                  - generic [ref=e201]: Anh Tester
+                - generic [ref=e202]: Programming Language
+              - heading [level=6] [ref=e203]:
+                - link "Khoá học Javascript Typescript dành cho Tester" [ref=e204]:
+                  - /url: https://anhtester.com/course/khoa-hoc-javascript-typescript-danh-cho-tester
+              - paragraph [ref=e205]:
+                - generic [ref=e206]: 
+                - text: 13 bài học
+                - generic [ref=e207]: ·
+                - generic [ref=e208]: 
+                - text: Cơ bản đến Nâng cao
+              - generic [ref=e209]:
+                - heading "1,000,000đ" [level=5] [ref=e210]
+                - link "Xem khoá học " [ref=e211]:
+                  - /url: https://anhtester.com/course/khoa-hoc-javascript-typescript-danh-cho-tester
+                  - text: Xem khoá học
+                  - generic [ref=e212]: 
+        - group "6 / 6" [ref=e213]:
+          - generic [ref=e214]:
+            - link [ref=e216]:
+              - /url: https://anhtester.com/course/website-and-api-testing-with-katalon-studio-day-online
+              - img "Website and API Testing with Katalon Studio (DẠY ONLINE)" [ref=e217]
+            - generic [ref=e218]:
+              - generic [ref=e219]:
+                - link "img Phạm Đức Hải" [ref=e220]:
+                  - /url: https://anhtester.com/teacher/4180
+                  - img "img" [ref=e222]
+                  - generic [ref=e223]: Phạm Đức Hải
+                - generic [ref=e224]: Website Testing
+              - heading [level=6] [ref=e225]:
+                - link "Website and API Testing with Katalon Studio (DẠY ONLINE)" [ref=e226]:
+                  - /url: https://anhtester.com/course/website-and-api-testing-with-katalon-studio-day-online
+              - paragraph [ref=e227]:
+                - generic [ref=e228]: 
+                - text: 12 bài học
+                - generic [ref=e229]: ·
+                - generic [ref=e230]: 
+                - text: Trung cấp
+              - generic [ref=e231]:
+                - heading "2,500,000đ" [level=5] [ref=e232]
+                - link "Xem khoá học " [ref=e233]:
+                  - /url: https://anhtester.com/course/website-and-api-testing-with-katalon-studio-day-online
+                  - text: Xem khoá học
+                  - generic [ref=e234]: 
+    - generic [ref=e235]:
+      - img "img" [ref=e236]
+      - generic [ref=e237]:
+        - generic [ref=e238]:
+          - generic [ref=e239]: Danh mục khoá học
+          - heading "Khám phá theo lĩnh vực" [level=2] [ref=e240]
+          - paragraph [ref=e241]: Từ kiểm thử tự động, AI đến lập trình — chọn lĩnh vực bạn muốn chinh phục.
+        - generic [ref=e242]:
+          - generic [ref=e244]:
+            - heading [level=5] [ref=e247]:
+              - link "AI in Software Testing" [ref=e248]:
+                - /url: https://anhtester.com/courses?category=ai-in-testing
+            - paragraph [ref=e249]: 3 khoá học
+          - generic [ref=e251]:
+            - heading [level=5] [ref=e254]:
+              - link "Website Testing" [ref=e255]:
+                - /url: https://anhtester.com/courses?category=website-testing
+            - paragraph [ref=e256]: 10 khoá học
+          - generic [ref=e258]:
+            - heading [level=5] [ref=e261]:
+              - link "API Testing" [ref=e262]:
+                - /url: https://anhtester.com/courses?category=api-testing
+            - paragraph [ref=e263]: 3 khoá học
+          - generic [ref=e265]:
+            - heading [level=5] [ref=e268]:
+              - link "Mobile Testing" [ref=e269]:
+                - /url: https://anhtester.com/courses?category=mobile-testing
+            - paragraph [ref=e270]: 2 khoá học
+          - generic [ref=e272]:
+            - heading [level=5] [ref=e275]:
+              - link "Desktop Testing" [ref=e276]:
+                - /url: https://anhtester.com/courses?category=desktop-testing
+            - paragraph [ref=e277]: 1 khoá học
+          - generic [ref=e279]:
+            - heading [level=5] [ref=e282]:
+              - link "Performance Testing" [ref=e283]:
+                - /url: https://anhtester.com/courses?category=performance-testing
+            - paragraph [ref=e284]: 1 khoá học
+          - generic [ref=e286]:
+            - heading [level=5] [ref=e289]:
+              - link "Programming Language" [ref=e290]:
+                - /url: https://anhtester.com/courses?category=programming-language
+            - paragraph [ref=e291]: 4 khoá học
+        - link "Xem tất cả danh mục" [ref=e293]:
+          - /url: https://anhtester.com/courses
+    - generic [ref=e295]:
+      - generic [ref=e296]:
+        - generic [ref=e297]: Khoá học nổi bật
+        - heading "Khoá học mới nhất" [level=2] [ref=e298]
+        - paragraph [ref=e299]: Cập nhật những khoá học mới được phát hành, sẵn sàng cho bạn đăng ký.
+      - generic [ref=e300]:
+        - generic [ref=e302]:
+          - link [ref=e304]:
+            - /url: https://anhtester.com/course/khoa-hoc-su-dung-ai-trong-test-manual
+            - img "Khoá học sử dụng AI trong Test Manual" [ref=e305]
+          - generic [ref=e306]:
+            - generic [ref=e307]:
+              - link "img Anh Tester" [ref=e308]:
+                - /url: https://anhtester.com/teacher/351
+                - img "img" [ref=e310]
+                - generic [ref=e311]: Anh Tester
+              - generic [ref=e312]: AI in Software Testing
+            - heading [level=6] [ref=e313]:
+              - link "Khoá học sử dụng AI trong Test Manual" [ref=e314]:
+                - /url: https://anhtester.com/course/khoa-hoc-su-dung-ai-trong-test-manual
+            - paragraph [ref=e315]:
+              - generic [ref=e316]: 
+              - text: 14 bài học
+              - generic [ref=e317]: ·
+              - generic [ref=e318]: 
+              - text: Cơ bản đến Nâng cao
+            - generic [ref=e319]:
+              - heading "3,000,000đ" [level=5] [ref=e320]
+              - link "Xem khoá học " [ref=e321]:
+                - /url: https://anhtester.com/course/khoa-hoc-su-dung-ai-trong-test-manual
+                - text: Xem khoá học
+                - generic [ref=e322]: 
+        - generic [ref=e324]:
+          - link [ref=e326]:
+            - /url: https://anhtester.com/course/khoa-hoc-su-dung-ai-trong-test-automation
+            - img "Khoá học sử dụng AI trong Test Automation" [ref=e327]
+          - generic [ref=e328]:
+            - generic [ref=e329]:
+              - link "img Anh Tester" [ref=e330]:
+                - /url: https://anhtester.com/teacher/351
+                - img "img" [ref=e332]
+                - generic [ref=e333]: Anh Tester
+              - generic [ref=e334]: AI in Software Testing
+            - heading [level=6] [ref=e335]:
+              - link "Khoá học sử dụng AI trong Test Automation" [ref=e336]:
+                - /url: https://anhtester.com/course/khoa-hoc-su-dung-ai-trong-test-automation
+            - paragraph [ref=e337]:
+              - generic [ref=e338]: 
+              - text: 17 bài học
+              - generic [ref=e339]: ·
+              - generic [ref=e340]: 
+              - text: Cơ bản đến Nâng cao
+            - generic [ref=e341]:
+              - heading "3,000,000đ" [level=5] [ref=e342]
+              - link "Xem khoá học " [ref=e343]:
+                - /url: https://anhtester.com/course/khoa-hoc-su-dung-ai-trong-test-automation
+                - text: Xem khoá học
+                - generic [ref=e344]: 
+        - generic [ref=e346]:
+          - link [ref=e348]:
+            - /url: https://anhtester.com/course/khoa-hoc-su-dung-ai-trong-testing-voi-google-antigravity
+            - img "Khoá học sử dụng AI trong Testing với Google Antigravity" [ref=e349]
+          - generic [ref=e350]:
+            - generic [ref=e351]:
+              - link "img Anh Tester" [ref=e352]:
+                - /url: https://anhtester.com/teacher/351
+                - img "img" [ref=e354]
+                - generic [ref=e355]: Anh Tester
+              - generic [ref=e356]: AI in Software Testing
+            - heading [level=6] [ref=e357]:
+              - link "Khoá học sử dụng AI trong Testing với Google Antigravity" [ref=e358]:
+                - /url: https://anhtester.com/course/khoa-hoc-su-dung-ai-trong-testing-voi-google-antigravity
+            - paragraph [ref=e359]:
+              - generic [ref=e360]: 
+              - text: 8 bài học
+              - generic [ref=e361]: ·
+              - generic [ref=e362]: 
+              - text: Trung cấp
+            - generic [ref=e363]:
+              - heading "Free" [level=5] [ref=e364]
+              - link "Xem khoá học " [ref=e365]:
+                - /url: https://anhtester.com/course/khoa-hoc-su-dung-ai-trong-testing-voi-google-antigravity
+                - text: Xem khoá học
+                - generic [ref=e366]: 
+        - generic [ref=e368]:
+          - link [ref=e370]:
+            - /url: https://anhtester.com/course/website-and-api-testing-automation-with-playwright-javascript-typescript-khong-day-code-js-ts
+            - img "Website and API Testing Automation with Playwright Javascript Typescript (KHÔNG DẠY CODE JS TS) + Ứng dụng AI" [ref=e371]
+          - generic [ref=e372]:
+            - generic [ref=e373]:
+              - link "img Nguyên Hoàng" [ref=e374]:
+                - /url: https://anhtester.com/teacher/4182
+                - img "img" [ref=e376]
+                - generic [ref=e377]: Nguyên Hoàng
+              - generic [ref=e378]: Website Testing
+            - heading [level=6] [ref=e379]:
+              - link "Website and API Testing Automation with Playwright Javascript Typescript (KHÔNG DẠY CODE JS TS) + Ứng dụng AI" [ref=e380]:
+                - /url: https://anhtester.com/course/website-and-api-testing-automation-with-playwright-javascript-typescript-khong-day-code-js-ts
+            - paragraph [ref=e381]:
+              - generic [ref=e382]: 
+              - text: 28 bài học
+              - generic [ref=e383]: ·
+              - generic [ref=e384]: 
+              - text: Cơ bản đến Nâng cao
+            - generic [ref=e385]:
+              - heading "3,500,000đ" [level=5] [ref=e386]
+              - link "Xem khoá học " [ref=e387]:
+                - /url: https://anhtester.com/course/website-and-api-testing-automation-with-playwright-javascript-typescript-khong-day-code-js-ts
+                - text: Xem khoá học
+                - generic [ref=e388]: 
+        - generic [ref=e390]:
+          - link [ref=e392]:
+            - /url: https://anhtester.com/course/khoa-hoc-javascript-typescript-danh-cho-tester
+            - img "Khoá học Javascript Typescript dành cho Tester" [ref=e393]
+          - generic [ref=e394]:
+            - generic [ref=e395]:
+              - link "img Anh Tester" [ref=e396]:
+                - /url: https://anhtester.com/teacher/351
+                - img "img" [ref=e398]
+                - generic [ref=e399]: Anh Tester
+              - generic [ref=e400]: Programming Language
+            - heading [level=6] [ref=e401]:
+              - link "Khoá học Javascript Typescript dành cho Tester" [ref=e402]:
+                - /url: https://anhtester.com/course/khoa-hoc-javascript-typescript-danh-cho-tester
+            - paragraph [ref=e403]:
+              - generic [ref=e404]: 
+              - text: 13 bài học
+              - generic [ref=e405]: ·
+              - generic [ref=e406]: 
+              - text: Cơ bản đến Nâng cao
+            - generic [ref=e407]:
+              - heading "1,000,000đ" [level=5] [ref=e408]
+              - link "Xem khoá học " [ref=e409]:
+                - /url: https://anhtester.com/course/khoa-hoc-javascript-typescript-danh-cho-tester
+                - text: Xem khoá học
+                - generic [ref=e410]: 
+        - generic [ref=e412]:
+          - link [ref=e414]:
+            - /url: https://anhtester.com/course/website-and-api-testing-with-katalon-studio-day-online
+            - img "Website and API Testing with Katalon Studio (DẠY ONLINE)" [ref=e415]
+          - generic [ref=e416]:
+            - generic [ref=e417]:
+              - link "img Phạm Đức Hải" [ref=e418]:
+                - /url: https://anhtester.com/teacher/4180
+                - img "img" [ref=e420]
+                - generic [ref=e421]: Phạm Đức Hải
+              - generic [ref=e422]: Website Testing
+            - heading [level=6] [ref=e423]:
+              - link "Website and API Testing with Katalon Studio (DẠY ONLINE)" [ref=e424]:
+                - /url: https://anhtester.com/course/website-and-api-testing-with-katalon-studio-day-online
+            - paragraph [ref=e425]:
+              - generic [ref=e426]: 
+              - text: 12 bài học
+              - generic [ref=e427]: ·
+              - generic [ref=e428]: 
+              - text: Trung cấp
+            - generic [ref=e429]:
+              - heading "2,500,000đ" [level=5] [ref=e430]
+              - link "Xem khoá học " [ref=e431]:
+                - /url: https://anhtester.com/course/website-and-api-testing-with-katalon-studio-day-online
+                - text: Xem khoá học
+                - generic [ref=e432]: 
+      - link "Xem tất cả khoá học" [ref=e434]:
+        - /url: https://anhtester.com/courses
+    - generic [ref=e436]:
+      - generic [ref=e439]:
+        - generic [ref=e440]: Bạn nhận được gì
+        - heading "Học những gì & học như thế nào" [level=2] [ref=e441]
+        - paragraph [ref=e442]: Lộ trình rõ ràng, thực hành dự án thật, và chứng chỉ giúp bạn tự tin bước vào nghề Test Automation & AI.
+      - generic [ref=e443]:
+        - generic [ref=e446]:
+          - generic [ref=e447]:
+            - heading "Hệ thống quản lý khoá học chuyên nghiệp" [level=3] [ref=e448]
+            - paragraph [ref=e449]: "Trải nghiệm học tập được tối ưu cho cả giảng viên và học viên: nội dung có cấu trúc, theo dõi tiến độ và tương tác trực quan."
+            - list [ref=e450]:
+              - listitem [ref=e451]:
+                - generic [ref=e452]: ؐ
+                - text: Công cụ tương tác, thực hành trực tiếp
+              - listitem [ref=e453]:
+                - generic [ref=e454]: ؐ
+                - text: Lộ trình & chương trình học từ cơ bản đến nâng cao
+              - listitem [ref=e455]:
+                - generic [ref=e456]: ؐ
+                - text: Theo dõi tiến độ học tập sát, làm bài tập
+              - listitem [ref=e457]:
+                - generic [ref=e458]: ؐ
+                - text: Hỗ trợ dài lâu không thời hạn
+              - listitem [ref=e459]:
+                - generic [ref=e460]: ؐ
+                - text: Đội ngũ giảng viên giàu kinh nghiệm
+          - generic [ref=e462]:
+            - img "Ảnh" [ref=e463]
+            - img "Ảnh" [ref=e465]
+        - generic [ref=e468]:
+          - generic [ref=e470]:
+            - img "Ảnh" [ref=e471]
+            - img "Ảnh" [ref=e473]
+          - generic [ref=e474]:
+            - heading "Học Online mọi lúc mọi nơi hoặc tự học qua Video Record" [level=3] [ref=e475]
+            - paragraph [ref=e476]: Nội dung trực tuyến linh hoạt giúp bạn chủ động thời gian học, ôn lại bất cứ khi nào và tiến bộ theo tốc độ riêng. Support dài lâu không thời hạn.
+            - list [ref=e477]:
+              - listitem [ref=e478]:
+                - generic [ref=e479]: ؐ
+                - text: Truy cập trọn đời vào kho kiến thức
+              - listitem [ref=e480]:
+                - generic [ref=e481]: ؐ
+                - text: "Đa dạng định dạng học: video, tài liệu, blog, code, support"
+              - listitem [ref=e482]:
+                - generic [ref=e483]: ؐ
+                - text: Học theo tốc độ của riêng bạn
+              - listitem [ref=e484]:
+                - generic [ref=e485]: ؐ
+                - text: Học phí hợp lý & linh hoạt
+              - listitem [ref=e486]:
+                - generic [ref=e487]: ؐ
+                - text: Thực hành trên dự án thực tế
+        - generic [ref=e490]:
+          - generic [ref=e491]:
+            - heading "Chứng chỉ cho sự nghiệp vững chắc" [level=3] [ref=e492]
+            - paragraph [ref=e493]: Hoàn thành khoá học và nhận chứng chỉ — minh chứng cho năng lực, tăng độ tin cậy và mở rộng cơ hội nghề nghiệp.
+            - list [ref=e494]:
+              - listitem [ref=e495]:
+                - generic [ref=e496]: ؐ
+                - text: Khẳng định chuyên môn của bạn
+              - listitem [ref=e497]:
+                - generic [ref=e498]: ؐ
+                - text: Tăng độ uy tín với nhà tuyển dụng
+              - listitem [ref=e499]:
+                - generic [ref=e500]: ؐ
+                - text: Cải thiện cơ hội & sự ổn định công việc
+              - listitem [ref=e501]:
+                - generic [ref=e502]: ؐ
+                - text: Thúc đẩy thăng tiến trong sự nghiệp
+              - listitem [ref=e503]:
+                - generic [ref=e504]: ؐ
+                - text: Hệ thống xác nhận chứng chỉ tin cậy bởi Anh Tester
+          - generic [ref=e506]:
+            - img "Ảnh" [ref=e507]
+            - img "Ảnh" [ref=e509]
+    - generic [ref=e511]:
+      - generic [ref=e512]:
+        - generic [ref=e513]: Đội ngũ giảng viên
+        - heading "Giảng viên chuyên gia thực chiến" [level=2] [ref=e514]
+        - paragraph [ref=e515]: Học trực tiếp từ những người đang làm nghề Test Automation & AI.
+      - generic [ref=e516]:
+        - button "Previous" [ref=e517]: Previous
+        - generic [ref=e519]:
+          - generic [ref=e523]:
+            - link [ref=e525]:
+              - /url: https://anhtester.com/teacher/4182
+            - heading [level=5] [ref=e529]:
+              - link [ref=e530]:
+                - /url: https://anhtester.com/teacher/4182
+                - text: Nguyên Hoàng
+            - paragraph [ref=e531]: Automation Engineer
+            - generic [ref=e532]:
+              - generic [ref=e533]: ؄
+              - text: 2 khoá học
+            - link [ref=e535]:
+              - /url: https://anhtester.com/teacher/4182
+              - text: Xem hồ sơ
+          - generic [ref=e539]:
+            - link [ref=e541]:
+              - /url: https://anhtester.com/teacher/4155
+            - heading [level=5] [ref=e545]:
+              - link [ref=e546]:
+                - /url: https://anhtester.com/teacher/4155
+                - text: NGUYỄN TRÍ DIỆN
+            - paragraph [ref=e547]: Fullstack QA
+            - generic [ref=e548]:
+              - generic [ref=e549]: ؄
+              - text: 1 khoá học
+            - link [ref=e551]:
+              - /url: https://anhtester.com/teacher/4155
+              - text: Xem hồ sơ
+          - generic [ref=e555]:
+            - link [ref=e557]:
+              - /url: https://anhtester.com/teacher/chuot.beo.di.test
+            - heading [level=5] [ref=e561]:
+              - link [ref=e562]:
+                - /url: https://anhtester.com/teacher/chuot.beo.di.test
+                - text: Phạm Đức Hải
+            - paragraph [ref=e563]: QA Automation Engineer
+            - generic [ref=e564]:
+              - generic [ref=e565]: ؄
+              - text: 1 khoá học
+            - link [ref=e567]:
+              - /url: https://anhtester.com/teacher/chuot.beo.di.test
+              - text: Xem hồ sơ
+          - generic [ref=e571]:
+            - generic [ref=e572]:
+              - link [ref=e573]:
+                - /url: https://anhtester.com/teacher/anhtester
+                - img "Anh Tester" [ref=e574]
+              - img "verified" [ref=e576]
+            - heading [level=5] [ref=e577]:
+              - link "Anh Tester" [ref=e578]:
+                - /url: https://anhtester.com/teacher/anhtester
+            - paragraph [ref=e579]: QA Engineer
+            - generic [ref=e580]:
+              - generic [ref=e581]: ؄
+              - text: 17 khoá học
+            - link "Xem hồ sơ" [ref=e583]:
+              - /url: https://anhtester.com/teacher/anhtester
+          - generic [ref=e587]:
+            - generic [ref=e588]:
+              - link [ref=e589]:
+                - /url: https://anhtester.com/teacher/4183
+                - img "Hà Lan" [ref=e590]
+              - img "verified" [ref=e592]
+            - heading [level=5] [ref=e593]:
+              - link "Hà Lan" [ref=e594]:
+                - /url: https://anhtester.com/teacher/4183
+            - paragraph [ref=e595]: QA Automation
+            - generic [ref=e596]:
+              - generic [ref=e597]: ؄
+              - text: 3 khoá học
+            - link "Xem hồ sơ" [ref=e599]:
+              - /url: https://anhtester.com/teacher/4183
+          - generic [ref=e603]:
+            - generic [ref=e604]:
+              - link [ref=e605]:
+                - /url: https://anhtester.com/teacher/4182
+                - img "Nguyên Hoàng" [ref=e606]
+              - img "verified" [ref=e608]
+            - heading [level=5] [ref=e609]:
+              - link "Nguyên Hoàng" [ref=e610]:
+                - /url: https://anhtester.com/teacher/4182
+            - paragraph [ref=e611]: Automation Engineer
+            - generic [ref=e612]:
+              - generic [ref=e613]: ؄
+              - text: 2 khoá học
+            - link "Xem hồ sơ" [ref=e615]:
+              - /url: https://anhtester.com/teacher/4182
+          - generic [ref=e619]:
+            - link [ref=e621]:
+              - /url: https://anhtester.com/teacher/4155
+            - heading [level=5] [ref=e625]:
+              - link [ref=e626]:
+                - /url: https://anhtester.com/teacher/4155
+                - text: NGUYỄN TRÍ DIỆN
+            - paragraph [ref=e627]: Fullstack QA
+            - generic [ref=e628]:
+              - generic [ref=e629]: ؄
+              - text: 1 khoá học
+            - link [ref=e631]:
+              - /url: https://anhtester.com/teacher/4155
+              - text: Xem hồ sơ
+          - generic [ref=e635]:
+            - link [ref=e637]:
+              - /url: https://anhtester.com/teacher/chuot.beo.di.test
+            - heading [level=5] [ref=e641]:
+              - link [ref=e642]:
+                - /url: https://anhtester.com/teacher/chuot.beo.di.test
+                - text: Phạm Đức Hải
+            - paragraph [ref=e643]: QA Automation Engineer
+            - generic [ref=e644]:
+              - generic [ref=e645]: ؄
+              - text: 1 khoá học
+            - link [ref=e647]:
+              - /url: https://anhtester.com/teacher/chuot.beo.di.test
+              - text: Xem hồ sơ
+          - generic [ref=e651]:
+            - link [ref=e653]:
+              - /url: https://anhtester.com/teacher/anhtester
+            - heading [level=5] [ref=e657]:
+              - link [ref=e658]:
+                - /url: https://anhtester.com/teacher/anhtester
+                - text: Anh Tester
+            - paragraph [ref=e659]: QA Engineer
+            - generic [ref=e660]:
+              - generic [ref=e661]: ؄
+              - text: 17 khoá học
+            - link [ref=e663]:
+              - /url: https://anhtester.com/teacher/anhtester
+              - text: Xem hồ sơ
+          - generic [ref=e667]:
+            - link [ref=e669]:
+              - /url: https://anhtester.com/teacher/4183
+            - heading [level=5] [ref=e673]:
+              - link [ref=e674]:
+                - /url: https://anhtester.com/teacher/4183
+                - text: Hà Lan
+            - paragraph [ref=e675]: QA Automation
+            - generic [ref=e676]:
+              - generic [ref=e677]: ؄
+              - text: 3 khoá học
+            - link [ref=e679]:
+              - /url: https://anhtester.com/teacher/4183
+              - text: Xem hồ sơ
+          - generic [ref=e683]:
+            - link [ref=e685]:
+              - /url: https://anhtester.com/teacher/4182
+            - heading [level=5] [ref=e689]:
+              - link [ref=e690]:
+                - /url: https://anhtester.com/teacher/4182
+                - text: Nguyên Hoàng
+            - paragraph [ref=e691]: Automation Engineer
+            - generic [ref=e692]:
+              - generic [ref=e693]: ؄
+              - text: 2 khoá học
+            - link [ref=e695]:
+              - /url: https://anhtester.com/teacher/4182
+              - text: Xem hồ sơ
+          - generic [ref=e699]:
+            - link [ref=e701]:
+              - /url: https://anhtester.com/teacher/4155
+            - heading [level=5] [ref=e705]:
+              - link [ref=e706]:
+                - /url: https://anhtester.com/teacher/4155
+                - text: NGUYỄN TRÍ DIỆN
+            - paragraph [ref=e707]: Fullstack QA
+            - generic [ref=e708]:
+              - generic [ref=e709]: ؄
+              - text: 1 khoá học
+            - link [ref=e711]:
+              - /url: https://anhtester.com/teacher/4155
+              - text: Xem hồ sơ
+          - generic [ref=e715]:
+            - link [ref=e717]:
+              - /url: https://anhtester.com/teacher/chuot.beo.di.test
+            - heading [level=5] [ref=e721]:
+              - link [ref=e722]:
+                - /url: https://anhtester.com/teacher/chuot.beo.di.test
+                - text: Phạm Đức Hải
+            - paragraph [ref=e723]: QA Automation Engineer
+            - generic [ref=e724]:
+              - generic [ref=e725]: ؄
+              - text: 1 khoá học
+            - link [ref=e727]:
+              - /url: https://anhtester.com/teacher/chuot.beo.di.test
+              - text: Xem hồ sơ
+        - button "Next" [ref=e728]: Next
+      - link "Xem tất cả giảng viên" [ref=e730]:
+        - /url: https://anhtester.com/teacher
+    - generic [ref=e732]:
+      - generic [ref=e733]:
+        - generic [ref=e734]: Bài viết & cập nhật
+        - heading "Blog mới nhất" [level=2] [ref=e735]
+        - paragraph [ref=e736]: Kiến thức, mẹo và tin tức về Test Automation, AI và sự nghiệp công nghệ.
+      - generic [ref=e737]:
+        - generic [ref=e739]:
+          - generic [ref=e743]:
+            - link [ref=e744]:
+              - /url: https://anhtester.com/blog/20-cau-hoi-phong-van-test-automation-danh-cho-junior-middle-kem-goi-y-tra-loi
+            - generic [ref=e746]:
+              - generic [ref=e747]:
+                - link [ref=e748]:
+                  - /url: https://anhtester.com/blog/category/automation-testing
+                  - text: Automation Testing
+                - generic [ref=e749]:
+                  - generic [ref=e750]: 
+                  - text: 31/05/2026
+              - heading [level=6] [ref=e751]:
+                - link [ref=e752]:
+                  - /url: https://anhtester.com/blog/20-cau-hoi-phong-van-test-automation-danh-cho-junior-middle-kem-goi-y-tra-loi
+                  - text: 20 câu hỏi phỏng vấn Test Automation dành cho Junior & Middle kèm Gợi ý trả lời
+              - generic [ref=e753]: Anh Tester
+          - generic [ref=e758]:
+            - link [ref=e759]:
+              - /url: https://anhtester.com/blog/30-cau-hoi-phong-van-test-automation-danh-cho-senior-kem-goi-y-tra-loi
+            - generic [ref=e761]:
+              - generic [ref=e762]:
+                - link [ref=e763]:
+                  - /url: https://anhtester.com/blog/category/automation-testing
+                  - text: Automation Testing
+                - generic [ref=e764]:
+                  - generic [ref=e765]: 
+                  - text: 31/05/2026
+              - heading [level=6] [ref=e766]:
+                - link [ref=e767]:
+                  - /url: https://anhtester.com/blog/30-cau-hoi-phong-van-test-automation-danh-cho-senior-kem-goi-y-tra-loi
+                  - text: 30 câu hỏi phỏng vấn Test Automation dành cho Senior kèm Gợi ý trả lời
+              - generic [ref=e768]: Anh Tester
+          - generic [ref=e773]:
+            - link [ref=e774]:
+              - /url: https://anhtester.com/blog/40-cau-hoi-phong-van-danh-cho-fresher-tester-kem-dap-an-chi-tiet
+            - generic [ref=e776]:
+              - generic [ref=e777]:
+                - link [ref=e778]:
+                  - /url: https://anhtester.com/blog/category/manual-testing
+                  - text: Manual Testing
+                - generic [ref=e779]:
+                  - generic [ref=e780]: 
+                  - text: 28/05/2026
+              - heading [level=6] [ref=e781]:
+                - link [ref=e782]:
+                  - /url: https://anhtester.com/blog/40-cau-hoi-phong-van-danh-cho-fresher-tester-kem-dap-an-chi-tiet
+                  - text: 40 câu hỏi phỏng vấn dành cho Fresher Tester kèm Đáp án chi tiết
+              - generic [ref=e783]: Anh Tester
+          - tabpanel [ref=e785]:
+            - generic [ref=e788]:
+              - link [ref=e789]:
+                - /url: https://anhtester.com/blog/lich-khai-giang-khoa-hoc-online-su-dung-ai-trong-test-automation-thang-82026
+                - img "🤖Lịch khai giảng khoá học Online sử dụng AI trong Test Automation tháng 8/2026" [ref=e790]
+              - generic [ref=e791]:
+                - generic [ref=e792]:
+                  - link "Lịch khai giảng" [ref=e793]:
+                    - /url: https://anhtester.com/blog/category/lich-khai-giang
+                  - generic [ref=e794]:
+                    - generic [ref=e795]: 
+                    - text: 06/08/2026
+                - heading [level=6] [ref=e796]:
+                  - link "🤖Lịch khai giảng khoá học Online sử dụng AI trong Test Automation tháng 8/2026" [ref=e797]:
+                    - /url: https://anhtester.com/blog/lich-khai-giang-khoa-hoc-online-su-dung-ai-trong-test-automation-thang-82026
+                - generic [ref=e798]: Anh Tester
+          - tabpanel [ref=e800]:
+            - generic [ref=e803]:
+              - link [ref=e804]:
+                - /url: https://anhtester.com/blog/lich-khai-giang-khoa-hoc-online-su-dung-ai-trong-test-manual-thang-82026
+                - img "💥Lịch khai giảng khoá học Online sử dụng AI trong Test Manual tháng 8/2026" [ref=e805]
+              - generic [ref=e806]:
+                - generic [ref=e807]:
+                  - link "Lịch khai giảng" [ref=e808]:
+                    - /url: https://anhtester.com/blog/category/lich-khai-giang
+                  - generic [ref=e809]:
+                    - generic [ref=e810]: 
+                    - text: 06/08/2026
+                - heading [level=6] [ref=e811]:
+                  - link "💥Lịch khai giảng khoá học Online sử dụng AI trong Test Manual tháng 8/2026" [ref=e812]:
+                    - /url: https://anhtester.com/blog/lich-khai-giang-khoa-hoc-online-su-dung-ai-trong-test-manual-thang-82026
+                - generic [ref=e813]: Anh Tester
+          - tabpanel [ref=e815]:
+            - generic [ref=e818]:
+              - link [ref=e819]:
+                - /url: https://anhtester.com/blog/anhtester-toolkit-tien-ich-danh-cho-tester
+                - img "AnhTester Toolkit — Tiện ích dành cho Tester" [ref=e820]
+              - generic [ref=e821]:
+                - generic [ref=e822]:
+                  - link "Tools" [ref=e823]:
+                    - /url: https://anhtester.com/blog/category/tools
+                  - generic [ref=e824]:
+                    - generic [ref=e825]: 
+                    - text: 21/07/2026
+                - heading [level=6] [ref=e826]:
+                  - link "AnhTester Toolkit — Tiện ích dành cho Tester" [ref=e827]:
+                    - /url: https://anhtester.com/blog/anhtester-toolkit-tien-ich-danh-cho-tester
+                - generic [ref=e828]: Anh Tester
+          - tabpanel [ref=e830]:
+            - generic [ref=e833]:
+              - link [ref=e834]:
+                - /url: https://anhtester.com/blog/claude-testing-kit
+              - generic [ref=e836]:
+                - generic [ref=e837]:
+                  - link [ref=e838]:
+                    - /url: https://anhtester.com/blog/category/tools
+                    - text: Tools
+                  - generic [ref=e839]:
+                    - generic [ref=e840]: 
+                    - text: 16/07/2026
+                - heading [level=6] [ref=e841]:
+                  - link [ref=e842]:
+                    - /url: https://anhtester.com/blog/claude-testing-kit
+                    - text: Claude Testing Kit 🚀
+                - generic [ref=e843]: Anh Tester
+          - tabpanel [ref=e845]:
+            - generic [ref=e848]:
+              - link [ref=e849]:
+                - /url: https://anhtester.com/blog/codex-testing-kit
+              - generic [ref=e851]:
+                - generic [ref=e852]:
+                  - link [ref=e853]:
+                    - /url: https://anhtester.com/blog/category/tools
+                    - text: Tools
+                  - generic [ref=e854]:
+                    - generic [ref=e855]: 
+                    - text: 16/07/2026
+                - heading [level=6] [ref=e856]:
+                  - link [ref=e857]:
+                    - /url: https://anhtester.com/blog/codex-testing-kit
+                    - text: Codex Testing Kit 🚀
+                - generic [ref=e858]: Anh Tester
+          - tabpanel [ref=e860]:
+            - generic [ref=e863]:
+              - link [ref=e864]:
+                - /url: https://anhtester.com/blog/antigravity-testing-kit
+              - generic [ref=e866]:
+                - generic [ref=e867]:
+                  - link [ref=e868]:
+                    - /url: https://anhtester.com/blog/category/tools
+                    - text: Tools
+                  - generic [ref=e869]:
+                    - generic [ref=e870]: 
+                    - text: 16/07/2026
+                - heading [level=6] [ref=e871]:
+                  - link [ref=e872]:
+                    - /url: https://anhtester.com/blog/antigravity-testing-kit
+                    - text: Antigravity Testing Kit 🚀
+                - generic [ref=e873]: Anh Tester
+          - tabpanel [ref=e875]:
+            - generic [ref=e878]:
+              - link [ref=e879]:
+                - /url: https://anhtester.com/blog/20-cau-hoi-phong-van-test-automation-danh-cho-junior-middle-kem-goi-y-tra-loi
+              - generic [ref=e881]:
+                - generic [ref=e882]:
+                  - link [ref=e883]:
+                    - /url: https://anhtester.com/blog/category/automation-testing
+                    - text: Automation Testing
+                  - generic [ref=e884]:
+                    - generic [ref=e885]: 
+                    - text: 31/05/2026
+                - heading [level=6] [ref=e886]:
+                  - link [ref=e887]:
+                    - /url: https://anhtester.com/blog/20-cau-hoi-phong-van-test-automation-danh-cho-junior-middle-kem-goi-y-tra-loi
+                    - text: 20 câu hỏi phỏng vấn Test Automation dành cho Junior & Middle kèm Gợi ý trả lời
+                - generic [ref=e888]: Anh Tester
+          - tabpanel [ref=e890]:
+            - generic [ref=e893]:
+              - link [ref=e894]:
+                - /url: https://anhtester.com/blog/30-cau-hoi-phong-van-test-automation-danh-cho-senior-kem-goi-y-tra-loi
+              - generic [ref=e896]:
+                - generic [ref=e897]:
+                  - link [ref=e898]:
+                    - /url: https://anhtester.com/blog/category/automation-testing
+                    - text: Automation Testing
+                  - generic [ref=e899]:
+                    - generic [ref=e900]: 
+                    - text: 31/05/2026
+                - heading [level=6] [ref=e901]:
+                  - link [ref=e902]:
+                    - /url: https://anhtester.com/blog/30-cau-hoi-phong-van-test-automation-danh-cho-senior-kem-goi-y-tra-loi
+                    - text: 30 câu hỏi phỏng vấn Test Automation dành cho Senior kèm Gợi ý trả lời
+                - generic [ref=e903]: Anh Tester
+          - tabpanel [ref=e905]:
+            - generic [ref=e908]:
+              - link [ref=e909]:
+                - /url: https://anhtester.com/blog/40-cau-hoi-phong-van-danh-cho-fresher-tester-kem-dap-an-chi-tiet
+              - generic [ref=e911]:
+                - generic [ref=e912]:
+                  - link [ref=e913]:
+                    - /url: https://anhtester.com/blog/category/manual-testing
+                    - text: Manual Testing
+                  - generic [ref=e914]:
+                    - generic [ref=e915]: 
+                    - text: 28/05/2026
+                - heading [level=6] [ref=e916]:
+                  - link [ref=e917]:
+                    - /url: https://anhtester.com/blog/40-cau-hoi-phong-van-danh-cho-fresher-tester-kem-dap-an-chi-tiet
+                    - text: 40 câu hỏi phỏng vấn dành cho Fresher Tester kèm Đáp án chi tiết
+                - generic [ref=e918]: Anh Tester
+          - generic [ref=e923]:
+            - link [ref=e924]:
+              - /url: https://anhtester.com/blog/lich-khai-giang-khoa-hoc-online-su-dung-ai-trong-test-automation-thang-82026
+            - generic [ref=e926]:
+              - generic [ref=e927]:
+                - link [ref=e928]:
+                  - /url: https://anhtester.com/blog/category/lich-khai-giang
+                  - text: Lịch khai giảng
+                - generic [ref=e929]:
+                  - generic [ref=e930]: 
+                  - text: 06/08/2026
+              - heading [level=6] [ref=e931]:
+                - link [ref=e932]:
+                  - /url: https://anhtester.com/blog/lich-khai-giang-khoa-hoc-online-su-dung-ai-trong-test-automation-thang-82026
+                  - text: 🤖Lịch khai giảng khoá học Online sử dụng AI trong Test Automation tháng 8/2026
+              - generic [ref=e933]: Anh Tester
+          - generic [ref=e938]:
+            - link [ref=e939]:
+              - /url: https://anhtester.com/blog/lich-khai-giang-khoa-hoc-online-su-dung-ai-trong-test-manual-thang-82026
+            - generic [ref=e941]:
+              - generic [ref=e942]:
+                - link [ref=e943]:
+                  - /url: https://anhtester.com/blog/category/lich-khai-giang
+                  - text: Lịch khai giảng
+                - generic [ref=e944]:
+                  - generic [ref=e945]: 
+                  - text: 06/08/2026
+              - heading [level=6] [ref=e946]:
+                - link [ref=e947]:
+                  - /url: https://anhtester.com/blog/lich-khai-giang-khoa-hoc-online-su-dung-ai-trong-test-manual-thang-82026
+                  - text: 💥Lịch khai giảng khoá học Online sử dụng AI trong Test Manual tháng 8/2026
+              - generic [ref=e948]: Anh Tester
+          - generic [ref=e953]:
+            - link [ref=e954]:
+              - /url: https://anhtester.com/blog/anhtester-toolkit-tien-ich-danh-cho-tester
+            - generic [ref=e956]:
+              - generic [ref=e957]:
+                - link [ref=e958]:
+                  - /url: https://anhtester.com/blog/category/tools
+                  - text: Tools
+                - generic [ref=e959]:
+                  - generic [ref=e960]: 
+                  - text: 21/07/2026
+              - heading [level=6] [ref=e961]:
+                - link [ref=e962]:
+                  - /url: https://anhtester.com/blog/anhtester-toolkit-tien-ich-danh-cho-tester
+                  - text: AnhTester Toolkit — Tiện ích dành cho Tester
+              - generic [ref=e963]: Anh Tester
+          - generic [ref=e968]:
+            - link [ref=e969]:
+              - /url: https://anhtester.com/blog/claude-testing-kit
+            - generic [ref=e971]:
+              - generic [ref=e972]:
+                - link [ref=e973]:
+                  - /url: https://anhtester.com/blog/category/tools
+                  - text: Tools
+                - generic [ref=e974]:
+                  - generic [ref=e975]: 
+                  - text: 16/07/2026
+              - heading [level=6] [ref=e976]:
+                - link [ref=e977]:
+                  - /url: https://anhtester.com/blog/claude-testing-kit
+                  - text: Claude Testing Kit 🚀
+              - generic [ref=e978]: Anh Tester
+          - generic [ref=e983]:
+            - link [ref=e984]:
+              - /url: https://anhtester.com/blog/codex-testing-kit
+            - generic [ref=e986]:
+              - generic [ref=e987]:
+                - link [ref=e988]:
+                  - /url: https://anhtester.com/blog/category/tools
+                  - text: Tools
+                - generic [ref=e989]:
+                  - generic [ref=e990]: 
+                  - text: 16/07/2026
+              - heading [level=6] [ref=e991]:
+                - link [ref=e992]:
+                  - /url: https://anhtester.com/blog/codex-testing-kit
+                  - text: Codex Testing Kit 🚀
+              - generic [ref=e993]: Anh Tester
+          - generic [ref=e998]:
+            - link [ref=e999]:
+              - /url: https://anhtester.com/blog/antigravity-testing-kit
+            - generic [ref=e1001]:
+              - generic [ref=e1002]:
+                - link [ref=e1003]:
+                  - /url: https://anhtester.com/blog/category/tools
+                  - text: Tools
+                - generic [ref=e1004]:
+                  - generic [ref=e1005]: 
+                  - text: 16/07/2026
+              - heading [level=6] [ref=e1006]:
+                - link [ref=e1007]:
+                  - /url: https://anhtester.com/blog/antigravity-testing-kit
+                  - text: Antigravity Testing Kit 🚀
+              - generic [ref=e1008]: Anh Tester
+          - generic [ref=e1013]:
+            - link [ref=e1014]:
+              - /url: https://anhtester.com/blog/20-cau-hoi-phong-van-test-automation-danh-cho-junior-middle-kem-goi-y-tra-loi
+            - generic [ref=e1016]:
+              - generic [ref=e1017]:
+                - link [ref=e1018]:
+                  - /url: https://anhtester.com/blog/category/automation-testing
+                  - text: Automation Testing
+                - generic [ref=e1019]:
+                  - generic [ref=e1020]: 
+                  - text: 31/05/2026
+              - heading [level=6] [ref=e1021]:
+                - link [ref=e1022]:
+                  - /url: https://anhtester.com/blog/20-cau-hoi-phong-van-test-automation-danh-cho-junior-middle-kem-goi-y-tra-loi
+                  - text: 20 câu hỏi phỏng vấn Test Automation dành cho Junior & Middle kèm Gợi ý trả lời
+              - generic [ref=e1023]: Anh Tester
+          - generic [ref=e1028]:
+            - link [ref=e1029]:
+              - /url: https://anhtester.com/blog/30-cau-hoi-phong-van-test-automation-danh-cho-senior-kem-goi-y-tra-loi
+            - generic [ref=e1031]:
+              - generic [ref=e1032]:
+                - link [ref=e1033]:
+                  - /url: https://anhtester.com/blog/category/automation-testing
+                  - text: Automation Testing
+                - generic [ref=e1034]:
+                  - generic [ref=e1035]: 
+                  - text: 31/05/2026
+              - heading [level=6] [ref=e1036]:
+                - link [ref=e1037]:
+                  - /url: https://anhtester.com/blog/30-cau-hoi-phong-van-test-automation-danh-cho-senior-kem-goi-y-tra-loi
+                  - text: 30 câu hỏi phỏng vấn Test Automation dành cho Senior kèm Gợi ý trả lời
+              - generic [ref=e1038]: Anh Tester
+          - generic [ref=e1043]:
+            - link [ref=e1044]:
+              - /url: https://anhtester.com/blog/40-cau-hoi-phong-van-danh-cho-fresher-tester-kem-dap-an-chi-tiet
+            - generic [ref=e1046]:
+              - generic [ref=e1047]:
+                - link [ref=e1048]:
+                  - /url: https://anhtester.com/blog/category/manual-testing
+                  - text: Manual Testing
+                - generic [ref=e1049]:
+                  - generic [ref=e1050]: 
+                  - text: 28/05/2026
+              - heading [level=6] [ref=e1051]:
+                - link [ref=e1052]:
+                  - /url: https://anhtester.com/blog/40-cau-hoi-phong-van-danh-cho-fresher-tester-kem-dap-an-chi-tiet
+                  - text: 40 câu hỏi phỏng vấn dành cho Fresher Tester kèm Đáp án chi tiết
+              - generic [ref=e1053]: Anh Tester
+        - tablist [ref=e1055]:
+          - tab "1 of 3" [selected] [ref=e1056]: • 1
+          - tab "2 of 3" [ref=e1057]: • 2
+          - tab "3 of 3" [ref=e1058]: • 3
+          - tab "4 of 3" [ref=e1059]: • 4
+          - tab "5 of 3" [ref=e1060]: • 5
+          - tab "6 of 3" [ref=e1061]: • 6
+          - tab "7 of 3" [ref=e1062]: • 7
+          - tab "8 of 3" [ref=e1063]: • 8
+          - tab "9 of 3" [ref=e1064]: • 9
+      - link "Xem tất cả bài viết" [ref=e1066]:
+        - /url: https://anhtester.com/blog
+    - contentinfo [ref=e1067]:
+      - generic [ref=e1070]:
+        - generic [ref=e1072]:
+          - heading "Liên hệ" [level=5] [ref=e1073]
+          - generic [ref=e1074]:
+            - paragraph [ref=e1076]:
+              - link "thaian.it15@gmail.com" [ref=e1077]:
+                - /url: mailto:thaian.it15@gmail.com
+            - paragraph [ref=e1079]:
+              - link "0939206009" [ref=e1080]:
+                - /url: tel:0939206009
+            - paragraph [ref=e1082]:
+              - link "Fanpage Facebook" [ref=e1083]:
+                - /url: https://facebook.com/anhtester
+          - link [ref=e1085]:
+            - /url: https://me.momo.vn/j8IyuzUzuGt9IRsRIoIX
+            - img "Mời mình ly cà phê" [ref=e1086]
+        - generic [ref=e1088]:
+          - heading "Facebook" [level=5] [ref=e1089]
+          - link [ref=e1090]:
+            - /url: https://www.facebook.com/groups/automationtest
+            - img "Facebook" [ref=e1091]
+        - generic [ref=e1093]:
+          - heading "Telegram" [level=5] [ref=e1094]
+          - link [ref=e1095]:
+            - /url: https://t.me/+kSUGJ3pVvxkyZWU1
+            - img "Telegram" [ref=e1096]
+        - generic [ref=e1098]:
+          - heading "Discord" [level=5] [ref=e1099]
+          - link [ref=e1100]:
+            - /url: https://discord.gg/pzendtpJnt
+            - img "Discord" [ref=e1101]
+      - generic [ref=e1104]:
+        - paragraph [ref=e1107]: Copyright © 2026 Anh Tester Automation Testing. All rights reserved.
+        - list [ref=e1110]:
+          - listitem [ref=e1111]:
+            - link "Điều khoản dịch vụ" [ref=e1112]:
+              - /url: https://anhtester.com/terms-and-conditions
+          - listitem [ref=e1113]:
+            - link "Chính sách bảo mật" [ref=e1114]:
+              - /url: https://anhtester.com/privacy-policy
+  - text:   

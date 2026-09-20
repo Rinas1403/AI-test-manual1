@@ -1,0 +1,153 @@
+- generic [active] [ref=f29e1]:
+  - generic [ref=f29e2]:
+    - generic [ref=f29e3] [cursor=pointer]: 
+    - navigation [ref=f29e5]:
+      - generic [ref=f29e6]:
+        - generic [ref=f29e7]:
+          - generic [ref=f29e8]:
+            - searchbox "Search..." [ref=f29e9]
+            - button "" [ref=f29e11] [cursor=pointer]
+            - text:     
+          - list [ref=f29e13]:
+            - listitem "Quick Create" [ref=f29e14]:
+              - link "+" [ref=f29e15] [cursor=pointer]:
+                - /url: "#"
+              - text:             
+        - text: 
+        - list [ref=f29e18]:
+          - listitem [ref=f29e19]:
+            - link "Share documents, ideas.." [ref=f29e20] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f29e23]:
+            - link "2" [ref=f29e24] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/todo
+          - listitem "Admin Example" [ref=f29e28]:
+            - link [ref=f29e29] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f29e31]:
+            - link "1" [ref=f29e32] [cursor=pointer]:
+              - /url: "#"
+            - text:  
+          - listitem "Notifications" [ref=f29e37]:
+            - link [ref=f29e38] [cursor=pointer]:
+              - /url: "#"
+  - text: 
+  - complementary [ref=f29e42]:
+    - list [ref=f29e43]:
+      - listitem [ref=f29e44]:
+        - link [ref=f29e46] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/
+          - img "Perfex CRM | Anh Tester Demo" [ref=f29e47]
+      - listitem [ref=f29e48]:
+        - link " Dashboard" [ref=f29e49] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/
+          - generic [ref=f29e50]: 
+          - text: Dashboard
+      - listitem [ref=f29e51]:
+        - link " Customers" [ref=f29e52] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/clients
+          - generic [ref=f29e53]: 
+          - text: Customers
+      - listitem [ref=f29e54]:
+        - link " Projects" [ref=f29e55] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/projects
+          - generic [ref=f29e56]: 
+          - text: Projects
+      - listitem [ref=f29e57]:
+        - link " Tasks" [ref=f29e58] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/tasks
+          - generic [ref=f29e59]: 
+          - text: Tasks
+      - listitem [ref=f29e60]:
+        - link " Contracts" [ref=f29e61] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/contracts
+          - generic [ref=f29e62]: 
+          - text: Contracts
+      - listitem [ref=f29e63]:
+        - link " Sales " [ref=f29e64] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f29e65]: 
+          - text: Sales
+          - generic [ref=f29e66]: 
+      - listitem [ref=f29e67]:
+        - link " Subscriptions" [ref=f29e68] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/subscriptions
+          - generic [ref=f29e69]: 
+          - text: Subscriptions
+      - listitem [ref=f29e70]:
+        - link " Expenses" [ref=f29e71] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/expenses
+          - generic [ref=f29e72]: 
+          - text: Expenses
+      - listitem [ref=f29e73]:
+        - link " Support" [ref=f29e74] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/tickets
+          - generic [ref=f29e75]: 
+          - text: Support
+      - listitem [ref=f29e76]:
+        - link " Leads" [ref=f29e77] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/leads
+          - generic [ref=f29e78]: 
+          - text: Leads
+      - listitem [ref=f29e79]:
+        - link " Estimate Request" [ref=f29e80] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/estimate_request
+          - generic [ref=f29e81]: 
+          - text: Estimate Request
+      - listitem [ref=f29e82]:
+        - link " Knowledge Base" [ref=f29e83] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/knowledge_base
+          - generic [ref=f29e84]: 
+          - text: Knowledge Base
+      - listitem [ref=f29e85]:
+        - link " Utilities " [ref=f29e86] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f29e87]: 
+          - text: Utilities
+          - generic [ref=f29e88]: 
+        - list [ref=f29e89]:
+          - listitem [ref=f29e90]:
+            - link "Media" [ref=f29e91] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/utilities/media
+          - listitem [ref=f29e92]:
+            - link "Bulk PDF Export" [ref=f29e93] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/utilities/bulk_pdf_exporter
+          - listitem [ref=f29e94]:
+            - link "Calendar" [ref=f29e95] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/utilities/calendar
+      - listitem [ref=f29e96]:
+        - link " Reports " [ref=f29e97] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f29e98]: 
+          - text: Reports
+          - generic [ref=f29e99]: 
+  - generic [ref=f29e103]:
+    - heading "Bulk PDF Export" [level=4] [ref=f29e104]
+    - generic [ref=f29e106]:
+      - generic [ref=f29e107]:
+        - generic [ref=f29e108]:
+          - generic [ref=f29e109]: "* Select Type"
+          - generic [ref=f29e110]:
+            - combobox "* Select Type" [ref=f29e111]:
+              - option [selected]
+              - option "Invoices"
+              - option "Estimates"
+              - option "Payments"
+              - option "Credit Notes"
+              - option "Proposals"
+              - option "Expenses"
+            - combobox "Nothing selected" [ref=f29e112] [cursor=pointer]
+        - generic [ref=f29e117]:
+          - generic [ref=f29e118]: "From Date:"
+          - generic [ref=f29e119]:
+            - textbox "From Date:" [ref=f29e120]
+            - generic [ref=f29e121]: 
+        - generic [ref=f29e123]:
+          - generic [ref=f29e124]: "To Date:"
+          - generic [ref=f29e125]:
+            - textbox "To Date:" [ref=f29e126]
+            - generic [ref=f29e127]: 
+        - generic [ref=f29e129]:
+          - generic [ref=f29e130]: Include Tag
+          - textbox "Include Tag" [ref=f29e131]
+      - button "Export" [ref=f29e133] [cursor=pointer]

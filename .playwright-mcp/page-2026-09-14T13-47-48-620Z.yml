@@ -1,0 +1,180 @@
+- generic [active] [ref=f20e1]:
+  - generic [ref=f20e2]:
+    - generic [ref=f20e3] [cursor=pointer]: 
+    - navigation [ref=f20e5]:
+      - generic [ref=f20e6]:
+        - generic [ref=f20e7]:
+          - generic [ref=f20e8]:
+            - searchbox "Search..." [ref=f20e9]
+            - button "" [ref=f20e11] [cursor=pointer]
+            - text:     
+          - list [ref=f20e13]:
+            - listitem "Quick Create" [ref=f20e14]:
+              - link "+" [ref=f20e15] [cursor=pointer]:
+                - /url: "#"
+              - text:             
+        - text: 
+        - list [ref=f20e18]:
+          - listitem [ref=f20e19]:
+            - link "Share documents, ideas.." [ref=f20e20] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f20e23]:
+            - link "2" [ref=f20e24] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/todo
+          - listitem "Admin Example" [ref=f20e28]:
+            - link [ref=f20e29] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f20e31]:
+            - link "1" [ref=f20e32] [cursor=pointer]:
+              - /url: "#"
+            - text:  
+          - listitem "Notifications" [ref=f20e37]:
+            - link [ref=f20e38] [cursor=pointer]:
+              - /url: "#"
+  - text: 
+  - complementary [ref=f20e42]:
+    - list [ref=f20e43]:
+      - listitem [ref=f20e44]:
+        - link [ref=f20e46] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/
+          - img "Perfex CRM | Anh Tester Demo" [ref=f20e47]
+      - listitem [ref=f20e48]:
+        - link " Dashboard" [ref=f20e49] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/
+          - generic [ref=f20e50]: 
+          - text: Dashboard
+      - listitem [ref=f20e51]:
+        - link " Customers" [ref=f20e52] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/clients
+          - generic [ref=f20e53]: 
+          - text: Customers
+      - listitem [ref=f20e54]:
+        - link " Projects" [ref=f20e55] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/projects
+          - generic [ref=f20e56]: 
+          - text: Projects
+      - listitem [ref=f20e57]:
+        - link " Tasks" [ref=f20e58] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/tasks
+          - generic [ref=f20e59]: 
+          - text: Tasks
+      - listitem [ref=f20e60]:
+        - link " Contracts" [ref=f20e61] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/contracts
+          - generic [ref=f20e62]: 
+          - text: Contracts
+      - listitem [ref=f20e63]:
+        - link " Sales " [ref=f20e64] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f20e65]: 
+          - text: Sales
+          - generic [ref=f20e66]: 
+      - listitem [ref=f20e67]:
+        - link " Subscriptions" [ref=f20e68] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/subscriptions
+          - generic [ref=f20e69]: 
+          - text: Subscriptions
+      - listitem [ref=f20e70]:
+        - link " Expenses" [ref=f20e71] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/expenses
+          - generic [ref=f20e72]: 
+          - text: Expenses
+      - listitem [ref=f20e73]:
+        - link " Support" [ref=f20e74] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/tickets
+          - generic [ref=f20e75]: 
+          - text: Support
+      - listitem [ref=f20e76]:
+        - link " Leads" [ref=f20e77] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/leads
+          - generic [ref=f20e78]: 
+          - text: Leads
+      - listitem [ref=f20e79]:
+        - link " Estimate Request" [ref=f20e80] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/estimate_request
+          - generic [ref=f20e81]: 
+          - text: Estimate Request
+      - listitem [ref=f20e82]:
+        - link " Knowledge Base" [ref=f20e83] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/knowledge_base
+          - generic [ref=f20e84]: 
+          - text: Knowledge Base
+      - listitem [ref=f20e85]:
+        - link " Utilities " [ref=f20e86] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f20e87]: 
+          - text: Utilities
+          - generic [ref=f20e88]: 
+      - listitem [ref=f20e89]:
+        - link " Reports " [ref=f20e90] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f20e91]: 
+          - text: Reports
+          - generic [ref=f20e92]: 
+  - generic [ref=f20e96]:
+    - generic:
+      - link "+ New Subscription" [ref=f20e97] [cursor=pointer]:
+        - /url: https://crm.anhtester.com/admin/subscriptions/create
+        - generic [ref=f20e98]: +
+        - text: New Subscription
+      - button [ref=f20e101] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f20e102]: 
+    - generic [ref=f20e105]:
+      - heading "Subscriptions Summary" [level=4] [ref=f20e106]:
+        - generic [aria-hidden] [ref=f20e107]: 
+        - text: Subscriptions Summary
+      - generic [ref=f20e108]:
+        - generic [ref=f20e109]:
+          - generic [ref=f20e110]: "0"
+          - generic [ref=f20e111]: Not Subscribed
+        - generic [ref=f20e112]:
+          - generic [ref=f20e113]: "0"
+          - generic [ref=f20e114]: Active
+        - generic [ref=f20e115]:
+          - generic [ref=f20e116]: "0"
+          - generic [ref=f20e117]: Future
+        - generic [ref=f20e118]:
+          - generic [ref=f20e119]: "0"
+          - generic [ref=f20e120]: Past Due
+        - generic [ref=f20e121]:
+          - generic [ref=f20e122]: "0"
+          - generic [ref=f20e123]: Unpaid
+        - generic [ref=f20e124]:
+          - generic [ref=f20e125]: "0"
+          - generic [ref=f20e126]: Incomplete
+        - generic [ref=f20e127]:
+          - generic [ref=f20e128]: "0"
+          - generic [ref=f20e129]: Canceled
+        - generic [ref=f20e130]:
+          - generic [ref=f20e131]: "0"
+          - generic [ref=f20e132]: Incomplete Expired
+      - separator [ref=f20e133]
+      - generic [ref=f20e136]:
+        - generic [ref=f20e137]:
+          - generic [ref=f20e138]:
+            - combobox [ref=f20e141]:
+              - option "10"
+              - option "25" [selected]
+              - option "50"
+              - option "100"
+              - option "All"
+            - generic [ref=f20e142]:
+              - button "Export" [ref=f20e143] [cursor=pointer]
+              - button "" [ref=f20e144] [cursor=pointer]
+          - generic [ref=f20e150]:
+            - generic [ref=f20e151]: 
+            - searchbox "" [ref=f20e153]
+        - generic [ref=f20e154]: x200B x200B
+        - grid [ref=f20e156]:
+          - rowgroup [ref=f20e157]:
+            - row [ref=f20e158]:
+              - columnheader "#" [ref=f20e159] [cursor=pointer]
+              - columnheader "Subscription Name" [ref=f20e160] [cursor=pointer]
+              - columnheader "Customer" [ref=f20e161] [cursor=pointer]
+              - columnheader "Project" [ref=f20e162] [cursor=pointer]
+              - columnheader "Status" [ref=f20e163] [cursor=pointer]
+              - columnheader "Next Billing Cycle" [ref=f20e164] [cursor=pointer]
+              - columnheader "Date Subscribed" [ref=f20e165] [cursor=pointer]
+              - columnheader "Last Sent" [ref=f20e166] [cursor=pointer]
+          - rowgroup
+        - status [ref=f20e169]

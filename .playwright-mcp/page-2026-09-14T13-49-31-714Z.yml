@@ -1,0 +1,174 @@
+- generic [active] [ref=f32e1]:
+  - generic [ref=f32e2]:
+    - generic [ref=f32e3] [cursor=pointer]: 
+    - navigation [ref=f32e5]:
+      - generic [ref=f32e6]:
+        - generic [ref=f32e7]:
+          - generic [ref=f32e8]:
+            - searchbox "Search..." [ref=f32e9]
+            - button "" [ref=f32e11] [cursor=pointer]
+            - text:     
+          - list [ref=f32e13]:
+            - listitem "Quick Create" [ref=f32e14]:
+              - link "+" [ref=f32e15] [cursor=pointer]:
+                - /url: "#"
+              - text:             
+        - text: 
+        - list [ref=f32e18]:
+          - listitem [ref=f32e19]:
+            - link "Share documents, ideas.." [ref=f32e20] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f32e23]:
+            - link "2" [ref=f32e24] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/todo
+          - listitem "Admin Example" [ref=f32e28]:
+            - link [ref=f32e29] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f32e31]:
+            - link "1" [ref=f32e32] [cursor=pointer]:
+              - /url: "#"
+            - text:  
+          - listitem "Notifications" [ref=f32e37]:
+            - link [ref=f32e38] [cursor=pointer]:
+              - /url: "#"
+  - text: 
+  - complementary [ref=f32e42]:
+    - list [ref=f32e43]:
+      - listitem [ref=f32e44]:
+        - link [ref=f32e46] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/
+          - img "Perfex CRM | Anh Tester Demo" [ref=f32e47]
+      - listitem [ref=f32e48]:
+        - link " Dashboard" [ref=f32e49] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/
+          - generic [ref=f32e50]: 
+          - text: Dashboard
+      - listitem [ref=f32e51]:
+        - link " Customers" [ref=f32e52] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/clients
+          - generic [ref=f32e53]: 
+          - text: Customers
+      - listitem [ref=f32e54]:
+        - link " Projects" [ref=f32e55] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/projects
+          - generic [ref=f32e56]: 
+          - text: Projects
+      - listitem [ref=f32e57]:
+        - link " Tasks" [ref=f32e58] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/tasks
+          - generic [ref=f32e59]: 
+          - text: Tasks
+      - listitem [ref=f32e60]:
+        - link " Contracts" [ref=f32e61] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/contracts
+          - generic [ref=f32e62]: 
+          - text: Contracts
+      - listitem [ref=f32e63]:
+        - link " Sales " [ref=f32e64] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f32e65]: 
+          - text: Sales
+          - generic [ref=f32e66]: 
+      - listitem [ref=f32e67]:
+        - link " Subscriptions" [ref=f32e68] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/subscriptions
+          - generic [ref=f32e69]: 
+          - text: Subscriptions
+      - listitem [ref=f32e70]:
+        - link " Expenses" [ref=f32e71] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/expenses
+          - generic [ref=f32e72]: 
+          - text: Expenses
+      - listitem [ref=f32e73]:
+        - link " Support" [ref=f32e74] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/tickets
+          - generic [ref=f32e75]: 
+          - text: Support
+      - listitem [ref=f32e76]:
+        - link " Leads" [ref=f32e77] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/leads
+          - generic [ref=f32e78]: 
+          - text: Leads
+      - listitem [ref=f32e79]:
+        - link " Estimate Request" [ref=f32e80] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/estimate_request
+          - generic [ref=f32e81]: 
+          - text: Estimate Request
+      - listitem [ref=f32e82]:
+        - link " Knowledge Base" [ref=f32e83] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/knowledge_base
+          - generic [ref=f32e84]: 
+          - text: Knowledge Base
+      - listitem [ref=f32e85]:
+        - link " Utilities " [ref=f32e86] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f32e87]: 
+          - text: Utilities
+          - generic [ref=f32e88]: 
+      - listitem [ref=f32e89]:
+        - link " Reports " [ref=f32e90] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f32e91]: 
+          - text: Reports
+          - generic [ref=f32e92]: 
+        - list [ref=f32e93]:
+          - listitem [ref=f32e94]:
+            - link "Sales" [ref=f32e95] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/reports/sales
+          - listitem [ref=f32e96]:
+            - link "Expenses" [ref=f32e97] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/reports/expenses
+          - listitem [ref=f32e98]:
+            - link "Expenses vs Income" [ref=f32e99] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/reports/expenses_vs_income
+          - listitem [ref=f32e100]:
+            - link "Leads" [ref=f32e101] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/reports/leads
+          - listitem [ref=f32e102]:
+            - link "Timesheets overview" [ref=f32e103] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/staff/timesheets?view=all
+          - listitem [ref=f32e104]:
+            - link "KB Articles" [ref=f32e105] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/reports/knowledge_base_articles
+  - generic [ref=f32e107]:
+    - generic [ref=f32e108]:
+      - generic [ref=f32e109]:
+        - heading "Sales Report" [level=4] [ref=f32e110]
+        - list [ref=f32e113]:
+          - listitem [ref=f32e114]:
+            - link "Invoices Report" [ref=f32e115] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f32e118]:
+            - link "Items Report" [ref=f32e119] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f32e122]:
+            - link "Payments Received" [ref=f32e123] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f32e126]:
+            - link "Credit Notes Report" [ref=f32e127] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f32e130]:
+            - link "Proposals Report" [ref=f32e131] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f32e134]:
+            - link "Estimates Report" [ref=f32e135] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f32e138]:
+            - link "Customers Report" [ref=f32e139] [cursor=pointer]:
+              - /url: "#"
+      - generic [ref=f32e142]:
+        - heading "Charts Based Report" [level=4] [ref=f32e143]
+        - list [ref=f32e146]:
+          - listitem [ref=f32e147]:
+            - link "Total Income" [ref=f32e148] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f32e151]:
+            - link "Payment Modes (Transactions)" [ref=f32e152] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f32e155]:
+            - link "Total Value By Customer Groups" [ref=f32e156] [cursor=pointer]:
+              - /url: "#"
+      - generic [ref=f32e159]:  
+    - paragraph [ref=f32e160]:
+      - generic [aria-hidden] [ref=f32e161]: 
+      - text: Cancelled invoices are excluded from the report

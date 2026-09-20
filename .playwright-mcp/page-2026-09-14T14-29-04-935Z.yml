@@ -1,0 +1,6 @@
+- generic [ref=f5e4]:
+  - heading "Error 404" [level=2] [ref=f5e5]:
+    - generic [ref=f5e8]: Error
+    - text: "404"
+  - paragraph [ref=f5e9]: 404 Page Not Found
+  - paragraph [ref=f5e11]: The page you requested was not found.
