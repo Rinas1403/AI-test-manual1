@@ -1,0 +1,18 @@
+- generic [ref=f51e2]:
+  - link [ref=f51e4] [cursor=pointer]:
+    - /url: https://crm.anhtester.com/
+    - img "Perfex CRM | Anh Tester Demo" [ref=f51e5]
+  - heading "Login" [level=1] [ref=f51e6]
+  - generic [ref=f51e8]:
+    - generic [ref=f51e9]:
+      - generic [ref=f51e10]: Email Address
+      - textbox "Email Address" [active] [ref=f51e11]
+    - generic [ref=f51e12]:
+      - generic [ref=f51e13]: Password
+      - textbox "Password" [ref=f51e14]
+    - generic [ref=f51e16] [cursor=pointer]:
+      - checkbox "Remember me" [ref=f51e17]
+      - generic [ref=f51e18]: Remember me
+    - button "Login" [ref=f51e20] [cursor=pointer]
+    - link "Forgot Password?" [ref=f51e22] [cursor=pointer]:
+      - /url: https://crm.anhtester.com/admin/authentication/forgot_password

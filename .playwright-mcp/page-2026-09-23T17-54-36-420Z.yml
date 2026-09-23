@@ -1,0 +1,11 @@
+- generic [ref=f23e2]:
+  - link [ref=f23e4] [cursor=pointer]:
+    - /url: https://crm.anhtester.com/
+    - img "Perfex CRM | Anh Tester Demo" [ref=f23e5]
+  - heading "Forgot Password" [level=1] [ref=f23e6]
+  - generic [ref=f23e8]:
+    - generic [ref=f23e9]: The Email Address field must contain a valid email address.
+    - generic [ref=f23e10]:
+      - generic [ref=f23e11]: Email Address
+      - textbox "Email Address" [ref=f23e12]: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@example.com
+    - button "Confirm" [ref=f23e14] [cursor=pointer]
