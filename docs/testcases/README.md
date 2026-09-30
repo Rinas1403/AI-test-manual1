@@ -16,7 +16,7 @@
 
 | Module | Prefix TC ID | Dải đã dùng | Mã kế tiếp | Số TC | Nền tảng | Độ hạt | REQ bao phủ | Tài liệu | Cập nhật |
 |---|---|---|---|---|---|---|---|---|---|
-| Đăng nhập / Xác thực | `CRM_LOGIN_TC_` | `001` → `074` | `075` | 74 | Web 74 (4 part) | GỘP | 57/57 REQ trong phạm vi | [TEST_CASES_LOGIN_SUMMARY.md](login/TEST_CASES_LOGIN_SUMMARY.md) | 30-09-2026 |
+| Đăng nhập / Xác thực | `CRM_LOGIN_TC_` | `001` → `074` | `075` | 74 (1 `@Deprecated`) | Web 74 (4 part) | GỘP | 57/57 REQ trong phạm vi | [TEST_CASES_LOGIN_SUMMARY.md](login/TEST_CASES_LOGIN_SUMMARY.md) | 30-09-2026 |
 | Khách hàng | `CRM_CUST_TC_` | `001` → `129` | `130` | 129 | Web 129 | GỘP | 84/84 REQ | [TEST_CASES_CUSTOMERS_SUMMARY.md](customers/TEST_CASES_CUSTOMERS_SUMMARY.md) | 19-09-2026 |
 
 ### Namespace hệ thống khác
@@ -112,6 +112,7 @@ Xem nhanh bằng web viewer: `scripts/execution-viewer/bundle.html` (mở offlin
 
 | Ngày | Thay đổi |
 |---|---|
+| 30-09-2026 | **`LOGIN`: `CRM_LOGIN_TC_014` 🗑️ Deprecated** theo quyết định user — không có tài khoản mật khẩu chứa chữ cái để kiểm phân biệt hoa/thường. Giữ dòng và TC ID; 73 TC đang dùng, độ phủ vẫn 57/57 |
 | 30-09-2026 | **BỔ SUNG `LOGIN` — khoá tài khoản (`CRM-LOGIN-101`).** +16 TC `CRM_LOGIN_TC_059` → `074` cho 17 REQ ⚪ `REQ-LOGIN-45` → `61`, kèm Bảng quyết định và bảng chuyển trạng thái — độ phủ **57/57**. 74 TC · 73 biến thể. Bộ TC web **tách thành 4 part** (vượt ngưỡng 50, quyết định user); `web/test_cases_login_web.md` giữ làm trang chuyển hướng. TC `001`→`058` giữ nguyên nội dung và ID. Mốc git `ff0d6dd` |
 | 30-09-2026 | **DELTA `CRM-LOGIN-101` cho `LOGIN`** (khoá tài khoản sau 5 lần sai). `CRM_LOGIN_TC_015` viết lại theo kỳ vọng đảo ngược (khoá thay vì không khoá), ➕ `CRM_LOGIN_TC_058` biên 4 lần; 8 TC đổi lượt gửi mật khẩu sai / bỏ trống / CSRF sai từ `Admin` sang tài khoản PM — kỳ vọng không đổi. 58 TC · 67 biến thể. Độ phủ 40/57: 17 REQ ⚪ mới chờ lượt BỔ SUNG (tách `parts/` theo quyết định user). TC ID giữ nguyên, mốc git `7682289` |
 | 21-09-2026 | **Rà lại độ phủ bộ TC `LOGIN`, bổ sung 6 TC (`TC_052`→`TC_057`) — `001`→`051` giữ nguyên hoàn toàn.** Module đã có 51 TC đang được 2 execution report và 6 bug report tham chiếu nên **không** chạy Mode QUICK sinh mới; chỉ rà độ phủ và cấp số nối tiếp. Rà soát phát hiện **3 lỗ hở mà cả Bảng Đối Soát Coverage lẫn Bảng 4 vòng đều không bắt được**, vì coverage đếm theo REQ còn bảng 4 vòng chỉ chấm tới mức **nhánh**, không tới mức **mục của bảng Field-Level**: `1` loại field **Checkbox** (`Remember me`) chưa từng có dòng đối soát — bộ TC cũ chỉ kiểm chiều *tích vào*, chưa kiểm chiều *bỏ tích ra*; `2` mục *"mở 2 tab cùng lúc"* của nhánh `V2 · Error Guessing` trống; `3` biểu mẫu **Quên mật khẩu** chỉ có 1 biến thể ô Email trong khi dòng đối soát ghi "đủ 8/8" — mọi dẫn chứng đều lấy từ biểu mẫu **Đăng nhập**, hai form có ô Email riêng và ràng buộc khác nhau. **Bài học đưa vào cách đối soát:** dòng `V2 · Validation` từ nay ghi **tách bạch từng biểu mẫu và từng loại field**, không gộp chung một con số. 3 TC mới mang `@NeedsVerify` (kỳ vọng suy từ REQ, chưa đo thật). Độ phủ REQ không đổi — **40/40** |
