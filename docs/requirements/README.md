@@ -176,6 +176,7 @@ docs/requirements/
 
 | Ngày | Thay đổi |
 |---|---|
+| 30-09-2026 | **PO nhắc lại `AMB-LOGIN-19` qua chat** (`/update-requirements-from-ticket`, nguồn `PO-2026-09-30-AMB19`) — trùng nguyên văn kết luận đã áp 19-09-2026 → ⏸️ **không tác động**: không đổi REQ, không đổi số liệu mục 1–3, không TC nào phải xử lý. Impact Report: [login/impact/impact_PO-2026-09-30-AMB19.md](login/impact/impact_PO-2026-09-30-AMB19.md) |
 | 30-09-2026 | **Chốt 5 ambiguity `LOGIN` còn lại** theo giả định tạm (`24`, `28`, `29`, `31`, `32`) + lưu tài khoản 3 vai trò vào `.env`. Thêm `REQ-LOGIN-60`, `61` ⚪. `LOGIN` **61 REQ · 57 trong phạm vi · 0 ambiguity treo**. ⚪ 23 → 25 · Tổng 247 → 249. ⚠️ URL cổng khách hàng được cung cấp (`/authentication/login`) khác URL trong tài liệu (`/login`) — chưa đo lại |
 | 30-09-2026 | **Trả lời 7 ambiguity `LOGIN`** (qua chat, cùng đợt `CRM-LOGIN-101`): `22`, `23` khác giả định · `25`, `26`, `27` trùng · `30` khác một phần. Thêm `REQ-LOGIN-54` → `59` ⚪, mở `AMB-LOGIN-31`, `32`, thêm `RISK-LOGIN-11`. `LOGIN` **59 REQ · 55 trong phạm vi**, AMB treo 5, **không còn 🔴 nào của `LOGIN`**. ⚪ 17 → 23 · Tổng 241 → 247 |
 | 30-09-2026 | **Trả lời `AMB-LOGIN-21` + một phần `AMB-LOGIN-25`** (qua chat, cùng đợt `CRM-LOGIN-101`). Email không tồn tại không khoá, từ lần sai 5 báo `Email không tồn tại` + đợi 1 phút → thêm `REQ-LOGIN-52`, `53` ⚪; `REQ-LOGIN-15` 🟡 thu hẹp; mở `AMB-LOGIN-30`, thêm `RISK-LOGIN-10`. `LOGIN` **53 REQ · 49 trong phạm vi**, AMB 🔴 treo còn 1 (`AMB-LOGIN-27`). Active 198 → 197 · Changed 26 → 27 · ⚪ 15 → 17 · Tổng 239 → 241 |
