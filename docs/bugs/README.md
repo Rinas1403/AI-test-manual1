@@ -9,7 +9,7 @@
 | Hệ thống | Perfex CRM — Anh Tester Demo (`https://crm.anhtester.com`) |
 | Quy ước mã bug | `BUG_<module>_<timestamp>_<TC_ID>` — `timestamp` epoch giây lúc sinh (đảm bảo không trùng), `TC_ID` là mã TC ngắn (VD `TC004`) để nhìn tên là biết ngay thuộc TC nào, không phải mở file/tra bảng |
 | Đường dẫn file | `docs/bugs/<module>/<nền-tảng>/BUG_<module>_<timestamp>_<TC_ID>.md` — `<nền-tảng>` chỉ nhận `web` · `mobile` · `api` |
-| Ngày cập nhật | 30-09-2026 |
+| Ngày cập nhật | 01-10-2026 |
 
 ---
 
@@ -19,7 +19,7 @@
 |---|---|---|---|---|---|---|---|
 | [BUG_login_1785678750_TC039](login/web/BUG_login_1785678750_TC039.md) | `LOGIN` | Trang đăng nhập phục vụ được qua HTTP thuần, không ép chuyển sang HTTPS, không có HSTS | 🔴 Critical | P1 | 🔴 **Đang mở** | `CRM_LOGIN_TC_039` | 02-08-2026 |
 | [BUG_login_1787226513_TC004](login/web/BUG_login_1787226513_TC004.md) | `LOGIN` | Bấm logo không dẫn về trang chủ công khai (root URL luôn redirect sang cổng đăng nhập khách hàng) | 🟡 Minor | P3 | 🔴 **Đang mở** | `CRM_LOGIN_TC_004` | 20-08-2026 |
-| [BUG_login_1787226514_TC016](login/web/BUG_login_1787226514_TC016.md) | `LOGIN` | Ô Email không giữ lại giá trị sau khi đăng nhập thất bại | 🟡 Minor | P2 | 🔴 **Đang mở** | `CRM_LOGIN_TC_016` | 20-08-2026 |
+| [BUG_login_1787226514_TC016](login/web/BUG_login_1787226514_TC016.md) | `LOGIN` | Ô Email không giữ lại giá trị sau khi đăng nhập thất bại | 🟡 Minor | P2 | 🔴 **Đang mở** — NOT_FIXED 01-10-2026 | `CRM_LOGIN_TC_016` | 20-08-2026 |
 | [BUG_login_1787226515_TC018](login/web/BUG_login_1787226515_TC018.md) | `LOGIN` | Email quá dài (260 ký tự) trả thông báo lỗi khác thông báo chuẩn `Invalid email or password` | 🟢 Trivial | P3 | ⚪ **Đã đóng — không phải lỗi** (19-09-2026) | `CRM_LOGIN_TC_018-a` | 20-08-2026 |
 | [BUG_login_1787226516_TC028](login/web/BUG_login_1787226516_TC028.md) | `LOGIN` | Bỏ trống email ở Quên mật khẩu báo sai bản chất lỗi (`Email not found` thay vì trường bắt buộc) | 🟡 Minor | P2 | 🔴 **Đang mở** | `CRM_LOGIN_TC_028` | 20-08-2026 |
 | [BUG_login_1787226517_TC029](login/web/BUG_login_1787226517_TC029.md) | `LOGIN` | Ô Email ở Quên mật khẩu không tự reset sau khi submit email không tồn tại | 🟢 Trivial | P3 | 🔴 **Đang mở** — NOT_FIXED 24-09-2026 | `CRM_LOGIN_TC_029` | 20-08-2026 |
@@ -82,6 +82,7 @@ docs/bugs/
 
 | Ngày | Thay đổi |
 |---|---|
+| 01-10-2026 | `/retest-fixed-bugs` (RETEST) cho `BUG_login_1787226514_TC016`: ❌ NOT_FIXED 2/2 lần — [retest_1790849000](../executions/login/web/retest_1790849000/retest_report.md). Bug vẫn mở |
 | 30-09-2026 | `/create-bug-report` sau `run_1790782248` (web): **không mở bug mới**. `CRM_LOGIN_TC_016` FAIL tái hiện lại (2 lần) nhưng đã có `BUG_login_1787226514_TC016` đang mở — không tạo trùng, evidence mới: [CRM_LOGIN_TC_016_step5_email_rong.png](../executions/login/web/run_1790782248/evidence/CRM_LOGIN_TC_016_step5_email_rong.png). `CRM_LOGIN_TC_015` FAIL do tính năng khoá tài khoản (`CRM-LOGIN-101`) chưa deploy — `@NeedsVerify`, không phải bug |
 | 19-09-2026 | **Chuyển sang tầng nền tảng.** 6 bug `LOGIN` chuyển từ `bugs/login/` vào `bugs/login/web/` (tên file giữ nguyên); link tương đối bên trong và danh mục mục 1 đã sửa. Execution run `run_1787215085` được đưa vào `executions/login/web/` cùng đợt, nên evidence của 6 bug trỏ sang đường dẫn mới. Mục 3 cập nhật cấu trúc `<module>/<nền-tảng>/` |
 | 19-09-2026 | Đóng `BUG_login_1787226515_TC018` — **không phải lỗi**: mốc 64 ký tự phần trước `@` là chuẩn RFC 5321, xác nhận bởi `CRM_LOGIN_TC_046-c` ở `run_1789759574`. Thêm trạng thái ⚪ *Đóng — không phải lỗi* |
