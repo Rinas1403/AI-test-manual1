@@ -1,0 +1,689 @@
+- generic [active] [ref=f10e1]:
+  - generic [ref=f10e2]:
+    - generic [ref=f10e3] [cursor=pointer]: 
+    - navigation [ref=f10e5]:
+      - generic [ref=f10e6]:
+        - generic [ref=f10e7]:
+          - generic [ref=f10e8]:
+            - searchbox "Search..." [ref=f10e9]
+            - button "" [ref=f10e11] [cursor=pointer]
+          - list [ref=f10e13]:
+            - listitem "Quick Create" [ref=f10e14]:
+              - link "+" [ref=f10e15] [cursor=pointer]:
+                - /url: "#"
+              - text:         
+        - text: 
+        - list [ref=f10e18]:
+          - listitem [ref=f10e19]:
+            - link "Share documents, ideas.." [ref=f10e20] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f10e23]:
+            - link "Todo items" [ref=f10e24] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/todo
+          - listitem "Project Manager" [ref=f10e27]:
+            - link [ref=f10e28] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f10e30]:
+            - link [ref=f10e31] [cursor=pointer]:
+              - /url: "#"
+            - text: 
+          - listitem "Notifications" [ref=f10e35]:
+            - link "11" [ref=f10e36] [cursor=pointer]:
+              - /url: "#"
+            - text:           
+  - text: 
+  - complementary [ref=f10e41]:
+    - list [ref=f10e42]:
+      - listitem [ref=f10e43]:
+        - link [ref=f10e45] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/
+          - img "Perfex CRM | Anh Tester Demo" [ref=f10e46]
+      - listitem [ref=f10e47]:
+        - link " Dashboard" [ref=f10e48] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/
+          - generic [ref=f10e49]: 
+          - text: Dashboard
+      - listitem [ref=f10e50]:
+        - link " Customers" [ref=f10e51] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/clients
+          - generic [ref=f10e52]: 
+          - text: Customers
+      - listitem [ref=f10e53]:
+        - link " Projects" [ref=f10e54] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/projects
+          - generic [ref=f10e55]: 
+          - text: Projects
+      - listitem [ref=f10e56]:
+        - link " Tasks" [ref=f10e57] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/tasks
+          - generic [ref=f10e58]: 
+          - text: Tasks
+      - listitem [ref=f10e59]:
+        - link " Contracts" [ref=f10e60] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/contracts
+          - generic [ref=f10e61]: 
+          - text: Contracts
+      - listitem [ref=f10e62]:
+        - link " Sales " [ref=f10e63] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f10e64]: 
+          - text: Sales
+          - generic [ref=f10e65]: 
+      - listitem [ref=f10e66]:
+        - link " Support" [ref=f10e67] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/tickets
+          - generic [ref=f10e68]: 
+          - text: Support
+      - listitem [ref=f10e69]:
+        - link " Leads" [ref=f10e70] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/leads
+          - generic [ref=f10e71]: 
+          - text: Leads
+      - listitem [ref=f10e72]:
+        - link " Utilities " [ref=f10e73] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f10e74]: 
+          - text: Utilities
+          - generic [ref=f10e75]: 
+  - generic [ref=f10e76]:
+    - text:          
+    - generic [ref=f10e77] [cursor=pointer]: Dashboard Options
+    - generic [ref=f10e82]:
+      - generic [ref=f10e84]:
+        - generic [ref=f10e85]: 
+        - generic [ref=f10e86]:
+          - generic [ref=f10e88]:
+            - generic [ref=f10e89]:
+              - generic [ref=f10e90]: Invoices Awaiting Payment
+              - generic [ref=f10e94]: 3 / 6
+            - progressbar [ref=f10e96]
+          - generic [ref=f10e98]:
+            - generic [ref=f10e99]:
+              - generic [ref=f10e100]: Converted Leads
+              - generic [ref=f10e104]: 0 / 0
+            - generic [ref=f10e105]:
+              - progressbar
+          - generic [ref=f10e107]:
+            - generic [ref=f10e108]:
+              - generic [ref=f10e109]: Projects In Progress
+              - generic [ref=f10e113]: 70 / 181
+            - progressbar [ref=f10e115]
+          - generic [ref=f10e117]:
+            - generic [ref=f10e118]:
+              - generic [ref=f10e119]: Tasks Not Finished
+              - generic [ref=f10e123]: 263 / 264
+            - progressbar [ref=f10e125]
+      - generic [ref=f10e128]:
+        - generic [ref=f10e132]:
+          - generic [ref=f10e133]: 
+          - generic [ref=f10e134]:
+            - generic [ref=f10e136]:
+              - paragraph [ref=f10e138]:
+                - generic [ref=f10e141]: Invoice overview
+              - link "1 Draft" [ref=f10e143] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/invoices/list_invoices?status=6
+              - generic [ref=f10e144]:
+                - text: 14.29%
+                - progressbar [ref=f10e146]
+              - link "4 Not Sent" [ref=f10e148] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/invoices/list_invoices?filter=not_sent
+              - generic [ref=f10e149]:
+                - text: 57.14%
+                - progressbar [ref=f10e151]
+              - link "3 Unpaid" [ref=f10e153] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/invoices/list_invoices?status=1
+              - generic [ref=f10e154]:
+                - text: 42.86%
+                - progressbar [ref=f10e156]
+              - link "0 Partially Paid" [ref=f10e158] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/invoices/list_invoices?status=3
+              - generic [ref=f10e159]:
+                - text: 0.00%
+                - generic [ref=f10e160]:
+                  - progressbar
+              - link "0 Overdue" [ref=f10e162] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/invoices/list_invoices?status=4
+              - generic [ref=f10e163]:
+                - text: 0.00%
+                - generic [ref=f10e164]:
+                  - progressbar
+              - link "3 Paid" [ref=f10e166] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/invoices/list_invoices?status=2
+              - generic [ref=f10e167]:
+                - text: 42.86%
+                - progressbar [ref=f10e169]
+            - generic [ref=f10e171]:
+              - paragraph [ref=f10e173]:
+                - generic [ref=f10e176]: Estimate overview
+              - link "0 Draft" [ref=f10e178] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/estimates/list_estimates?status=1
+              - generic [ref=f10e179]:
+                - text: 0.00%
+                - generic [ref=f10e180]:
+                  - progressbar
+              - link "3 Not Sent" [ref=f10e182] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/estimates/list_estimates?not_sent=1
+              - generic [ref=f10e183]:
+                - text: 100.00%
+                - progressbar [ref=f10e185]
+              - link "0 Sent" [ref=f10e187] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/estimates/list_estimates?status=2
+              - generic [ref=f10e188]:
+                - text: 0.00%
+                - generic [ref=f10e189]:
+                  - progressbar
+              - link "3 Expired" [ref=f10e191] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/estimates/list_estimates?status=5
+              - generic [ref=f10e192]:
+                - text: 100.00%
+                - progressbar [ref=f10e194]
+              - link "0 Declined" [ref=f10e196] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/estimates/list_estimates?status=3
+              - generic [ref=f10e197]:
+                - text: 0.00%
+                - generic [ref=f10e198]:
+                  - progressbar
+              - link "0 Accepted" [ref=f10e200] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/estimates/list_estimates?status=4
+              - generic [ref=f10e201]:
+                - text: 0.00%
+                - generic [ref=f10e202]:
+                  - progressbar
+          - separator [ref=f10e203]
+          - generic [ref=f10e204]:
+            - generic [ref=f10e207]:
+              - listbox [ref=f10e208]:
+                - option "2026" [selected] [ref=f10e209]
+                - option "2025" [ref=f10e210]
+                - option "2024" [ref=f10e211]
+              - combobox "2026" [ref=f10e212] [cursor=pointer]
+            - generic [ref=f10e217]:
+              - generic [ref=f10e219]:
+                - term [ref=f10e220]: Outstanding Invoices
+                - definition [ref=f10e221]:
+                  - generic [ref=f10e222]: $2.00
+              - generic [ref=f10e224]:
+                - term [ref=f10e225]: Past Due Invoices
+                - definition [ref=f10e226]:
+                  - generic [ref=f10e227]: $0.00
+              - generic [ref=f10e229]:
+                - term [ref=f10e230]: Paid Invoices
+                - definition [ref=f10e231]:
+                  - generic [ref=f10e232]: $14.00
+        - generic [ref=f10e235]:
+          - generic [ref=f10e236]: 
+          - generic [ref=f10e237]:
+            - text:  
+            - tablist [ref=f10e239]:
+              - tab " My Tasks" [ref=f10e240]:
+                - generic [ref=f10e241]: 
+                - text: My Tasks
+              - tab " My Projects" [ref=f10e242] [cursor=pointer]:
+                - generic [ref=f10e243]: 
+                - text: My Projects
+              - tab " My Reminders" [ref=f10e244] [cursor=pointer]:
+                - generic [ref=f10e245]: 
+                - text: My Reminders
+              - tab " Tickets" [ref=f10e246] [cursor=pointer]:
+                - generic [ref=f10e247]: 
+                - text: Tickets
+              - tab " Announcements" [ref=f10e248] [cursor=pointer]:
+                - generic [ref=f10e249]: 
+                - text: Announcements
+          - tabpanel [ref=f10e251]:
+            - link "View All" [ref=f10e252] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/tasks/list_tasks
+            - generic [ref=f10e254]:
+              - generic [ref=f10e255]:
+                - generic [ref=f10e256]:
+                  - combobox [ref=f10e259]:
+                    - option "10"
+                    - option "25" [selected]
+                    - option "50"
+                    - option "100"
+                    - option "All"
+                  - generic [ref=f10e260]:
+                    - button "Export" [ref=f10e261] [cursor=pointer]
+                    - button "" [ref=f10e262] [cursor=pointer]
+                - generic [ref=f10e268]:
+                  - generic [ref=f10e269]: 
+                  - searchbox "" [ref=f10e271]
+              - text: x200B x200B
+              - grid [ref=f10e273]:
+                - rowgroup [ref=f10e274]:
+                  - row [ref=f10e275]:
+                    - columnheader "# activate to sort column ascending" [ref=f10e276] [cursor=pointer]: "#"
+                    - columnheader "Name activate to sort column ascending" [ref=f10e277] [cursor=pointer]: Name
+                    - columnheader "Status activate to sort column ascending" [ref=f10e278] [cursor=pointer]: Status
+                    - columnheader "Start Date activate to sort column ascending" [ref=f10e279] [cursor=pointer]: Start Date
+                    - columnheader "Tags activate to sort column ascending" [ref=f10e280] [cursor=pointer]: Tags
+                    - columnheader "Priority activate to sort column ascending" [ref=f10e281] [cursor=pointer]: Priority
+                - rowgroup [ref=f10e282]:
+                  - row [ref=f10e283]:
+                    - gridcell "No entries found" [ref=f10e284]
+        - generic [ref=f10e290]:
+          - generic [ref=f10e291]: 
+          - text: x200B x200B
+          - generic [ref=f10e292]:
+            - generic [ref=f10e293]:
+              - generic [ref=f10e294]:
+                - generic [ref=f10e295]:
+                  - button "prev" [ref=f10e296] [cursor=pointer]:
+                    - generic [ref=f10e297]: 
+                  - button "next" [ref=f10e298] [cursor=pointer]:
+                    - generic [ref=f10e299]: 
+                - generic [ref=f10e300]:
+                  - button "today" [disabled] [ref=f10e301]
+                  - button "expand" [ref=f10e302] [cursor=pointer]
+              - heading "September 2026" [level=2] [ref=f10e304]
+              - generic [ref=f10e306]:
+                - button "month" [ref=f10e307] [cursor=pointer]
+                - button "week" [ref=f10e308] [cursor=pointer]
+                - button "day" [ref=f10e309] [cursor=pointer]
+                - button "filter by" [ref=f10e310] [cursor=pointer]
+            - table [ref=f10e313]:
+              - rowgroup [ref=f10e314]:
+                - row [ref=f10e315]:
+                  - cell [ref=f10e316]:
+                    - table [ref=f10e319]:
+                      - rowgroup [ref=f10e321]:
+                        - row [ref=f10e322]:
+                          - columnheader "Sun" [ref=f10e323]
+                          - columnheader "Mon" [ref=f10e326]
+                          - columnheader "Tue" [ref=f10e329]
+                          - columnheader "Wed" [ref=f10e332]
+                          - columnheader "Thu" [ref=f10e335]
+                          - columnheader "Fri" [ref=f10e338]
+                          - columnheader "Sat" [ref=f10e341]
+              - rowgroup [ref=f10e344]:
+                - row [ref=f10e345]:
+                  - cell [ref=f10e346]:
+                    - table [ref=f10e350]:
+                      - rowgroup [ref=f10e352]:
+                        - row [ref=f10e353]:
+                          - cell "30" [ref=f10e354]
+                          - cell "31 AUTO_POM_ADD_PROJECT_1787064837550 AUTO_POM_ADD_PROJECT_1787065114991 AUTO_POM_ADD_PROJECT_1787065135358 AUTO_POM_ADD_PROJECT_1787065710914 +52 more" [ref=f10e359]:
+                            - generic [ref=f10e360]:
+                              - generic [ref=f10e361]: "31"
+                              - generic [ref=f10e363]:
+                                - link "AUTO_POM_ADD_PROJECT_1787064837550" [ref=f10e365] [cursor=pointer]:
+                                  - /url: https://crm.anhtester.com/admin/projects/view/2696
+                                - link "AUTO_POM_ADD_PROJECT_1787065114991" [ref=f10e371] [cursor=pointer]:
+                                  - /url: https://crm.anhtester.com/admin/projects/view/2697
+                                - link "AUTO_POM_ADD_PROJECT_1787065135358" [ref=f10e377] [cursor=pointer]:
+                                  - /url: https://crm.anhtester.com/admin/projects/view/2698
+                                - link "AUTO_POM_ADD_PROJECT_1787065710914" [ref=f10e383] [cursor=pointer]:
+                                  - /url: https://crm.anhtester.com/admin/projects/view/2699
+                                - generic [ref=f10e388]: +52 more
+                          - cell "1 AUTO_POM_ADD_PROJECT_1785661551151 AUTO_POM_ADD_PROJECT_1785661789456 Test company" [ref=f10e389]:
+                            - generic [ref=f10e390]:
+                              - generic [ref=f10e391]: "1"
+                              - generic [ref=f10e393]:
+                                - link "AUTO_POM_ADD_PROJECT_1785661551151" [ref=f10e395] [cursor=pointer]:
+                                  - /url: https://crm.anhtester.com/admin/projects/view/2647
+                                - link "AUTO_POM_ADD_PROJECT_1785661789456" [ref=f10e401] [cursor=pointer]:
+                                  - /url: https://crm.anhtester.com/admin/projects/view/2649
+                                - link "Test company" [ref=f10e407] [cursor=pointer]:
+                                  - /url: https://crm.anhtester.com/admin/projects/view/2733
+                          - cell "2" [ref=f10e412]
+                          - cell "3" [ref=f10e417]
+                          - cell "4" [ref=f10e422]
+                          - cell "5" [ref=f10e427]
+                        - row [ref=f10e432]:
+                          - cell "6" [ref=f10e433]
+                          - cell "7" [ref=f10e438]
+                          - cell "8 AUTO_POM_ADD_PROJECT_1786262640439 AUTO_POM_ADD_PROJECT_1786262915509 AUTO_POM_ADD_PROJECT_1786262990104 AUTO_POM_ADD_PROJECT_1786263051600 +19 more" [ref=f10e443]:
+                            - generic [ref=f10e444]:
+                              - generic [ref=f10e445]: "8"
+                              - generic [ref=f10e447]:
+                                - link "AUTO_POM_ADD_PROJECT_1786262640439" [ref=f10e449] [cursor=pointer]:
+                                  - /url: https://crm.anhtester.com/admin/projects/view/2655
+                                - link "AUTO_POM_ADD_PROJECT_1786262915509" [ref=f10e455] [cursor=pointer]:
+                                  - /url: https://crm.anhtester.com/admin/projects/view/2656
+                                - link "AUTO_POM_ADD_PROJECT_1786262990104" [ref=f10e461] [cursor=pointer]:
+                                  - /url: https://crm.anhtester.com/admin/projects/view/2657
+                                - link "AUTO_POM_ADD_PROJECT_1786263051600" [ref=f10e467] [cursor=pointer]:
+                                  - /url: https://crm.anhtester.com/admin/projects/view/2658
+                                - generic [ref=f10e472]: +19 more
+                          - cell "9" [ref=f10e473]
+                          - cell "10 New Project 3008 New Project 3008 New Project 3008 New Project 3008 +7 more" [ref=f10e478]:
+                            - generic [ref=f10e479]:
+                              - generic [ref=f10e480]: "10"
+                              - generic [ref=f10e482]:
+                                - link "New Project 3008" [ref=f10e484] [cursor=pointer]:
+                                  - /url: https://crm.anhtester.com/admin/projects/view/2734
+                                - link "New Project 3008" [ref=f10e490] [cursor=pointer]:
+                                  - /url: https://crm.anhtester.com/admin/projects/view/2735
+                                - link "New Project 3008" [ref=f10e496] [cursor=pointer]:
+                                  - /url: https://crm.anhtester.com/admin/projects/view/2736
+                                - link "New Project 3008" [ref=f10e502] [cursor=pointer]:
+                                  - /url: https://crm.anhtester.com/admin/projects/view/2737
+                                - generic [ref=f10e507]: +7 more
+                          - cell "11" [ref=f10e508]
+                          - cell "12" [ref=f10e513]
+                        - row [ref=f10e518]:
+                          - cell "13" [ref=f10e519]
+                          - cell "14 1231322323" [ref=f10e524]:
+                            - generic [ref=f10e525]:
+                              - generic [ref=f10e526]: "14"
+                              - link "1231322323" [ref=f10e530] [cursor=pointer]:
+                                - /url: https://crm.anhtester.com/admin/projects/view/2785
+                          - cell "15" [ref=f10e535]
+                          - cell "16" [ref=f10e540]
+                          - cell "17" [ref=f10e545]
+                          - cell "18" [ref=f10e550]
+                          - cell "19" [ref=f10e555]
+                        - row [ref=f10e560]:
+                          - cell "20 AUTO_POM_ADD_TASK_1789292326684..." [ref=f10e561]:
+                            - generic [ref=f10e562]:
+                              - generic [ref=f10e563]: "20"
+                              - link "AUTO_POM_ADD_TASK_1789292326684..." [ref=f10e567] [cursor=pointer]:
+                                - /url: "#"
+                          - cell "21" [ref=f10e572]
+                          - cell "22" [ref=f10e577]
+                          - cell "23" [ref=f10e582]
+                          - cell "24 Auto_LOGIN_TC034_1790259425371... Auto_LOGIN_TC034_1790260074423... Auto_LOGIN_TC034_1790261018168..." [ref=f10e587]:
+                            - generic [ref=f10e588]:
+                              - generic [ref=f10e589]: "24"
+                              - generic [ref=f10e591]:
+                                - link "Auto_LOGIN_TC034_1790259425371..." [ref=f10e593] [cursor=pointer]:
+                                  - /url: "#"
+                                - link "Auto_LOGIN_TC034_1790260074423..." [ref=f10e599] [cursor=pointer]:
+                                  - /url: "#"
+                                - link "Auto_LOGIN_TC034_1790261018168..." [ref=f10e605] [cursor=pointer]:
+                                  - /url: "#"
+                          - cell "25" [ref=f10e610]
+                          - cell "26 AUTO_POM_ADD_TASK_1789832895506..." [ref=f10e615]:
+                            - generic [ref=f10e616]:
+                              - generic [ref=f10e617]: "26"
+                              - link "AUTO_POM_ADD_TASK_1789832895506..." [ref=f10e621] [cursor=pointer]:
+                                - /url: "#"
+                        - row [ref=f10e626]:
+                          - cell "27" [ref=f10e627]
+                          - cell "28" [ref=f10e632]
+                          - cell "29" [ref=f10e637]
+                          - cell "30" [ref=f10e642]
+                          - cell "1" [ref=f10e647]
+                          - cell "2" [ref=f10e652]
+                          - cell "3" [ref=f10e657]
+                        - row [ref=f10e662]:
+                          - cell "4" [ref=f10e663]
+                          - cell "5" [ref=f10e668]
+                          - cell "6" [ref=f10e673]
+                          - cell "7" [ref=f10e678]
+                          - cell "8" [ref=f10e683]
+                          - cell "9 Test Due Date Logic... Test Due Date..." [ref=f10e688]:
+                            - generic [ref=f10e689]:
+                              - generic [ref=f10e690]: "9"
+                              - generic [ref=f10e692]:
+                                - link "Test Due Date Logic..." [ref=f10e694] [cursor=pointer]:
+                                  - /url: "#"
+                                - link "Test Due Date..." [ref=f10e700] [cursor=pointer]:
+                                  - /url: "#"
+                          - cell "10" [ref=f10e705]
+        - generic [ref=f10e712]:
+          - generic [ref=f10e713]: 
+          - generic [ref=f10e714]:
+            - paragraph [ref=f10e715]:
+              - generic [ref=f10e718]: Contracts Expiring Soon
+            - link "View All" [ref=f10e719] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/contracts
+          - separator [ref=f10e720]
+          - generic [ref=f10e721]:
+            - generic [aria-hidden] [ref=f10e722]: 
+            - paragraph [ref=f10e723]: There are no contracts that are going to expire in the next 7 days.
+      - generic [ref=f10e724]:
+        - generic [ref=f10e727]:
+          - generic [ref=f10e728]: 
+          - generic [ref=f10e729]:
+            - paragraph [ref=f10e730]:
+              - generic [ref=f10e733]: My To Do Items
+            - generic [ref=f10e734]:
+              - link "View All" [ref=f10e735] [cursor=pointer]:
+                - /url: https://crm.anhtester.com/admin/todo
+              - link "New To Do" [ref=f10e736] [cursor=pointer]:
+                - /url: "#__todo"
+          - separator [ref=f10e737]
+          - heading " Latest to do's" [level=4] [ref=f10e738]:
+            - generic [ref=f10e739]: 
+            - text: Latest to do's
+          - list [ref=f10e740]:
+            - listitem: No todos found
+          - heading " Latest finished to do's" [level=4] [ref=f10e741]:
+            - generic [ref=f10e742]: 
+            - text: Latest finished to do's
+          - list [ref=f10e743]:
+            - listitem: No finished todos found
+        - generic [ref=f10e748]:
+          - generic [ref=f10e749]: 
+          - paragraph [ref=f10e750]:
+            - generic [ref=f10e753]: Leads Overview
+          - separator [ref=f10e754]
+          - iframe [ref=f10e756]
+        - generic [ref=f10e762]:
+          - generic [ref=f10e763]: 
+          - paragraph [ref=f10e764]:
+            - generic [ref=f10e767]: Statistics by Project Status
+          - separator [ref=f10e768]
+          - iframe [ref=f10e770]
+        - generic [ref=f10e774]:
+          - generic [ref=f10e775]: 
+          - paragraph [ref=f10e776]:
+            - generic [ref=f10e779]: Latest Project Activity
+          - separator [ref=f10e780]
+          - generic [ref=f10e781]:
+            - generic [ref=f10e782]:
+              - generic [ref=f10e783]: 6 days ago
+              - generic [ref=f10e785]:
+                - paragraph [ref=f10e786]:
+                  - link "Admin Example" [ref=f10e787] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/profile/2
+                  - text: "- Added new team member"
+                - text: "Project Name:"
+                - link "Project - 2026-09-24T22:35:57.757985" [ref=f10e788] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/projects/view/2814
+              - paragraph [ref=f10e789]: Project Manager
+            - generic [ref=f10e790]:
+              - generic [ref=f10e791]: 6 days ago
+              - generic [ref=f10e793]:
+                - paragraph [ref=f10e794]:
+                  - link "Admin Example" [ref=f10e795] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/profile/2
+                  - text: "- Added new team member"
+                - text: "Project Name:"
+                - link "Project - 2026-09-24T22:35:57.757985" [ref=f10e796] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/projects/view/2814
+              - paragraph [ref=f10e797]: Admin Example
+            - generic [ref=f10e798]:
+              - generic [ref=f10e799]: 6 days ago
+              - generic [ref=f10e801]:
+                - paragraph [ref=f10e802]:
+                  - link "Admin Example" [ref=f10e803] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/profile/2
+                  - text: "- Created the project"
+                - text: "Project Name:"
+                - link "Project - 2026-09-24T22:35:57.757985" [ref=f10e804] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/projects/view/2814
+            - generic [ref=f10e805]:
+              - generic [ref=f10e806]: 6 days ago
+              - generic [ref=f10e808]:
+                - paragraph [ref=f10e809]:
+                  - link "Admin Example" [ref=f10e810] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/profile/2
+                  - text: "- Added new team member"
+                - text: "Project Name:"
+                - link "Project - 2026-09-24T22:34:18.140532" [ref=f10e811] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/projects/view/2813
+              - paragraph [ref=f10e812]: Project Manager
+            - generic [ref=f10e813]:
+              - generic [ref=f10e814]: 6 days ago
+              - generic [ref=f10e816]:
+                - paragraph [ref=f10e817]:
+                  - link "Admin Example" [ref=f10e818] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/profile/2
+                  - text: "- Added new team member"
+                - text: "Project Name:"
+                - link "Project - 2026-09-24T22:34:18.140532" [ref=f10e819] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/projects/view/2813
+              - paragraph [ref=f10e820]: Admin Example
+            - generic [ref=f10e821]:
+              - generic [ref=f10e822]: 6 days ago
+              - generic [ref=f10e824]:
+                - paragraph [ref=f10e825]:
+                  - link "Admin Example" [ref=f10e826] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/profile/2
+                  - text: "- Created the project"
+                - text: "Project Name:"
+                - link "Project - 2026-09-24T22:34:18.140532" [ref=f10e827] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/projects/view/2813
+            - generic [ref=f10e828]:
+              - generic [ref=f10e829]: 6 days ago
+              - generic [ref=f10e831]:
+                - paragraph [ref=f10e832]:
+                  - link "Admin Example" [ref=f10e833] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/profile/2
+                  - text: "- Added new team member"
+                - text: "Project Name:"
+                - link "Project - 2026-09-24T22:33:13.046450" [ref=f10e834] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/projects/view/2812
+              - paragraph [ref=f10e835]: Project Manager
+            - generic [ref=f10e836]:
+              - generic [ref=f10e837]: 6 days ago
+              - generic [ref=f10e839]:
+                - paragraph [ref=f10e840]:
+                  - link "Admin Example" [ref=f10e841] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/profile/2
+                  - text: "- Added new team member"
+                - text: "Project Name:"
+                - link "Project - 2026-09-24T22:33:13.046450" [ref=f10e842] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/projects/view/2812
+              - paragraph [ref=f10e843]: Admin Example
+            - generic [ref=f10e844]:
+              - generic [ref=f10e845]: 6 days ago
+              - generic [ref=f10e847]:
+                - paragraph [ref=f10e848]:
+                  - link "Admin Example" [ref=f10e849] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/profile/2
+                  - text: "- Created the project"
+                - text: "Project Name:"
+                - link "Project - 2026-09-24T22:33:13.046450" [ref=f10e850] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/projects/view/2812
+            - generic [ref=f10e851]:
+              - generic [ref=f10e852]: 6 days ago
+              - generic [ref=f10e854]:
+                - paragraph [ref=f10e855]:
+                  - link "Admin Example" [ref=f10e856] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/profile/2
+                  - text: "- Added new team member"
+                - text: "Project Name:"
+                - link "Project - 2026-09-24T22:31:01.485204" [ref=f10e857] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/projects/view/2811
+              - paragraph [ref=f10e858]: Project Manager
+            - generic [ref=f10e859]:
+              - generic [ref=f10e860]: 6 days ago
+              - generic [ref=f10e862]:
+                - paragraph [ref=f10e863]:
+                  - link "Admin Example" [ref=f10e864] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/profile/2
+                  - text: "- Added new team member"
+                - text: "Project Name:"
+                - link "Project - 2026-09-24T22:31:01.485204" [ref=f10e865] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/projects/view/2811
+              - paragraph [ref=f10e866]: Admin Example
+            - generic [ref=f10e867]:
+              - generic [ref=f10e868]: 6 days ago
+              - generic [ref=f10e870]:
+                - paragraph [ref=f10e871]:
+                  - link "Admin Example" [ref=f10e872] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/profile/2
+                  - text: "- Created the project"
+                - text: "Project Name:"
+                - link "Project - 2026-09-24T22:31:01.485204" [ref=f10e873] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/projects/view/2811
+            - generic [ref=f10e874]:
+              - generic [ref=f10e875]: 6 days ago
+              - generic [ref=f10e877]:
+                - paragraph [ref=f10e878]:
+                  - link "Admin Example" [ref=f10e879] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/profile/2
+                  - text: "- Added new team member"
+                - text: "Project Name:"
+                - link "Project - 2026-09-24T22:29:21.521905" [ref=f10e880] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/projects/view/2810
+              - paragraph [ref=f10e881]: Project Manager
+            - generic [ref=f10e882]:
+              - generic [ref=f10e883]: 6 days ago
+              - generic [ref=f10e885]:
+                - paragraph [ref=f10e886]:
+                  - link "Admin Example" [ref=f10e887] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/profile/2
+                  - text: "- Added new team member"
+                - text: "Project Name:"
+                - link "Project - 2026-09-24T22:29:21.521905" [ref=f10e888] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/projects/view/2810
+              - paragraph [ref=f10e889]: Admin Example
+            - generic [ref=f10e890]:
+              - generic [ref=f10e891]: 6 days ago
+              - generic [ref=f10e893]:
+                - paragraph [ref=f10e894]:
+                  - link "Admin Example" [ref=f10e895] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/profile/2
+                  - text: "- Created the project"
+                - text: "Project Name:"
+                - link "Project - 2026-09-24T22:29:21.521905" [ref=f10e896] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/projects/view/2810
+            - generic [ref=f10e897]:
+              - generic [ref=f10e898]: 6 days ago
+              - generic [ref=f10e900]:
+                - paragraph [ref=f10e901]:
+                  - link "Admin Example" [ref=f10e902] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/profile/2
+                  - text: "- Added new team member"
+                - text: "Project Name:"
+                - link "Project - 2026-09-24T22:25:06.553758" [ref=f10e903] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/projects/view/2809
+              - paragraph [ref=f10e904]: Project Manager
+            - generic [ref=f10e905]:
+              - generic [ref=f10e906]: 6 days ago
+              - generic [ref=f10e908]:
+                - paragraph [ref=f10e909]:
+                  - link "Admin Example" [ref=f10e910] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/profile/2
+                  - text: "- Added new team member"
+                - text: "Project Name:"
+                - link "Project - 2026-09-24T22:25:06.553758" [ref=f10e911] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/projects/view/2809
+              - paragraph [ref=f10e912]: Admin Example
+            - generic [ref=f10e913]:
+              - generic [ref=f10e914]: 6 days ago
+              - generic [ref=f10e916]:
+                - paragraph [ref=f10e917]:
+                  - link "Admin Example" [ref=f10e918] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/profile/2
+                  - text: "- Created the project"
+                - text: "Project Name:"
+                - link "Project - 2026-09-24T22:25:06.553758" [ref=f10e919] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/projects/view/2809
+            - generic [ref=f10e920]:
+              - generic [ref=f10e921]: 6 days ago
+              - generic [ref=f10e923]:
+                - paragraph [ref=f10e924]:
+                  - link "Admin Example" [ref=f10e925] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/profile/2
+                  - text: "- Added new team member"
+                - text: "Project Name:"
+                - link "Project - 2026-09-24T22:22:04.907039" [ref=f10e926] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/projects/view/2808
+              - paragraph [ref=f10e927]: Project Manager
+            - generic [ref=f10e928]:
+              - generic [ref=f10e929]: 6 days ago
+              - generic [ref=f10e931]:
+                - paragraph [ref=f10e932]:
+                  - link "Admin Example" [ref=f10e933] [cursor=pointer]:
+                    - /url: https://crm.anhtester.com/admin/profile/2
+                  - text: "- Added new team member"
+                - text: "Project Name:"
+                - link "Project - 2026-09-24T22:22:04.907039" [ref=f10e934] [cursor=pointer]:
+                  - /url: https://crm.anhtester.com/admin/projects/view/2808
+              - paragraph [ref=f10e935]: Admin Example
+  - text:   
