@@ -9,7 +9,7 @@
 | Hệ thống | Perfex CRM — Anh Tester Demo (`https://crm.anhtester.com`) |
 | Quy ước mã bug | `BUG_<module>_<timestamp>_<TC_ID>` — `timestamp` epoch giây lúc sinh (đảm bảo không trùng), `TC_ID` là mã TC ngắn (VD `TC004`) để nhìn tên là biết ngay thuộc TC nào, không phải mở file/tra bảng |
 | Đường dẫn file | `docs/bugs/<module>/<nền-tảng>/BUG_<module>_<timestamp>_<TC_ID>.md` — `<nền-tảng>` chỉ nhận `web` · `mobile` · `api` |
-| Ngày cập nhật | 24-09-2026 |
+| Ngày cập nhật | 30-09-2026 |
 
 ---
 
@@ -82,6 +82,7 @@ docs/bugs/
 
 | Ngày | Thay đổi |
 |---|---|
+| 30-09-2026 | `/create-bug-report` sau `run_1790782248` (web): **không mở bug mới**. `CRM_LOGIN_TC_016` FAIL tái hiện lại (2 lần) nhưng đã có `BUG_login_1787226514_TC016` đang mở — không tạo trùng, evidence mới: [CRM_LOGIN_TC_016_step5_email_rong.png](../executions/login/web/run_1790782248/evidence/CRM_LOGIN_TC_016_step5_email_rong.png). `CRM_LOGIN_TC_015` FAIL do tính năng khoá tài khoản (`CRM-LOGIN-101`) chưa deploy — `@NeedsVerify`, không phải bug |
 | 19-09-2026 | **Chuyển sang tầng nền tảng.** 6 bug `LOGIN` chuyển từ `bugs/login/` vào `bugs/login/web/` (tên file giữ nguyên); link tương đối bên trong và danh mục mục 1 đã sửa. Execution run `run_1787215085` được đưa vào `executions/login/web/` cùng đợt, nên evidence của 6 bug trỏ sang đường dẫn mới. Mục 3 cập nhật cấu trúc `<module>/<nền-tảng>/` |
 | 19-09-2026 | Đóng `BUG_login_1787226515_TC018` — **không phải lỗi**: mốc 64 ký tự phần trước `@` là chuẩn RFC 5321, xác nhận bởi `CRM_LOGIN_TC_046-c` ở `run_1789759574`. Thêm trạng thái ⚪ *Đóng — không phải lỗi* |
 | 20-08-2026 | `/create-bug-report` sau lần chạy `run_1787215085` (regression đầy đủ module Login): mở 5 bug mới (`TC_004`, `TC_016`, `TC_018-a`, `TC_028`, `TC_029`) và **rà lại xong** `BUG_login_1785678750` — sửa tham chiếu TC/REQ lệch nghĩa, bổ sung evidence mới, ghi Lịch sử retest xác nhận lỗi vẫn còn (`NOT_FIXED`). Tổng 6 bug đang mở |
