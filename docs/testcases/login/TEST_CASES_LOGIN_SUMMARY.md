@@ -1,17 +1,17 @@
-# Test Cases — Module Đăng nhập / Xác thực (`LOGIN`) — tổng 57 TC · 1 nền tảng · độ hạt GỘP
+# Test Cases — Module Đăng nhập / Xác thực (`LOGIN`) — tổng 58 TC · 1 nền tảng · độ hạt GỘP
 
 | Thông tin | Nội dung |
 |---|---|
 | **Hệ thống** | Perfex CRM — Anh Tester Demo (`https://crm.anhtester.com`) |
 | **Module** | Đăng nhập / Xác thực · prefix `LOGIN` |
-| **Nguồn requirement** | [REQUIREMENTS_LOGIN_SUMMARY.md](../../requirements/login/REQUIREMENTS_LOGIN_SUMMARY.md) — 44 REQ, **40 trong phạm vi** |
+| **Nguồn requirement** | [REQUIREMENTS_LOGIN_SUMMARY.md](../../requirements/login/REQUIREMENTS_LOGIN_SUMMARY.md) — 61 REQ, **57 trong phạm vi** (17 REQ ⚪ `REQ-LOGIN-45` → `61` của `CRM-LOGIN-101` chưa có TC — chờ lượt BỔ SUNG) |
 | **Mode sinh** | QUICK (`/generate-testcases-from-requirements`) · **độ hạt GỘP**<br>Bổ sung 11-09-2026: 9 TC theo **Bản Đồ Loại Kiểm Thử — 4 Vòng** (`/generate-testcases-manual-rbt`)<br>Bổ sung 21-09-2026: 6 TC do **rà lại độ phủ** — ô tích `Remember me`, phiên đa tab, biên ô Email trang Quên mật khẩu |
-| **Ngày sinh** | 20-08-2026 · cập nhật ngôn ngữ kiểm chứng 20-08-2026 · bổ sung 4 vòng 11-09-2026 · **DELTA `adhoc_2026-09-19` + chuyển tầng nền tảng 19-09-2026** · **rà độ phủ + bổ sung Nhóm L 21-09-2026** |
-| **Dải TC ID** | `CRM_LOGIN_TC_001` → `CRM_LOGIN_TC_057` — `001`→`041` gốc, `042`→`050` bổ sung 4 vòng, `051` bổ sung theo `AMB-LOGIN-19`, `052`→`057` bổ sung rà độ phủ 21-09-2026 |
-| **Mã kế tiếp** | `CRM_LOGIN_TC_058` — **KHÔNG đánh lại từ 001** |
+| **Ngày sinh** | 20-08-2026 · cập nhật ngôn ngữ kiểm chứng 20-08-2026 · bổ sung 4 vòng 11-09-2026 · **DELTA `adhoc_2026-09-19` + chuyển tầng nền tảng 19-09-2026** · **rà độ phủ + bổ sung Nhóm L 21-09-2026** · **DELTA `CRM-LOGIN-101` 30-09-2026** |
+| **Dải TC ID** | `CRM_LOGIN_TC_001` → `CRM_LOGIN_TC_058` — `001`→`041` gốc, `042`→`050` bổ sung 4 vòng, `051` bổ sung theo `AMB-LOGIN-19`, `052`→`057` bổ sung rà độ phủ 21-09-2026, `058` DELTA `CRM-LOGIN-101` |
+| **Mã kế tiếp** | `CRM_LOGIN_TC_059` — **KHÔNG đánh lại từ 001** |
 | **Môi trường** | ⚠️ **Dùng chung** — mọi TC chỉ đọc hoặc hoàn tác được; không có TC nào phá huỷ dữ liệu nghiệp vụ |
 | **Trình duyệt chuẩn** | Google Chrome, viewport desktop `1600×750` |
-| **Tài khoản** | 🔒 Lấy từ `.env` (`ADMIN_*`, `PM_*`, `CUSTOMER_*`) — **KHÔNG** ghi mật khẩu thật vào tài liệu |
+| **Tài khoản** | 🔒 Lấy từ `.env` (`ADMIN_*`, `PM_*`, `CUSTOMER_*`) — **KHÔNG** ghi mật khẩu thật vào tài liệu<br>🔐 **Từ `CRM-LOGIN-101` (30-09-2026):** gửi mật khẩu sai / bỏ trống mật khẩu / mã CSRF sai với tài khoản có thật **chỉ** dùng `PM_*`, **không bao giờ** `admin@example.com` — 5 lần sai liên tiếp khoá tài khoản 15 phút trên môi trường dùng chung. Mở đầu TC bằng một lần đăng nhập đúng PM để bộ đếm = 0 |
 
 ## Cách đọc bộ TC này
 
@@ -52,7 +52,7 @@ Một số yêu cầu — cookie ghi nhớ, mã chống CSRF, header bảo mật
 
 | Nền tảng | File | Nhóm chức năng | Số TC | TC ID | REQ bao phủ |
 |---|---|---|---|---|---|
-| Web | [web/test_cases_login_web.md](web/test_cases_login_web.md) | A Giao diện · B Đăng nhập thành công · C Dữ liệu đầu vào · D Phiên & CSRF · E Quên mật khẩu · F Đăng xuất · G Phi chức năng · H Hành vi ô nhập · I Giá trị biên · K Tương thích · **L Ô tích Ghi nhớ, đa tab, biên Quên mật khẩu** | 57 | 001–057 | 40/40 REQ trong phạm vi |
+| Web | [web/test_cases_login_web.md](web/test_cases_login_web.md) | A Giao diện · B Đăng nhập thành công · C Dữ liệu đầu vào · D Phiên & CSRF · E Quên mật khẩu · F Đăng xuất · G Phi chức năng · H Hành vi ô nhập · I Giá trị biên · K Tương thích · **L Ô tích Ghi nhớ, đa tab, biên Quên mật khẩu** | 58 | 001–058 | 40/57 REQ trong phạm vi — 17 REQ ⚪ (`REQ-LOGIN-45` → `61`) chờ BỔ SUNG |
 | Mobile | — | Chưa có | 0 | — | — |
 | API | — | Chưa có | 0 | — | — |
 
@@ -76,7 +76,7 @@ Một số yêu cầu — cookie ghi nhớ, mã chống CSRF, header bảo mật
 
 ---
 
-## Bảng Đối Soát Coverage (40/40 REQ trong phạm vi)
+## Bảng Đối Soát Coverage (40/57 REQ trong phạm vi — 17 REQ ⚪ mới chờ BỔ SUNG)
 
 | REQ ID | Mô tả ngắn | Số TC | TC IDs (kèm biến thể) | Đủ Positive/Negative/Boundary? |
 |---|---|---|---|---|
@@ -94,7 +94,7 @@ Một số yêu cầu — cookie ghi nhớ, mã chống CSRF, header bảo mật
 | REQ-LOGIN-12 | Bỏ trống riêng Mật khẩu | 1 | TC_011-`c` | ✅ |
 | REQ-LOGIN-13 | Chặn email sai định dạng tại trình duyệt | 3 | TC_012-`a`→`e`, TC_045-`a`,`b`, TC_046-`a`→`c` | ✅ (client: TC_012 · máy chủ: TC_045/046) |
 | REQ-LOGIN-14 | Thông báo khi sai thông tin đăng nhập | 8 | TC_013, TC_014, TC_017, TC_018, TC_040, TC_045, TC_047, TC_050 | ✅ |
-| REQ-LOGIN-15 | Thông báo không tiết lộ email nào có thật | 2 | TC_013 (bước 5), TC_019 (bước 4) | ✅ |
+| REQ-LOGIN-15 | Thông báo không tiết lộ email nào có thật — **chỉ đảm bảo trong 4 lần sai đầu** (🟡 `CRM-LOGIN-101`) | 2 | TC_013 (bước 5), TC_019 (bước 4) | ✅ — mỗi biến thể gửi 1 lần, luôn nằm trong phạm vi 4 lần. Từ lần 5 lộ email là rủi ro đã chấp nhận (`RISK-LOGIN-10`), không kiểm |
 | REQ-LOGIN-16 | 🐞 Ô Email phải giữ lại email sau lỗi | 1 | TC_016 | ✅ (TC sẽ FAIL — đúng thiết kế) |
 | REQ-LOGIN-17 | Chặn URL nội bộ khi chưa đăng nhập | 1 | TC_021-`a`,`b` | ✅ |
 | REQ-LOGIN-18 | Không ghi nhớ URL đích sau chuyển hướng | 1 | TC_022 | ✅ |
@@ -116,12 +116,12 @@ Một số yêu cầu — cookie ghi nhớ, mã chống CSRF, header bảo mật
 | REQ-LOGIN-37 | Trang không nạp tệp JavaScript nào | 1 | TC_003-`3` | ✅ (kiểm sự vắng mặt) |
 | REQ-LOGIN-38 | Email bỏ qua khoảng trắng thừa | 1 | TC_007-`c`,`d` | ✅ |
 | REQ-LOGIN-39 | Cookie không tự đăng nhập lại sau đăng xuất | 1 | TC_037 | ✅ |
-| REQ-LOGIN-41 | Không khoá tài khoản sau nhiều lần sai | 1 | TC_015-`a`,`b` | ✅ |
+| REQ-LOGIN-41 | Khoá tài khoản sau **5** lần sai mật khẩu liên tiếp cùng email (🟡 **đảo ngược** theo `CRM-LOGIN-101`) | 2 | TC_015 (5 lần → khoá), **TC_058** (4 lần → chưa khoá) | ✅ Positive + Negative + biên 4/5. `TC_015` `@NeedsVerify` — chưa deploy (`AMB-LOGIN-27` ✅) |
 | REQ-LOGIN-42 | Phiên hết hạn sau 1 giờ không hoạt động, thao tác thì gia hạn | 2 | TC_026 (AC1 — để yên thì hết phiên), TC_051 (AC2 — thao tác thì gia hạn) | ✅ |
 | REQ-LOGIN-43 | Customer không đăng nhập được vào `/admin` | 2 | TC_019, TC_020 | ✅ |
 | REQ-LOGIN-44 | Ép truy cập qua HTTPS (chuyển hướng + HSTS) | 1 | TC_039 🐞 — chuyển từ `REQ-LOGIN-01` sang 19-09-2026 | ✅ |
 
-**Kết luận:** 40/40 REQ trong phạm vi có ≥1 TC. **Không có dòng 🔴.** Lượt rà 21-09-2026 **không phát hiện REQ nào thiếu TC** — sáu TC bổ sung (`TC_052`→`TC_057`) lấp lỗ hở ở tầng **mục của bảng Field-Level và nhánh 4 vòng**, thứ mà bảng coverage đếm-theo-REQ không bắt được.<br>**Phép thử chiều ngược (6b) đã chạy:** không TC nào trong `TC_052`→`TC_057` là TC **duy nhất** của từ hai REQ trở lên — `TC_053` (REQ-02, REQ-09), `TC_054` (REQ-32, REQ-33) và `TC_057` (REQ-26, REQ-23) đều có TC khác chống lưng cho mọi REQ chúng chạm.** Tổng số **case** kiểm không đổi so với bản trước lần cập nhật ngôn ngữ — chỉ đổi cách phát biểu kỳ vọng.
+**Kết luận (30-09-2026, sau DELTA `CRM-LOGIN-101`):** 40/57 REQ trong phạm vi có ≥1 TC — **cả 40 REQ đã có TC trước đó vẫn đủ**, 17 REQ ⚪ mới chưa có TC nằm ở mục ngay dưới, **ngoài phạm vi DELTA** (không chấm 🔴 ở gate DELTA). Phép thử 6b cho phần vừa sửa: `TC_015`, `TC_058` mỗi TC 1 REQ · `TC_013` (REQ-14, 15) — cả hai REQ đều có TC khác chống lưng → không vi phạm.<br>*Kết luận 21-09-2026:* 40/40 REQ trong phạm vi có ≥1 TC. **Không có dòng 🔴.** Lượt rà 21-09-2026 **không phát hiện REQ nào thiếu TC** — sáu TC bổ sung (`TC_052`→`TC_057`) lấp lỗ hở ở tầng **mục của bảng Field-Level và nhánh 4 vòng**, thứ mà bảng coverage đếm-theo-REQ không bắt được.<br>**Phép thử chiều ngược (6b) đã chạy:** không TC nào trong `TC_052`→`TC_057` là TC **duy nhất** của từ hai REQ trở lên — `TC_053` (REQ-02, REQ-09), `TC_054` (REQ-32, REQ-33) và `TC_057` (REQ-26, REQ-23) đều có TC khác chống lưng cho mọi REQ chúng chạm.** Tổng số **case** kiểm không đổi so với bản trước lần cập nhật ngôn ngữ — chỉ đổi cách phát biểu kỳ vọng.
 
 ### ⚠️ Phát hiện 21-09-2026 — 9 REQ chưa có TC **chuyên trách** (Gate #6b)
 
@@ -143,6 +143,30 @@ Phép thử chiều ngược phát hiện **4 TC cũ** mà trong đó có từ 2
 **Điều kiện rà lại:** nếu một trong 4 TC trên bị chuyển sang độ hạt TÁCH, bị bỏ mã biến thể, hoặc REQ liên quan được nâng mức rủi ro — thì tách ngay, TC mới cấp số nối tiếp dải.
 
 **Bắt buộc khi chạy:** báo cáo FAIL của `TC_003`, `TC_007`, `TC_011`, `TC_023` **phải ghi kèm mã mục/biến thể**. Ghi trống mã là lúc vi phạm này trở thành thật.
+
+### REQ mới `CRM-LOGIN-101` — chưa có TC (ngoài phạm vi DELTA, chờ lượt BỔ SUNG)
+
+Cả 17 REQ đều ⚪ **chưa deploy** (`AMB-LOGIN-27` ✅) — TC viết được ngay, gắn skip khi chạy. Sinh bằng `/generate-testcases-from-requirements docs/requirements/login/web/requirements_login_web.md` → nhánh **BỔ SUNG**, TC ID từ `CRM_LOGIN_TC_059`, tách `parts/` (quyết định user 30-09-2026).
+
+| REQ ID | Mô tả ngắn | Ghi chú cho lượt BỔ SUNG |
+|---|---|---|
+| REQ-LOGIN-45 | Thông báo khi tài khoản đang bị khoá | Chuỗi nguyên văn theo ticket — assert *trang chứa chuỗi* |
+| REQ-LOGIN-46 | Đang bị khoá thì mật khẩu đúng cũng bị từ chối | — |
+| REQ-LOGIN-47 | Tự mở khoá sau 15 phút | Chạy > 15 phút — tách khỏi smoke |
+| REQ-LOGIN-48 | Đăng nhập thành công đặt lại bộ đếm về 0 | — |
+| REQ-LOGIN-49 | Khoá email A không chặn email B | Cần tài khoản staff thứ hai `TC014_EMAIL` — ⚠️ chưa có (`AMB-LOGIN-28`) |
+| REQ-LOGIN-50 | Không khoá theo IP — lần sai các email không cộng dồn | Nhận lại nội dung biến thể `b` cũ của `TC_015`. Cần `TC014_EMAIL` |
+| REQ-LOGIN-51 | Khoá đi theo email, không theo phiên trình duyệt | — |
+| REQ-LOGIN-52 | Email không tồn tại không bị khoá — từ lần 5 báo `Email không tồn tại` | **Không** sinh biến thể email `Customer` (ngoài phạm vi — quyết định user 30-09-2026) |
+| REQ-LOGIN-53 | Email không tồn tại: chờ 1 phút sau mỗi lần sai thứ 5 → 9 | Chấm qua hệ quả (`AMB-LOGIN-31` ✅) |
+| REQ-LOGIN-54 | Bỏ trống mật khẩu tính là một lần sai | — |
+| REQ-LOGIN-55 | Mã CSRF sai tính là một lần sai | Cần DevTools |
+| REQ-LOGIN-56 | Bộ đếm tính theo đúng chuỗi email đã nhập | `RISK-LOGIN-11` |
+| REQ-LOGIN-57 | Hết khoá thì bộ đếm về 0 | Chạy > 15 phút |
+| REQ-LOGIN-58 | Email không tồn tại: lần 10 chờ 15 phút rồi lặp lại | Chạy > 15 phút · chấm qua hệ quả |
+| REQ-LOGIN-59 | Email không tồn tại: gửi trong lúc chờ bị chặn, không tính | Chấm qua hệ quả |
+| REQ-LOGIN-60 | Khoá không chấm dứt phiên đang mở | — |
+| REQ-LOGIN-61 | Khoá gắn tài khoản — mọi cách viết email đều bị chặn | — |
 
 ### REQ cố ý KHÔNG có TC (ngoài phạm vi theo quyết định PO 18-08-2026)
 
@@ -176,6 +200,7 @@ Phép thử chiều ngược phát hiện **4 TC cũ** mà trong đó có từ 2
 |---|---|---|
 | Biểu mẫu Đăng nhập — **đã tích** `Remember me` rồi gửi thất bại | `TC_053`-`a`,`b` | Chụp lại trạng thái ô tích **sau** khi trang nạp lại. Hai ảnh hiện có đều chụp lượt gửi **không tích trước**, nên không trả lời được câu hỏi của TC |
 | Biểu mẫu **Quên mật khẩu** — ô Email ở mốc 64 / 65 / 100 ký tự | `TC_056`-`a`,`b` · `TC_057`-`a`,`b` | Đo mốc độ dài **trên chính biểu mẫu này**. Mốc 64 ký tự hiện chỉ đo ở trang Đăng nhập (`TC_045`/`TC_046`); mục 4.2 requirements cho thấy hai biểu mẫu **không** cùng bộ ràng buộc |
+| Trang đăng nhập — tài khoản **đang bị khoá** (sau lần sai mật khẩu thứ 5) | `TC_015` | Tính năng **chưa deploy** (`AMB-LOGIN-27` ✅) nên chưa chụp được. Khi deploy: chụp trang sau lần sai thứ 5 (khung hiển thị + nguyên văn thông báo khoá), rồi cập nhật `REQ-LOGIN-41`, `45` bằng `/update-requirements-from-ticket` |
 | *(đã giải quyết)* | — | `TC_024` mục 🔧`2` đã đo 19-09-2026 — xem `ASM-05` |
 
 > ✅ **Đã giải quyết** (gỡ `@NeedsVerify` ngày 19-09-2026 theo `/review-testcases`): `TC_011-d`, `TC_025-b`, `TC_031-b`, `TC_033`, `TC_039`, `TC_040`, `TC_041` — bằng chứng ở `run_1787215085` · `TC_014`, `TC_034`, `TC_049-a/c/d`, `TC_050` — bằng chứng ở `run_1789759574`.
@@ -188,8 +213,8 @@ Phép thử chiều ngược phát hiện **4 TC cũ** mà trong đó có từ 2
 
 | Giá trị | Số TC | Ý nghĩa |
 |---|---|---|
-| `Yes` | 46 | Tự động hoá được trọn vẹn bằng Playwright/Selenium ở tầng UI |
-| `Partial` | 8 | Phần chính tự động được; **một phần phải làm tay hoặc cần điều kiện đặc biệt** |
+| `Yes` | 46 | Tự động hoá được trọn vẹn bằng Playwright/Selenium ở tầng UI — 30-09-2026: `TC_015` rời nhóm, `TC_058` vào nhóm |
+| `Partial` | 9 | Phần chính tự động được; **một phần phải làm tay hoặc cần điều kiện đặc biệt** |
 | `No` | 3 | Không làm automation |
 
 ### TC `Partial` — điều kiện kèm theo
@@ -201,6 +226,7 @@ Phép thử chiều ngược phát hiện **4 TC cũ** mà trong đó có từ 2
 | `TC_040` | Điền biểu mẫu, chấm kết quả | **Ngắt mạng thật** — thay bằng chặn route ở tầng trình duyệt thì không còn đúng kịch bản gốc |
 | `TC_041` | Điền biểu mẫu, chấm kết quả | **Giả lập mạng chậm** — cần CDP throttling, chỉ Chromium hỗ trợ |
 | `TC_055` *(mới 21-09-2026)* | Điền email, chấm dải báo lỗi | Cùng lý do `TC_010` — bấm `Confirm` hai lần liên tiếp phụ thuộc thời điểm |
+| `TC_015` *(`CRM-LOGIN-101`, 30-09-2026)* | Toàn bộ thao tác và kết quả | **Khoá tài khoản PM dùng chung 15 phút** — script phải chạy riêng, tuần tự, cuối đợt, không song song với test nào dùng PM (`AMB-LOGIN-28` ✅) |
 
 ### TC `No` — lý do
 
@@ -209,11 +235,18 @@ Phép thử chiều ngược phát hiện **4 TC cũ** mà trong đó có từ 2
 | `TC_026`, `TC_051` | Chạy **65–70 phút** chờ phiên hết hạn / gia hạn. Giữ một phiên automation sống suốt thời gian đó là lãng phí và rất dễ đứt vì lý do ngoài phạm vi test. `@PersonalOnly` — **QA tự chạy và tự theo dõi** |
 | `TC_044` | Kiểm **hộp thoại lưu mật khẩu của chính trình duyệt** — nằm ngoài trang web, automation không chạm tới được |
 
+### ⏸️ Hoãn
+
+| TC | Hoãn tới khi | Lý do |
+|---|---|---|
+| `TC_015` | `AMB-LOGIN-27` xác nhận **đã deploy** | Tính năng khoá chưa có trên hệ thống — viết script bây giờ là viết theo kỳ vọng chưa đo. Cột `Automation` giữ `Partial`, không hạ |
+
 ### Điều kiện cần chuẩn bị để nâng `Partial` → `Yes`
 
 1. **Bộ trợ giúp đọc cookie / token** dùng chung cho `TC_008`, `TC_009`, `TC_024`, `TC_037` — viết một lần, dùng lại cho cả bốn
 2. **Bộ gửi request song song** cho `TC_010`, `TC_055` — thay hai cú bấm bằng hai request cùng lúc, khử hẳn phụ thuộc thời điểm
 3. **Chốt chạy trên Chromium** cho `TC_041` (throttling) và `TC_040` (chặn mạng ở tầng context)
+4. **Tài khoản PM riêng cho automation** cho `TC_015` — không dùng chung với người chạy tay, khoá tài khoản không chặn cả đội
 
 > Sáu TC mới `TC_052`→`TC_057`: năm TC `Yes` (thao tác UI thuần), một TC `Partial` (`TC_055`). Ba TC mang `@NeedsVerify` (`TC_053`, `TC_056`, `TC_057`) — **chạy tay trước để chốt kỳ vọng thật**, rồi mới đưa vào automation; viết script theo kỳ vọng chưa đo là cách nhanh nhất để có một test xanh khẳng định điều sai.
 
@@ -237,16 +270,16 @@ Phép thử chiều ngược phát hiện **4 TC cũ** mà trong đó có từ 2
 | 2 | Required | ✅ | TC_011 (1 TC · 4 biến thể) |
 | 2 | Validation | ✅ **mở rộng 21-09-2026** | TC_007, TC_012, TC_014, TC_017, TC_018, TC_045, TC_046, TC_047, TC_048, **TC_052**, **TC_053**, **TC_056**, **TC_057** (13 TC · 29 biến thể)<br>• **Ô Email — biểu mẫu Đăng nhập: đủ 8/8 mục áp dụng** — mục *"email đã tồn tại"* không áp dụng: màn đăng nhập không tạo tài khoản<br>• **Ô Email — biểu mẫu Quên mật khẩu: đủ 6/6 mục áp dụng** *(bổ sung 21-09-2026)* — sai định dạng `TC_030` · độ dài biên `TC_056`/`TC_057` · không tồn tại `TC_029` · bỏ trống `TC_028` 🐞. Hai mục không áp dụng: *email đã tồn tại* (không tạo tài khoản) và *phân biệt hoa thường* (chỉ có nghĩa khi đăng nhập được, form này không tạo phiên).<br>  ⚠️ **Trước 21-09-2026 biểu mẫu này chỉ có 1 biến thể** (`abc` ở `TC_030`) mà dòng đối soát vẫn ghi "đủ 8/8" — vì mọi dẫn chứng đều lấy từ biểu mẫu Đăng nhập. Hai biểu mẫu có ô Email **riêng, ràng buộc khác nhau** (mục 4.2 requirements), phải đối soát **tách bạch**<br>• **Ô Password: đủ 4/4 mục áp dụng** — 3 mục không áp dụng, có lý do: *nút hiện/ẩn* không tồn tại (TC_042 xác nhận) · *ô xác nhận mật khẩu* không có trên màn này · *rule độ mạnh* (độ dài tối thiểu, ký tự đặc biệt, chữ hoa, chữ số) thuộc màn **Đăng ký / Đổi mật khẩu**, màn Đăng nhập chỉ xác thực chứ không áp rule<br>• **Ô tích `Remember me` (loại Checkbox): đủ 3/3 mục áp dụng** *(bổ sung 21-09-2026)* — trạng thái mặc định `TC_002-3` · bật/tắt `TC_052` · giữ trạng thái sau khi gửi lỗi `TC_053`. Hai mục không áp dụng: *required validation* (ô này tuỳ chọn) và *nhóm radio* (không có nhóm).<br>  ⚠️ **Trước 21-09-2026 loại field này KHÔNG có dòng đối soát nào**, dù mục 4.1 requirements liệt kê đây là field thứ ba của biểu mẫu. Bộ TC cũ chỉ kiểm chiều **tích vào**, chưa bao giờ kiểm chiều **bỏ tích ra** |
 | 2 | Equivalence Partitioning | ✅ | TC_012, TC_013, TC_045, TC_046 |
-| 2 | **Boundary Value Analysis** | ✅ **mở rộng 21-09-2026** | TC_045, TC_046, TC_047, TC_048 (biểu mẫu Đăng nhập) + **TC_056**, **TC_057** (biểu mẫu Quên mật khẩu) — 6 TC · 12 biến thể. Mốc 64 ký tự (RFC 5321) đo trên trang đăng nhập ngày 11-09-2026; **trang Quên mật khẩu chưa đo** → `TC_056`/`TC_057` mang `@NeedsVerify` |
-| 2 | Business Rule | ✅ | TC_013, TC_015, TC_019 (3 TC) |
-| 2 | Decision Table | ➖ | Màn đăng nhập không có tổ hợp từ 3 điều kiện trở lên cùng quyết định một kết quả — không đủ điều kiện kích hoạt kỹ thuật này |
-| 2 | State Transition | ➖ | Chỉ có 2 trạng thái (có phiên / không phiên), dưới ngưỡng 3 trạng thái. Vòng đời trạng thái bản ghi thuộc các module nghiệp vụ |
+| 2 | **Boundary Value Analysis** | ✅ **mở rộng 21-09-2026** | TC_045, TC_046, TC_047, TC_048 (biểu mẫu Đăng nhập) + **TC_056**, **TC_057** (biểu mẫu Quên mật khẩu) + **TC_058** (biên 4/5 lần sai của `REQ-LOGIN-41`, một bộ dữ liệu — thêm 30-09-2026) — 7 TC · 12 biến thể. Mốc 64 ký tự (RFC 5321) đo trên trang đăng nhập ngày 11-09-2026; **trang Quên mật khẩu chưa đo** → `TC_056`/`TC_057` mang `@NeedsVerify` |
+| 2 | Business Rule | ✅ | TC_013, TC_015, TC_019 (3 TC) — 30-09-2026: `TC_015` nay kiểm quy tắc **khoá** thay vì **không khoá** (`CRM-LOGIN-101`) |
+| 2 | Decision Table | 🔴 **Thiếu** — từ 30-09-2026 | `CRM-LOGIN-101` tạo tổ hợp ≥ 3 điều kiện: *email có tồn tại* × *đã đủ 5 lần sai* × *mật khẩu lần này đúng* (+ *loại lần sai* `REQ-54`, `55` · *cách viết email* `REQ-56`) → 4 kết quả (`Dashboard` · `Invalid email or password` · `Your account is locked…` · `Email không tồn tại`). Các ô bảng thuộc REQ ⚪ mới → **lấp ở lượt BỔ SUNG**. *Trước 30-09-2026:* ➖ không có tổ hợp từ 3 điều kiện |
+| 2 | State Transition | 🔴 **Thiếu một phần** — từ 30-09-2026 | Nay có 3 trạng thái: chưa đăng nhập · đã đăng nhập · **bị khoá**. Đã phủ: *chưa đăng nhập → bị khoá* (`TC_015`) · *không chuyển ở lần 4* (`TC_058`). Còn thiếu: *bị khoá + mật khẩu đúng* (`REQ-46`) · *bị khoá → mở khoá* (`REQ-47`, `57`) · chuỗi chờ của email không tồn tại (`REQ-53`, `58`, `59`) → **lượt BỔ SUNG**. *Trước 30-09-2026:* ➖ chỉ có 2 trạng thái |
 | 2 | Dependency | ✅ | TC_034 (bộ đếm giờ đang chạy chặn đăng xuất thẳng — chạy thật 19-09-2026), TC_037 (cookie ghi nhớ sau khi đăng xuất) |
 | 2 | Use Case / Scenario | ✅ | Chuỗi TC_005 → TC_036 (đăng nhập → dùng → đăng xuất) |
 | 2 | Save / Edit / Delete | ➖ | Module xác thực không có bản ghi nghiệp vụ để tạo/sửa/xoá |
 | 2 | Error Guessing | ✅ **mở rộng 21-09-2026** | TC_010, TC_016, TC_018, TC_036, TC_040, **TC_054**, **TC_055** (7 TC)<br>Đối soát theo danh mục của skill: bấm gửi hai lần liên tiếp `TC_010` (Đăng nhập) + **`TC_055`** (Quên mật khẩu) · dán dữ liệu lạ `TC_017`/`TC_018` · bấm Back sau khi lưu `TC_036` bước 5 · **mở 2 tab cùng lúc `TC_054`** *(trước 21-09-2026 mục này TRỐNG)* · nạp lại trang giữa chừng ➖ — biểu mẫu chỉ có 2 ô, nạp lại là trở về trạng thái rỗng, không có dữ liệu dở dang nào để mất |
 | 3 | Permission | ✅ | TC_006, TC_019, TC_020, TC_021, TC_022, TC_023 (6 TC · 3 vai trò Admin/PM/Khách hàng × truy cập URL trực tiếp) |
-| 3 | Security | ✅ | TC_017, TC_024, TC_025, TC_026, TC_036, TC_037, TC_039, TC_047, TC_051, **TC_054** (10 TC) — `TC_051` bổ sung 19-09-2026 · `TC_054` (phiên đa tab) bổ sung 21-09-2026 |
+| 3 | Security | ✅ | TC_015, TC_017, TC_024, TC_025, TC_026, TC_036, TC_037, TC_039, TC_047, TC_051, **TC_054**, **TC_058** (12 TC) — `TC_051` bổ sung 19-09-2026 · `TC_054` (phiên đa tab) bổ sung 21-09-2026 · `TC_015` đưa vào, `TC_058` thêm mới 30-09-2026 (chống dò mật khẩu một tài khoản) |
 | 3 | API | ➖ | QA **không có quyền** gọi API — **đội Dev xác minh**. Chốt với PO ngày 11-09-2026 |
 | 3 | Database | ➖ | QA **không có quyền** truy cập cơ sở dữ liệu — **đội Dev xác minh**. Chốt với PO ngày 11-09-2026 |
 | 3 | Integration | ➖ | QA không có quyền kiểm tầng tích hợp — **đội Dev xác minh**. TC_003 đã xác nhận trang đăng nhập **không** dùng đăng nhập bên thứ ba nào, nên bề mặt tích hợp của module này bằng không |
@@ -258,7 +291,7 @@ Phép thử chiều ngược phát hiện **4 TC cũ** mà trong đó có từ 2
 | 4 | Regression | ➖ | Module có **5 bug đang mở**, **chưa bug nào được fix** (`BUG_login_1787226515_TC018` đóng 19-09-2026 vì *không phải lỗi*, không phải fix) nên chưa có lỗi cũ để chống tái phát. Rà lại nhánh này ngay khi bug đầu tiên được fix — nguồn: `docs/bugs/login/` |
 | 4 | E2E | ➖ | Module xác thực nằm trọn trong một màn hình. Luồng xuyên module thuộc phạm vi `/generate-cross-module-test-plan` |
 
-**Tổng: 57 TC · 69 biến thể** — đếm lại bằng script ngày 21-09-2026.
+**Tổng: 58 TC · 67 biến thể** — đếm lại bằng script ngày 30-09-2026. Giảm 2 biến thể **không phải rụng case**: `TC_015` bỏ Bảng biến thể — `a` viết lại thành một bộ dữ liệu theo kỳ vọng mới, `b` (không khoá theo IP) chuyển sang `REQ-LOGIN-50` cho lượt BỔ SUNG · `TC_058` không có Bảng biến thể.<br>*21-09-2026:* 57 TC · 69 biến thể.
 
 ### Cách đếm "biến thể" (chốt 21-09-2026)
 
@@ -266,7 +299,7 @@ Một **biến thể** = một ca được chạy và chấm **riêng** bên tro
 
 | Dạng | Ký hiệu | Ở đâu | Số lượng |
 |---|---|---|---|
-| Bảng biến thể (Gộp Kiểu A) | `a` `b` `c` … | cột `Test Data` | **57** |
+| Bảng biến thể (Gộp Kiểu A) | `a` `b` `c` … | cột `Test Data` | **55** |
 | Bảng kiểm (Gộp Kiểu B) | `1` `2` `3` … | cột `Expected Result` — `TC_002` (6) · `TC_003` (3) · `TC_027` (3) | **12** |
 
 **KHÔNG** tính vào con số này: đánh số mục trong dòng `🔧 Ghi chú kỹ thuật` (`TC_024` có 3 mục) · số hiển thị trên giao diện (`TC_034` huy hiệu `1`) · dữ liệu dạng *"ký tự `a` lặp 300 lần"* (`TC_048`) · câu văn nhắc tới biến thể **đã bị bỏ** (`TC_018`).
@@ -297,12 +330,12 @@ print('bien the chu cai:',a,'| muc bang kiem:',b,'| TONG:',a+b)
 
 | Đặc tính | Trạng thái | TC ID / Lý do |
 |---|---|---|
-| Functional Suitability | ✅ Có TC | TC_001 → TC_048, TC_052 → TC_057 — phần thân của bộ TC |
+| Functional Suitability | ✅ Có TC | TC_001 → TC_048, TC_052 → TC_058 — phần thân của bộ TC |
 | Performance Efficiency | ✅ một phần | TC_041 (đường truyền chậm). Đo tải và ngưỡng thời gian phản hồi ➖ — **đội Hạ tầng**, đợt sau |
 | Compatibility | ✅ Có TC | TC_049 (5 kích thước màn hình), TC_050 (3 trình duyệt — Chrome, Edge, Firefox, đã chốt 19-09-2026) |
 | Interaction Capability | ✅ Có TC | TC_011, TC_013 (thông báo lỗi dễ hiểu, không tiết lộ thừa), TC_038 (bàn phím), TC_042, TC_043, TC_044 (hành vi ô nhập và nút), **TC_052**, **TC_053** (ô tích bật/tắt được và giữ trạng thái ra sao) |
 | Reliability | ✅ Có TC | TC_026 (hết hạn phiên), TC_051 (gia hạn phiên), TC_040 (mất mạng giữa chừng), TC_047 (dữ liệu bất thường không làm sập), **TC_054** (phiên nhất quán giữa nhiều tab), **TC_055** (gửi trùng không sinh trang lỗi) |
-| Security | ✅ Có TC | TC_017, TC_019 → TC_025, TC_036, TC_037, TC_039, **TC_054** — phân quyền 3 vai trò, chống CSRF, vòng đời phiên (gồm phiên mở trên nhiều tab). Pentest và quét lỗ hổng ➖ — **đội bảo mật / đối tác đánh giá độc lập** |
+| Security | ✅ Có TC | TC_015, TC_017, TC_019 → TC_025, TC_036, TC_037, TC_039, **TC_054**, **TC_058** — phân quyền 3 vai trò, chống CSRF, vòng đời phiên (gồm phiên mở trên nhiều tab), khoá tài khoản chống dò mật khẩu (`CRM-LOGIN-101`). Pentest và quét lỗ hổng ➖ — **đội bảo mật / đối tác đánh giá độc lập** |
 | Maintainability | ➖ Không áp dụng | Đặc tính của mã nguồn, không kiểm được bằng manual TC — **đội Dev**, qua code review và phân tích tĩnh |
 | Flexibility | ✅ một phần | TC_049 (bố cục đáp ứng trên 5 kích thước). Đổi ngôn ngữ ➖ — mục `Language` nằm **sau** khi đăng nhập (thấy ở TC_032), thuộc module Hồ sơ người dùng chứ không thuộc module này |
 | Safety | ➖ Không áp dụng | Ứng dụng nghiệp vụ; lỗi ở màn đăng nhập không gây thiệt hại vật lý hay tổn hại sức khoẻ |
@@ -314,10 +347,11 @@ print('bien the chu cai:',a,'| muc bang kiem:',b,'| TONG:',a+b)
 | Bộ | TC | Số lượng | Thời gian ước tính |
 |---|---|---|---|
 | **Smoke** (`@Smoke`) | TC_001, TC_002, TC_005, TC_011-`a`, TC_013-`a`, TC_021-`a`, TC_032, TC_035, TC_036-`a` | 9 | ~12 phút |
-| **Regression đầy đủ** | Toàn bộ trừ `@Slow` | 55 | ~4 giờ 05 phút |
+| **Regression đầy đủ** | Toàn bộ trừ `@Slow` — `TC_015` luôn chạy **cuối cùng** (xem bộ dưới) | 56 | ~4 giờ 10 phút |
+| **Khoá tài khoản — chạy cuối đợt, tuần tự** | TC_015 — ⏸️ chỉ chạy **sau khi deploy** (`AMB-LOGIN-27`). Khoá tài khoản PM 15 phút: báo đội trước, không chạy song song TC nào dùng PM | 1 | ~5 phút + 15 phút khoá |
 | **QA tự chạy — KHÔNG qua `/execute-test-cases`, KHÔNG automation** (`@Slow` + `@PersonalOnly`) | TC_026, TC_051 | 2 | ~65 + ~70 phút — chạy song song được nếu mở 2 cửa sổ trình duyệt riêng |
-| **Cần DevTools** (`@TechCheck`) — phần 🔧 của các TC dưới đây | TC_001, TC_002, TC_003, TC_005, TC_006, TC_008, TC_009, TC_012, TC_015, TC_016, TC_017, TC_018, TC_019, TC_023, TC_024, TC_025, TC_027, TC_030, TC_032, TC_036, TC_037, TC_039, TC_041, TC_047, TC_048 | 25 | ~55 phút (chỉ phần 🔧) |
-| **Chờ recon bổ sung** (`@NeedsVerify`) | TC_053, TC_056, TC_057 — chạy được ngay, nhưng **kỳ vọng chưa đo trên hệ thống thật**: kết quả khác thì sửa Expected + ghi Nhật ký, **không** mở bug trước khi hỏi PO | 3 | ~12 phút |
+| **Cần DevTools** (`@TechCheck`) — phần 🔧 của các TC dưới đây | TC_001, TC_002, TC_003, TC_005, TC_006, TC_008, TC_009, TC_012, TC_016, TC_017, TC_018, TC_019, TC_023, TC_024, TC_025, TC_027, TC_030, TC_032, TC_036, TC_037, TC_039, TC_041, TC_047, TC_048 | 24 | ~55 phút (chỉ phần 🔧) |
+| **Chờ recon bổ sung** (`@NeedsVerify`) | TC_053, TC_056, TC_057 — chạy được ngay, nhưng **kỳ vọng chưa đo trên hệ thống thật**: kết quả khác thì sửa Expected + ghi Nhật ký, **không** mở bug trước khi hỏi PO · TC_015 — **chưa chạy được** tới khi deploy | 4 | ~12 phút (không tính TC_015) |
 
 > 🔝 **Thứ tự chạy:** Nhóm B (đăng nhập thành công) chạy **đầu tiên** trong mọi bộ — `RISK-LOGIN-06` chỉ ra module này là cổng vào của 23 module còn lại, hỏng ở đây là chặn toàn bộ đợt kiểm thử.
 >
@@ -331,6 +365,7 @@ print('bien the chu cai:',a,'| muc bang kiem:',b,'| TONG:',a+b)
 
 | Ngày | Nguồn | Thay đổi | TC ảnh hưởng |
 |---|---|---|---|
+| 30-09-2026 | `/update-testcases-from-impact` APPLY — ticket `CRM-LOGIN-101` · [Impact Report](../../requirements/login/impact/impact_CRM-LOGIN-101.md) · [kế hoạch đã duyệt](impact/impact_plan_CRM-LOGIN-101.md) · [Delta TC List](impact/delta_tc_CRM-LOGIN-101.md) | **V2 · Business Rule** — `TC_015` **viết lại**: kỳ vọng đảo ngược từ "không khoá" sang "5 lần sai liên tiếp → khoá, đúng mật khẩu vẫn bị từ chối"; đổi sang tài khoản PM; bỏ Bảng biến thể (`b` không khoá theo IP chuyển sang `REQ-LOGIN-50`); `Automation` Yes → Partial + ⏸️ Hoãn; tag `@TechCheck` → `@NeedsVerify`.<br>**V2 · BVA** — ➕ `TC_058` biên 4 lần chưa khoá.<br>**V2 · EP** — `TC_013` biến thể `a` đổi sang PM, ghi phạm vi 4 lần sai đầu của `REQ-LOGIN-15` 🟡.<br>**Đổi dữ liệu sang PM, kỳ vọng không đổi** (ràng buộc ticket dòng 6 + `AMB-LOGIN-22` ✅): `TC_011`-`c` (V2 · Required) · `TC_016` (V2 · Error Guessing) · `TC_017`-`b` · `TC_047` · `TC_053`-`a`,`b` (V2 · Validation / BVA) · `TC_025` (V3 · Security) · `TC_043`-`b` (V2 · UI Behavior) · `TC_050` (V4 · Compatibility). Ghi chú đầu Nhóm C thay bằng ràng buộc mới.<br>Index: coverage REQ-15, 41 + 17 REQ ⚪ chờ BỔ SUNG · Decision Table, State Transition ➖ → 🔴 (lấp ở BỔ SUNG) · vùng chưa có evidence · Automation · ISO · bộ chạy.<br>**Mốc git trước khi sửa:** `web/test_cases_login_web.md` @ `7682289` · `TEST_CASES_LOGIN_SUMMARY.md` @ `7682289` | ✏️ `CRM_LOGIN_TC_011`, `013`, `015`, `016`, `017`, `025`, `043`, `047`, `050`, `053` · ➕ `CRM_LOGIN_TC_058` — TC ID giữ nguyên |
 | 24-09-2026 | `/review-testcases` mode FIX — [báo cáo review](review/testcase_review_report_web_20260924.md) · sửa **tại chỗ** theo quyết định user (không sinh file `_improved`) | Đối chiếu với lượt chạy thật mới `run_1790182902` (24-09-2026) phát hiện `TC_004` và `TC_029` có bug mở từ 20-08-2026 nhưng **chưa từng được gắn nhãn** `🐞`/"Hiện trạng: FAIL" như các TC known-bug khác, dù lượt review 19-09-2026 đã từng ghi nhận cả hai đang FAIL. **`TC_004`:** thêm tiền tố 🐞, thêm dòng Hiện trạng FAIL dẫn [BUG_login_1787226513_TC004](../../bugs/login/web/BUG_login_1787226513_TC004.md) — vừa được tái xác nhận hôm nay. **`TC_029`:** thêm tiền tố 🐞, thêm dòng Hiện trạng FAIL dẫn [BUG_login_1787226517_TC029](../../bugs/login/web/BUG_login_1787226517_TC029.md), kèm cảnh báo bằng chứng đã 5 tuần chưa retest — nếu chạy lại mà PASS thì coi là bug đã sửa, không phải bất thường. Cả hai thêm tag `@KnownBug`. Đổi tên bảng cuối file `web/test_cases_login_web.md` từ "Ba TC nhiều khả năng FAIL" → "Năm TC nhiều khả năng FAIL", thêm 2 dòng. Không đổi Expected phần kết quả chính, không đổi REQ coverage, không đổi số TC.<br>**Mốc git trước khi sửa:** `docs/testcases/login/` lần đầu được commit ở `fc08480` (thư mục trước đó chưa từng qua git) — xem bản trước bằng `git show fc08480:docs/testcases/login/web/test_cases_login_web.md` | ✏️ `CRM_LOGIN_TC_004`, `CRM_LOGIN_TC_029` — TC ID giữ nguyên |
 | 21-09-2026 | `/generate-testcases-from-requirements` — **rà lại độ phủ**, KHÔNG sinh lại bộ TC | Module đã có 51 TC đang được **2 execution report** và **6 bug report** tham chiếu → **không** chạy Mode QUICK sinh mới (vi phạm Anti-Pattern của skill). Theo quyết định user: chỉ rà độ phủ và **bổ sung TC còn thiếu, cấp số nối tiếp**.<br>**Rà soát phát hiện 3 lỗ hở mà cả Bảng Đối Soát Coverage lẫn Bảng 4 vòng đều không bắt được:**<br>`1` **Loại field Checkbox chưa từng có dòng đối soát** — dòng `V2 · Validation` chỉ ghi *"Bảng Email 8/8, Bảng Password 4/4"*, bỏ hẳn ô `Remember me` (field thứ 3 theo mục 4.1 requirements). Bộ TC cũ chỉ kiểm chiều **tích vào**, chưa kiểm chiều **bỏ tích ra** → `TC_052`, `TC_053`<br>`2` **Mục *"mở 2 tab cùng lúc"* của nhánh `V2 · Error Guessing` trống** — `TC_036` chỉ kiểm nút Back trong một tab → `TC_054`<br>`3` **Biểu mẫu Quên mật khẩu chỉ có 1 biến thể ô Email** (`abc` ở `TC_030`) trong khi dòng đối soát ghi "đủ 8/8" — mọi dẫn chứng đều lấy từ biểu mẫu **Đăng nhập**. Hai biểu mẫu có ô Email riêng, ràng buộc khác nhau (mục 4.2) → `TC_055`, `TC_056`, `TC_057`<br>**Bổ sung 6 TC (`TC_052`→`TC_057`) thành Nhóm L, độ hạt GỘP giữ nguyên. KHÔNG đụng `TC_001`→`TC_051`** — execution report `run_1787215085`, `run_1789759574` và 6 bug đang mở vẫn truy vết đúng.<br>Đồng bộ index: bản đồ tài liệu · coverage (REQ-02, 09, 23, 26, 32, 33) · bảng 4 vòng (3 nhánh mở rộng, đối soát Checkbox và ô Email form 2 **tách bạch**) · ISO 25010 · bộ chạy · vùng chưa có evidence.<br>⚠️ **3 TC mang `@NeedsVerify`** (`TC_053`, `TC_056`, `TC_057`) — chạy được ngay nhưng kỳ vọng **suy từ REQ, chưa đo trên hệ thống thật**. Kết quả khác thì sửa Expected và ghi Nhật ký, **không** mở bug trước khi hỏi PO.<br>**Mốc git:** thư mục `docs/testcases/login/` **chưa được commit lần nào** (`git status` = `??`) → không có hash đối chiếu. Đề nghị commit bộ TC trước lần sửa tiếp theo để mọi lần sửa sau đều có mốc. | ➕ `CRM_LOGIN_TC_052` → `CRM_LOGIN_TC_057` — `001`→`051` **giữ nguyên hoàn toàn** |
 | 21-09-2026 | Quy ước đặt tên | Đổi tên file index `test_cases_login.md` → `TEST_CASES_LOGIN_SUMMARY.md` — quy ước mới: index IN HOA để khác hẳn file nền tảng. Nội dung, mã REQ/TC không đổi; mọi link trỏ tới đã sửa | — |

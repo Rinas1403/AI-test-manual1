@@ -8,7 +8,7 @@
 | Tiền tố TC ID | `CRM_` → `CRM_<MODULE>_TC_<3 số>` |
 | Nguồn requirements | [`docs/requirements/README.md`](../requirements/README.md) |
 | Môi trường | ⚠️ **Dùng chung** — TC phải chỉ đọc hoặc hoàn tác được; cấm thao tác phá huỷ dữ liệu nghiệp vụ |
-| Ngày cập nhật | 19-09-2026 |
+| Ngày cập nhật | 30-09-2026 |
 
 ---
 
@@ -16,7 +16,7 @@
 
 | Module | Prefix TC ID | Dải đã dùng | Mã kế tiếp | Số TC | Nền tảng | Độ hạt | REQ bao phủ | Tài liệu | Cập nhật |
 |---|---|---|---|---|---|---|---|---|---|
-| Đăng nhập / Xác thực | `CRM_LOGIN_TC_` | `001` → `057` | `058` | 57 | Web 57 | GỘP | 40/40 REQ trong phạm vi | [TEST_CASES_LOGIN_SUMMARY.md](login/TEST_CASES_LOGIN_SUMMARY.md) | 21-09-2026 |
+| Đăng nhập / Xác thực | `CRM_LOGIN_TC_` | `001` → `058` | `059` | 58 | Web 58 | GỘP | 40/57 REQ trong phạm vi — 17 REQ ⚪ mới (`CRM-LOGIN-101`) chờ BỔ SUNG | [TEST_CASES_LOGIN_SUMMARY.md](login/TEST_CASES_LOGIN_SUMMARY.md) | 30-09-2026 |
 | Khách hàng | `CRM_CUST_TC_` | `001` → `129` | `130` | 129 | Web 129 | GỘP | 84/84 REQ | [TEST_CASES_CUSTOMERS_SUMMARY.md](customers/TEST_CASES_CUSTOMERS_SUMMARY.md) | 19-09-2026 |
 
 ### Namespace hệ thống khác
@@ -30,7 +30,7 @@
 
 | Module | Độ hạt | Vì sao | Bản đối chiếu |
 |---|---|---|---|
-| `LOGIN` | **GỘP** | Biến thể cùng một trường nằm chung 1 TC dưới dạng Bảng biến thể — 57 TC (41 gốc + 9 bổ sung theo 4 vòng + 1 bổ sung theo `AMB-LOGIN-19` + 6 bổ sung theo rà độ phủ 21-09-2026) · **69 biến thể** (đếm lại bằng script 21-09-2026 — con số `71`/`77` ghi trước đó đếm nhầm 4 nhóm ký hiệu, xem mục *Cách đếm biến thể* ở index module) | Bản TÁCH 82 TC và bản 41 TC trước khi bổ sung: tra bằng git (thư mục `archive/` đã bỏ 19-09-2026 — tra bằng `git log -- docs/testcases/login/`) |
+| `LOGIN` | **GỘP** | Biến thể cùng một trường nằm chung 1 TC dưới dạng Bảng biến thể — 58 TC (41 gốc + 9 bổ sung theo 4 vòng + 1 bổ sung theo `AMB-LOGIN-19` + 6 bổ sung theo rà độ phủ 21-09-2026 + 1 DELTA `CRM-LOGIN-101` 30-09-2026) · **67 biến thể** (đếm lại bằng script 30-09-2026; 21-09-2026 là 69 — `TC_015` viết lại thành một bộ dữ liệu — con số `71`/`77` ghi trước đó đếm nhầm 4 nhóm ký hiệu, xem mục *Cách đếm biến thể* ở index module) | Bản TÁCH 82 TC và bản 41 TC trước khi bổ sung: tra bằng git (thư mục `archive/` đã bỏ 19-09-2026 — tra bằng `git log -- docs/testcases/login/`) |
 | `CUST` | **GỘP** | Sinh lần đầu ở độ hạt mặc định — 129 TC · **155 biến thể** · 74 mục bảng kiểm, 5 part (vượt ngưỡng 50) | — (chưa có bản TÁCH) |
 
 > Chọn độ hạt ở **lượt sinh đầu tiên**: `/generate-testcases-from-requirements <đường dẫn> [GỘP|TÁCH]`. Mặc định `GỘP`. Đổi độ hạt sau khi đã có automation / execution report / RTM trỏ vào là **cấm** — xem mục **Độ Hạt Test Case** trong skill.
@@ -41,7 +41,7 @@
 
 | Module | REQ có tài liệu | REQ trong phạm vi TC | REQ đã có ≥1 TC | Độ phủ | Ghi chú |
 |---|---|---|---|---|---|
-| `LOGIN` | 44 | 40 | 40 | **100%** | 4 REQ ngoài phạm vi theo quyết định PO 18-08-2026: `27`, `34`, `35`, `40` |
+| `LOGIN` | 61 | 57 | 40 | **70%** | 4 REQ ngoài phạm vi theo quyết định PO 18-08-2026: `27`, `34`, `35`, `40`. 17 REQ ⚪ `45` → `61` (`CRM-LOGIN-101`, chưa deploy) **chưa có TC** — chờ `/generate-testcases-from-requirements` nhánh BỔ SUNG |
 | `CUST` | 84 | 84 | 84 | **100%** | 2 REQ ⚪ (`81`, `82`) có TC `@AssumptionBased` · 2 REQ 🟡 (`42`, `43`) có TC thiết kế để FAIL |
 | `PRJ` | 104 | — | 0 | 0% | Chưa sinh TC |
 
@@ -112,6 +112,7 @@ Xem nhanh bằng web viewer: `scripts/execution-viewer/bundle.html` (mở offlin
 
 | Ngày | Thay đổi |
 |---|---|
+| 30-09-2026 | **DELTA `CRM-LOGIN-101` cho `LOGIN`** (khoá tài khoản sau 5 lần sai). `CRM_LOGIN_TC_015` viết lại theo kỳ vọng đảo ngược (khoá thay vì không khoá), ➕ `CRM_LOGIN_TC_058` biên 4 lần; 8 TC đổi lượt gửi mật khẩu sai / bỏ trống / CSRF sai từ `Admin` sang tài khoản PM — kỳ vọng không đổi. 58 TC · 67 biến thể. Độ phủ 40/57: 17 REQ ⚪ mới chờ lượt BỔ SUNG (tách `parts/` theo quyết định user). TC ID giữ nguyên, mốc git `7682289` |
 | 21-09-2026 | **Rà lại độ phủ bộ TC `LOGIN`, bổ sung 6 TC (`TC_052`→`TC_057`) — `001`→`051` giữ nguyên hoàn toàn.** Module đã có 51 TC đang được 2 execution report và 6 bug report tham chiếu nên **không** chạy Mode QUICK sinh mới; chỉ rà độ phủ và cấp số nối tiếp. Rà soát phát hiện **3 lỗ hở mà cả Bảng Đối Soát Coverage lẫn Bảng 4 vòng đều không bắt được**, vì coverage đếm theo REQ còn bảng 4 vòng chỉ chấm tới mức **nhánh**, không tới mức **mục của bảng Field-Level**: `1` loại field **Checkbox** (`Remember me`) chưa từng có dòng đối soát — bộ TC cũ chỉ kiểm chiều *tích vào*, chưa kiểm chiều *bỏ tích ra*; `2` mục *"mở 2 tab cùng lúc"* của nhánh `V2 · Error Guessing` trống; `3` biểu mẫu **Quên mật khẩu** chỉ có 1 biến thể ô Email trong khi dòng đối soát ghi "đủ 8/8" — mọi dẫn chứng đều lấy từ biểu mẫu **Đăng nhập**, hai form có ô Email riêng và ràng buộc khác nhau. **Bài học đưa vào cách đối soát:** dòng `V2 · Validation` từ nay ghi **tách bạch từng biểu mẫu và từng loại field**, không gộp chung một con số. 3 TC mới mang `@NeedsVerify` (kỳ vọng suy từ REQ, chưa đo thật). Độ phủ REQ không đổi — **40/40** |
 | 20-09-2026 | `_book-api/` · `AUTH` thêm **47 TC API** (`BK_AUTH_TC_059` → `105`) — module phủ 86/86 REQ |
 | 20-09-2026 | Namespace **`_book-api/`** có bộ TC đầu tiên: module `AUTH` · Mobile (Android) · 58 TC · 95 biến thể (`BK_AUTH_TC_001` → `058`). Chi tiết ở danh mục riêng [`_book-api/README.md`](_book-api/README.md) |
