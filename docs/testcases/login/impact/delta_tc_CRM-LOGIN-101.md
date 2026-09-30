@@ -9,7 +9,7 @@
 | Mốc git trước khi sửa | web → `web/test_cases_login_web.md` @ `7682289` · index → `TEST_CASES_LOGIN_SUMMARY.md` @ `7682289` |
 | Nền tảng bị chạm | **web** — module chưa có mobile / API |
 | Automation hiện có | **Chưa có** script nào mang `CRM_LOGIN_TC_` trong repo (đã tìm trong `*.ts` · `*.js` · `*.java` · `*.py` ngày 30-09-2026) → `/update-automation-from-impact` chưa có gì để sửa. Khi sinh automation cho module, dùng bản TC **sau** mốc này |
-| Trạng thái | ⚠️ **CÒN VIỆC NGOÀI PHẠM VI** — 17 REQ ⚪ mới chưa có TC · 2 nhánh 4 vòng 🔴 (Decision Table, State Transition) chờ lượt BỔ SUNG |
+| Trạng thái | ✅ **ĐÃ ĐỒNG BỘ** (30-09-2026) — phần ngoài phạm vi đã được lượt BỔ SUNG xử lý, xem Nhật ký |
 
 Xem đúng ô đã đổi: `git diff 7682289 -- docs/testcases/login/web/test_cases_login_web.md`
 
@@ -43,3 +43,4 @@ Xem đúng ô đã đổi: `git diff 7682289 -- docs/testcases/login/web/test_ca
 | Ngày | Thay đổi |
 |---|---|
 | 30-09-2026 | Áp lần đầu theo `impact_plan_CRM-LOGIN-101.md` đã duyệt — 10 TC ✏️ · 1 TC ➕ · 0 TC 🗑️ · 0 TC ⏸️ |
+| 30-09-2026 | Phần *Ngoài phạm vi* đã xử lý bằng lượt **BỔ SUNG**: `CRM_LOGIN_TC_059` → `074` cho `REQ-LOGIN-45` → `61`, hai nhánh 🔴 (Decision Table, State Transition) đã lấp. TC mới **không** thuộc Delta TC List (không phải TC bị sửa) — automation sinh mới bằng `/generate-automation-from-testcases`. Bộ TC web đã tách `parts/`: dòng TC của file này nay nằm ở `web/parts/part_01_web_dang_nhap.md` (`011`, `013`, `015`, `016`, `017`, `058`), `part_02_…` (`025`), `part_03_…` (`043`, `047`, `050`, `053`) — nội dung không đổi |
