@@ -1,0 +1,158 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e2]:
+    - generic [ref=f4e3] [cursor=pointer]: 
+    - navigation [ref=f4e5]:
+      - generic [ref=f4e6]:
+        - generic [ref=f4e7]:
+          - generic [ref=f4e8]:
+            - searchbox "Search..." [ref=f4e9]
+            - button "" [ref=f4e11] [cursor=pointer]
+          - list [ref=f4e13]:
+            - listitem "Quick Create" [ref=f4e14]:
+              - link "+" [ref=f4e15] [cursor=pointer]:
+                - /url: "#"
+              - text:         
+        - text: 
+        - list [ref=f4e18]:
+          - listitem [ref=f4e19]:
+            - link "Share documents, ideas.." [ref=f4e20] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f4e23]:
+            - link "Todo items" [ref=f4e24] [cursor=pointer]:
+              - /url: https://crm.anhtester.com/admin/todo
+          - listitem "Project Manager" [ref=f4e27]:
+            - link [ref=f4e28] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f4e30]:
+            - link [ref=f4e31] [cursor=pointer]:
+              - /url: "#"
+            - text: 
+          - listitem "Notifications" [ref=f4e35]:
+            - link "11" [ref=f4e36] [cursor=pointer]:
+              - /url: "#"
+            - text:           
+  - text: 
+  - complementary [ref=f4e41]:
+    - list [ref=f4e42]:
+      - listitem [ref=f4e43]:
+        - link [ref=f4e45] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/
+          - img "Perfex CRM | Anh Tester Demo" [ref=f4e46]
+      - listitem [ref=f4e47]:
+        - link " Dashboard" [ref=f4e48] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/
+          - generic [ref=f4e49]: 
+          - text: Dashboard
+      - listitem [ref=f4e50]:
+        - link " Customers" [ref=f4e51] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/clients
+          - generic [ref=f4e52]: 
+          - text: Customers
+      - listitem [ref=f4e53]:
+        - link " Projects" [ref=f4e54] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/projects
+          - generic [ref=f4e55]: 
+          - text: Projects
+      - listitem [ref=f4e56]:
+        - link " Tasks" [ref=f4e57] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/tasks
+          - generic [ref=f4e58]: 
+          - text: Tasks
+      - listitem [ref=f4e59]:
+        - link " Contracts" [ref=f4e60] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/contracts
+          - generic [ref=f4e61]: 
+          - text: Contracts
+      - listitem [ref=f4e62]:
+        - link " Sales " [ref=f4e63] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f4e64]: 
+          - text: Sales
+          - generic [ref=f4e65]: 
+      - listitem [ref=f4e66]:
+        - link " Support" [ref=f4e67] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/tickets
+          - generic [ref=f4e68]: 
+          - text: Support
+      - listitem [ref=f4e69]:
+        - link " Leads" [ref=f4e70] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/admin/leads
+          - generic [ref=f4e71]: 
+          - text: Leads
+      - listitem [ref=f4e72]:
+        - link " Utilities " [ref=f4e73] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f4e74]: 
+          - text: Utilities
+          - generic [ref=f4e75]: 
+  - generic [ref=f4e79]:
+    - generic:
+      - link "+ New Customer" [ref=f4e80] [cursor=pointer]:
+        - /url: https://crm.anhtester.com/admin/clients/client
+        - generic [ref=f4e81]: +
+        - text: New Customer
+      - link " Import Customers" [ref=f4e82] [cursor=pointer]:
+        - /url: https://crm.anhtester.com/admin/clients/import
+        - generic [ref=f4e83]: 
+        - text: Import Customers
+      - link " Contacts" [ref=f4e84] [cursor=pointer]:
+        - /url: https://crm.anhtester.com/admin/clients/all_contacts
+        - generic [ref=f4e85]: 
+        - text: Contacts
+      - button [ref=f4e88] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f4e89]: 
+    - generic [ref=f4e92]:
+      - generic [ref=f4e93]:
+        - heading "Customers Summary" [level=4] [ref=f4e94]
+        - generic [ref=f4e98]:
+          - generic [ref=f4e99]:
+            - generic [ref=f4e100]: "2060"
+            - generic [ref=f4e101]: Total Customers
+          - generic [ref=f4e102]:
+            - generic [ref=f4e103]: "2051"
+            - generic [ref=f4e104]: Active Customers
+          - generic [ref=f4e105]:
+            - generic [ref=f4e106]: "9"
+            - generic [ref=f4e107]: Inactive Customers
+          - generic [ref=f4e108]:
+            - generic [ref=f4e109]: "367"
+            - generic [ref=f4e110]: Active Contacts
+          - generic [ref=f4e111]:
+            - generic [ref=f4e112]: "5"
+            - generic [ref=f4e113]: Inactive Contacts
+          - generic [ref=f4e114]:
+            - generic [ref=f4e115]: "0"
+            - generic [ref=f4e116]: Contacts Logged In Today
+      - separator [ref=f4e117]
+      - generic [ref=f4e120]:
+        - generic [ref=f4e121]:
+          - generic [ref=f4e122]:
+            - combobox [ref=f4e125]:
+              - option "10"
+              - option "25" [selected]
+              - option "50"
+              - option "100"
+              - option "All"
+            - generic [ref=f4e126]:
+              - button "Export" [ref=f4e127] [cursor=pointer]
+              - button "Bulk Actions" [ref=f4e128] [cursor=pointer]
+              - button "" [ref=f4e129] [cursor=pointer]
+          - generic [ref=f4e135]:
+            - generic [ref=f4e136]: 
+            - searchbox "" [ref=f4e138]
+        - generic [ref=f4e139]: x200B x200B
+        - grid [ref=f4e141]:
+          - rowgroup [ref=f4e142]:
+            - row [ref=f4e143]:
+              - columnheader [ref=f4e144]:
+                - checkbox [ref=f4e146]
+              - columnheader "#" [ref=f4e147] [cursor=pointer]
+              - columnheader "Company" [ref=f4e148] [cursor=pointer]
+              - columnheader "Primary Contact" [ref=f4e149] [cursor=pointer]
+              - columnheader "Primary Email" [ref=f4e150] [cursor=pointer]
+              - columnheader "Phone" [ref=f4e151] [cursor=pointer]
+              - columnheader "Active" [ref=f4e152] [cursor=pointer]
+              - columnheader "Groups" [ref=f4e153] [cursor=pointer]
+              - columnheader "Date Created" [ref=f4e154] [cursor=pointer]
+          - rowgroup
+        - status [ref=f4e157]
