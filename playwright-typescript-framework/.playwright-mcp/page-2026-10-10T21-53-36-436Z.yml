@@ -1,0 +1,64 @@
+- generic [ref=f5e1]:
+  - navigation [ref=f5e2]:
+    - generic [ref=f5e3]:
+      - link [ref=f5e5] [cursor=pointer]:
+        - /url: https://crm.anhtester.com/
+        - img "Perfex CRM | Anh Tester Demo" [ref=f5e6]
+      - list [ref=f5e8]:
+        - listitem [ref=f5e9]:
+          - link "Knowledge Base" [ref=f5e10] [cursor=pointer]:
+            - /url: https://crm.anhtester.com/knowledge-base
+        - listitem [ref=f5e11]:
+          - link " Login" [ref=f5e12] [cursor=pointer]:
+            - /url: https://crm.anhtester.com/authentication/login
+            - generic [ref=f5e13]: 
+            - text: Login
+  - generic [ref=f5e17]:
+    - generic:
+      - heading "Please login" [level=1] [ref=f5e19]
+      - generic [ref=f5e23]:
+        - generic [ref=f5e24]:
+          - generic [ref=f5e25]: Language
+          - generic [ref=f5e26]:
+            - combobox "Language" [ref=f5e27]:
+              - option "English" [selected]
+              - option "Chinese"
+              - option "Vietnamese"
+              - option "Indonesia"
+              - option "Bulgarian"
+              - option "Portuguese_br"
+              - option "Swedish"
+              - option "Dutch"
+              - option "Persian"
+              - option "Turkish"
+              - option "Catalan"
+              - option "Spanish"
+              - option "Portuguese"
+              - option "French"
+              - option "Czech"
+              - option "Japanese"
+              - option "Italian"
+              - option "Slovak"
+              - option "Russian"
+              - option "Polish"
+              - option "Greek"
+              - option "Finnish"
+              - option "Norwegian"
+              - option "German"
+              - option "Ukrainian"
+              - option "Romanian"
+            - combobox "English" [ref=f5e28] [cursor=pointer]
+        - generic [ref=f5e33]:
+          - generic [ref=f5e34]: Email Address
+          - textbox "Email Address" [active] [ref=f5e35]
+        - generic [ref=f5e36]:
+          - generic [ref=f5e37]: Password
+          - textbox "Password" [ref=f5e38]
+        - generic [ref=f5e39]:
+          - checkbox "Remember me" [ref=f5e40]
+          - generic [ref=f5e41] [cursor=pointer]: Remember me
+        - button "Login" [ref=f5e43] [cursor=pointer]
+        - link "Forgot Password?" [ref=f5e44] [cursor=pointer]:
+          - /url: https://crm.anhtester.com/authentication/forgot_password
+  - contentinfo [ref=f5e45]:
+    - generic [ref=f5e46]: 2026 Copyright Perfex CRM | Anh Tester Demo
