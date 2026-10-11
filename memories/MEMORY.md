@@ -10,7 +10,7 @@
 |---|---|
 | **Mọi yêu cầu** | `00-nguoi-dung/so-thich-giao-tiep.md` · `01-du-an/tong-quan-du-an.md` · `02-quy-tac-lam-viec/git-va-commit.md` |
 | Khám phá hệ thống / sinh hoặc cập nhật **requirements** | `04-module-nghiep-vu/<module>.md` tương ứng · `03-quy-trinh-manual/chuoi-delta-ticket.md` (khi có ticket / PO trả lời) |
-| Sinh / review / cập nhật **test case** | `04-module-nghiep-vu/<module>.md` · `03-quy-trinh-manual/chuoi-delta-ticket.md` · `06-bao-cao-va-ban-giao/bao-cao-do-phu-module.md` |
+| Sinh / review / cập nhật **test case** · checklist | `03-quy-trinh-manual/chuan-test-case.md` (13 cột · 4 vòng) · `04-module-nghiep-vu/<module>.md` · `03-quy-trinh-manual/chuoi-delta-ticket.md` · `06-bao-cao-va-ban-giao/bao-cao-do-phu-module.md` |
 | **Thực thi** TC / checklist · retest bug · tạo bug report | `03-quy-trinh-manual/thuc-thi-tc-tren-browser.md` · `02-quy-tac-lam-viec/tai-khoan-va-bao-mat.md` · `04-module-nghiep-vu/<module>.md` · `07-moi-truong-va-cong-cu/moi-truong-playwright-mcp.md` |
 | Viết / sửa / chạy **automation** | `05-automation/automation-hien-trang.md` · `02-quy-tac-lam-viec/tai-khoan-va-bao-mat.md` · `04-module-nghiep-vu/<module>.md` · `07-moi-truong-va-cong-cu/moi-truong-playwright-mcp.md` |
 | Đụng tới **`.env`**, mật khẩu, tài khoản, vai trò Admin/PM/Customer | `02-quy-tac-lam-viec/tai-khoan-va-bao-mat.md` |
@@ -39,6 +39,7 @@
 - [tai-khoan-va-bao-mat](02-quy-tac-lam-viec/tai-khoan-va-bao-mat.md) — Tên biến `.env`, sai mật khẩu chỉ dùng PM (không Admin), người dùng tự gõ mật khẩu site thật, không lộ bí mật
 
 ### 03-quy-trinh-manual — Quy trình kiểm thử manual
+- [chuan-test-case](03-quy-trinh-manual/chuan-test-case.md) — Bảng TC **13 cột**, sinh tuần tự **4 vòng** Smoke → Functional → Technical → Non-functional, độ sâu theo rủi ro, bảng đối soát 4 trạng thái
 - [thuc-thi-tc-tren-browser](03-quy-trinh-manual/thuc-thi-tc-tren-browser.md) — Phân vai đăng nhập + "xong", không bấm cùng lúc người dùng, evidence, môi trường dùng chung
 - [chuoi-delta-ticket](03-quy-trinh-manual/chuoi-delta-ticket.md) — Thứ tự 7 bước khi có ticket; liệt kê **đủ** AMB, người dùng trả lời theo lô
 

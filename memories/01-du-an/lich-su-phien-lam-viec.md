@@ -23,3 +23,4 @@ updated: 11-10-2026
 | 30-09 → 01-10-2026 | Thực thi 27 TC mới/cập nhật · STORY-LOGIN-04 · retest bug `TC016` · báo cáo tiến độ kỳ 2 | 11 PASS · 2 FAIL · 14 BLOCKED; `TC016` NOT_FIXED; tiến độ 🔴 |
 | 10/11-10-2026 | Kết nối Slack · chạy `CRM_LOGIN_TC_005` (1 PASS, `run_1791662983`) | Chốt mẫu báo cáo Slack ([[bao-cao-slack-ban-giao]]) |
 | 11-10-2026 | Gom toàn bộ bộ nhớ máy vào `memories/` của repo | Bộ nhớ cục bộ chỉ còn con trỏ về đây |
+| 11-10-2026 | Người dùng cập nhật bộ skill mới | Chuẩn TC 13 cột + 4 vòng — [[chuan-test-case]] |
