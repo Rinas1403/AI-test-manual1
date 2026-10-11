@@ -1,5 +1,15 @@
 # CLAUDE AI - GLOBAL AUTOMATION AGENT RULES
 
+## ⚠️ BẮT BUỘC TRƯỚC MỌI YÊU CẦU — đọc bộ nhớ của repo
+
+1. Đọc hết file này (`CLAUDE.md`).
+2. Đọc [`memories/MEMORY.md`](memories/MEMORY.md) — bản đồ bộ nhớ của repo (quyết định PO, sở thích người dùng, quy trình đã chốt, việc còn treo).
+3. Tra bảng **"Khi làm việc X → đọc những file nào"** trong `MEMORY.md`, đọc **đủ** các file được chỉ định (luôn gồm nhóm "Mọi yêu cầu").
+4. Kiểm lại trong repo tên file/hàm/flag/số liệu mà bộ nhớ nhắc tới trước khi dựa vào.
+5. Làm xong việc có phát sinh kiến thức mới (quyết định, bẫy, bug, người dùng dặn "từ nay…") → cập nhật `memories/` theo mục 3 của `MEMORY.md`.
+
+Không được bỏ bước này kể cả với việc "nhỏ".
+
 > **Scope:** Áp dụng cho mọi tác vụ Test Automation do Claude (Claude Code) hoạt động trong dự án này.
 > **Mục tiêu:** Sinh ra test scripts hiệu quả, ổn định – dễ debug – dễ scale – CI friendly.
 
